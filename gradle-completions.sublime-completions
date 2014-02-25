@@ -138,6 +138,14 @@
             "contents": "version"
         },
         {
+            "trigger": "binaries",
+            "contents": "binaries"
+        },
+        {
+            "trigger": "sources",
+            "contents": "sources"
+        },
+        {
             "trigger": "announce",
             "contents": "announce"
         },
@@ -200,26 +208,6 @@
         {
             "trigger": "codenarc",
             "contents": "codenarc"
-        },
-        {
-            "trigger": "binaries",
-            "contents": "binaries"
-        },
-        {
-            "trigger": "cpp",
-            "contents": "cpp"
-        },
-        {
-            "trigger": "executables",
-            "contents": "executables"
-        },
-        {
-            "trigger": "libraries",
-            "contents": "libraries"
-        },
-        {
-            "trigger": "toolChains",
-            "contents": "toolChains"
         },
         {
             "trigger": "distributions",
@@ -346,6 +334,30 @@
             "contents": "mavenPomDir"
         },
         {
+            "trigger": "buildTypes",
+            "contents": "buildTypes"
+        },
+        {
+            "trigger": "executables",
+            "contents": "executables"
+        },
+        {
+            "trigger": "flavors",
+            "contents": "flavors"
+        },
+        {
+            "trigger": "libraries",
+            "contents": "libraries"
+        },
+        {
+            "trigger": "platforms",
+            "contents": "platforms"
+        },
+        {
+            "trigger": "toolChains",
+            "contents": "toolChains"
+        },
+        {
             "trigger": "pmd",
             "contents": "pmd"
         },
@@ -364,6 +376,10 @@
         {
             "trigger": "signing",
             "contents": "signing"
+        },
+        {
+            "trigger": "visualStudio",
+            "contents": "visualStudio"
         },
         {
             "trigger": "webAppDir",
@@ -966,6 +982,10 @@
             "contents": "mavenInstaller"
         },
         {
+            "trigger": "components",
+            "contents": "components"
+        },
+        {
             "trigger": "create",
             "contents": "create"
         },
@@ -1448,6 +1468,10 @@
         {
             "trigger": "maxParallelForks",
             "contents": "maxParallelForks"
+        },
+        {
+            "trigger": "minHeapSize",
+            "contents": "minHeapSize"
         },
         {
             "trigger": "scanForTestClasses",
