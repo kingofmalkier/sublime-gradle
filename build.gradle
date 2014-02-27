@@ -24,13 +24,7 @@ ext {
 task createCompletions << {
     def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
 
-    def links = [] as Set
-    parser.parse(gradleDoc).'**'.findAll {
-        it.name() == 'A' && it['@href'] =~ /^org\.gradle\.api/
-    }.each {
-        def link = it['@href'].toString().replaceAll(/\#.*/, '')
-        links << link
-    }
+    def links = findAllApiLinks(parser)
 
     def items = [] as Set
     links.each {
@@ -57,6 +51,18 @@ task createCompletions << {
     json scope: 'source.groovy', completions: data
 
     file('./gradle-completions.sublime-completions').write(json.toPrettyString())
+}
+
+def findAllApiLinks(parser) {
+    def links = [] as Set
+    parser.parse(gradleDoc).'**'.findAll {
+        it.name() == 'A' && it['@href'] =~ /^org\.gradle\.api/
+    }.each {
+        def link = it['@href'].toString().replaceAll(/\#.*/, '')
+        println "Adding link: ${link}"
+        links << link
+    }
+    return links
 }
 
 task createPackages {
