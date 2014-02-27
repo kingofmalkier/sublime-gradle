@@ -22,58 +22,76 @@ ext {
 }
 
 task createCompletions << {
-    file('./completions').deleteDir()
-    file('./completions').mkdir()
-    file('./task-patterns.yml').delete()
+    cleanFiles()
 
     def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
 
     def links = findAllApiLinks(parser)
 
-    def json = new JsonBuilder()
-    def items = [] as Set
-    
     links.each {
-        println "Creating completions for ${it}"
-        parser.parse("$gradleDoc/$it").'**'.findAll {
-            it.name() == 'H4' && it.@class == 'signature'
+        createCompletionsForLink(parser, it)
+    }
+}
+
+def cleanFiles() {
+    file('./completions').deleteDir()
+    file('./completions').mkdir()
+    file('./task-patterns.yml').delete()
+}
+
+def createCompletionsForLink(parser, link) {
+    println "Creating completions for ${link}"
+    
+    def json = new JsonBuilder()
+    def scopeName = link - "org.gradle.api." - ".html"
+    items = getLiteralsFromLink(parser, link)
+    
+    writeCompletions(json, scopeName, items)
+    writeHighlightingInfo(scopeName, items)
+
+    items.clear()
+}
+
+def getLiteralsFromLink(parser, link) {
+    def literals = [] as Set
+    parser.parse("$gradleDoc/$link").'**'.findAll {
+        it.name() == 'H4' && it.@class == 'signature'
+    }.each {
+        it.CODE.findAll {
+            it.@class == 'literal'
         }.each {
-            it.CODE.findAll {
-                it.@class == 'literal'
-            }.each {
-                items << it.text()
-            }
+            literals << it.text()
         }
-        def data = []
+    }
+    return literals
+}
+
+def writeCompletions(json, scopeName, items) {
+    def completionMap = []
+    items.each {
+        completionMap << [trigger: it, contents:it]
+    }
+
+    json scope: "${scopeName}.body.source.gradle", completions: completionMap
+    file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
+}
+
+def writeHighlightingInfo(scopeName, items) {
+    file('./task-patterns.yml').withWriterAppend { out ->
+        out.println "- name: ${scopeName - 'tasks.'}.task.source.gradle"
+        out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - 'tasks.'}.*\\)\\s*{'"
+        out.println "  beginCaptures:"
+        out.println "    '1': {name: keyword.task.source.gradle}"
+        out.println "    '2': {name: entity.name.function}"
+        out.println "  end: '}'"
+        out.println "  contentName: '${scopeName}.body.source.gradle'"
+        out.println "  patterns:"
         items.each {
-            data << [trigger: it, contents:it]
+            out.println "    - name: support.function.task.${scopeName}.gradle"
+            out.println "      match: ${it}"
         }
-        def scopeName = it - "org.gradle.api." - ".html"
-
-        //Write the completion data out to a new, individually named file
-        json scope: "${scopeName}.body.source.gradle", completions: data
-        file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
-
-        // We also want to use that same data to generate the highlighting
-        file('./task-patterns.yml').withWriterAppend { out ->
-            out.println "- name: ${scopeName - 'tasks.'}.task.source.gradle"
-            //out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - tasks.}.*\\)\\s*{'"
-            out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - 'tasks.'}.*\\)\\s*{'"
-            out.println "  beginCaptures:"
-            out.println "    '1': {name: keyword.task.source.gradle}"
-            out.println "    '2': {name: entity.name.function}"
-            out.println "  end: '}'"
-            out.println "  contentName: '${scopeName}.body.source.gradle'"
-            out.println "  patterns:"
-            items.each {
-                out.println "    - name: support.function.task.${scopeName}.gradle"
-                out.println "      match: ${it}"
-            }
-            out.println "    - include: source.groovy"
-            out.println ""
-        }
-
-        items.clear()
+        out.println "    - include: source.groovy"
+        out.println ""
     }
 }
 
