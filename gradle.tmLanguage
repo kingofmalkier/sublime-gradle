@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\s*(task)\s+(\w+)\s*\((.*type: Copy).*\)\s*{</string>
+			<string>\s*(task)\s+(\w+)\s*\((.*type: Copy.*)\)\s*{</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
