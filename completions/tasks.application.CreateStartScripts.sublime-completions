@@ -1,0 +1,29 @@
+{
+    "scope": "tasks.application.CreateStartScripts",
+    "completions": [
+        {
+            "trigger": "applicationName",
+            "contents": "applicationName"
+        },
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "defaultJvmOpts",
+            "contents": "defaultJvmOpts"
+        },
+        {
+            "trigger": "mainClassName",
+            "contents": "mainClassName"
+        },
+        {
+            "trigger": "optsEnvironmentVar",
+            "contents": "optsEnvironmentVar"
+        },
+        {
+            "trigger": "outputDir",
+            "contents": "outputDir"
+        }
+    ]
+}

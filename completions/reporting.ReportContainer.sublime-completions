@@ -1,0 +1,9 @@
+{
+    "scope": "reporting.ReportContainer",
+    "completions": [
+        {
+            "trigger": "enabled",
+            "contents": "enabled"
+        }
+    ]
+}

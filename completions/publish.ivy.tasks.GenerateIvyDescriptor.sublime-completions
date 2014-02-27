@@ -1,0 +1,13 @@
+{
+    "scope": "publish.ivy.tasks.GenerateIvyDescriptor",
+    "completions": [
+        {
+            "trigger": "descriptor",
+            "contents": "descriptor"
+        },
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        }
+    ]
+}

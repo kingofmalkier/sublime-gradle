@@ -1,0 +1,9 @@
+{
+    "scope": "publish.maven.MavenArtifactSet",
+    "completions": [
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        }
+    ]
+}

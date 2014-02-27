@@ -1,0 +1,53 @@
+{
+    "scope": "tasks.javadoc.Javadoc",
+    "completions": [
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "executable",
+            "contents": "executable"
+        },
+        {
+            "trigger": "failOnError",
+            "contents": "failOnError"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "maxMemory",
+            "contents": "maxMemory"
+        },
+        {
+            "trigger": "options",
+            "contents": "options"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "title",
+            "contents": "title"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        }
+    ]
+}

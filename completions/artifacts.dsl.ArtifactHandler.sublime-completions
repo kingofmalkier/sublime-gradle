@@ -1,0 +1,9 @@
+{
+    "scope": "artifacts.dsl.ArtifactHandler",
+    "completions": [
+        {
+            "trigger": "add",
+            "contents": "add"
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "scope": "tasks.testing.Test",
+    "completions": [
+        {
+            "trigger": "allJvmArgs",
+            "contents": "allJvmArgs"
+        },
+        {
+            "trigger": "binResultsDir",
+            "contents": "binResultsDir"
+        },
+        {
+            "trigger": "bootstrapClasspath",
+            "contents": "bootstrapClasspath"
+        },
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "debug",
+            "contents": "debug"
+        },
+        {
+            "trigger": "enableAssertions",
+            "contents": "enableAssertions"
+        },
+        {
+            "trigger": "environment",
+            "contents": "environment"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "executable",
+            "contents": "executable"
+        },
+        {
+            "trigger": "forkEvery",
+            "contents": "forkEvery"
+        },
+        {
+            "trigger": "ignoreFailures",
+            "contents": "ignoreFailures"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "jvmArgs",
+            "contents": "jvmArgs"
+        },
+        {
+            "trigger": "maxHeapSize",
+            "contents": "maxHeapSize"
+        },
+        {
+            "trigger": "maxParallelForks",
+            "contents": "maxParallelForks"
+        },
+        {
+            "trigger": "minHeapSize",
+            "contents": "minHeapSize"
+        },
+        {
+            "trigger": "options",
+            "contents": "options"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "scanForTestClasses",
+            "contents": "scanForTestClasses"
+        },
+        {
+            "trigger": "systemProperties",
+            "contents": "systemProperties"
+        },
+        {
+            "trigger": "testClassesDir",
+            "contents": "testClassesDir"
+        },
+        {
+            "trigger": "testLogging",
+            "contents": "testLogging"
+        },
+        {
+            "trigger": "testReport",
+            "contents": "testReport"
+        },
+        {
+            "trigger": "testReportDir",
+            "contents": "testReportDir"
+        },
+        {
+            "trigger": "testResultsDir",
+            "contents": "testResultsDir"
+        },
+        {
+            "trigger": "testSrcDirs",
+            "contents": "testSrcDirs"
+        },
+        {
+            "trigger": "workingDir",
+            "contents": "workingDir"
+        },
+        {
+            "trigger": "jacoco",
+            "contents": "jacoco"
+        },
+        {
+            "trigger": "addTestListener",
+            "contents": "addTestListener"
+        },
+        {
+            "trigger": "addTestOutputListener",
+            "contents": "addTestOutputListener"
+        },
+        {
+            "trigger": "afterSuite",
+            "contents": "afterSuite"
+        },
+        {
+            "trigger": "afterTest",
+            "contents": "afterTest"
+        },
+        {
+            "trigger": "beforeSuite",
+            "contents": "beforeSuite"
+        },
+        {
+            "trigger": "beforeTest",
+            "contents": "beforeTest"
+        },
+        {
+            "trigger": "copyTo",
+            "contents": "copyTo"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        },
+        {
+            "trigger": "onOutput",
+            "contents": "onOutput"
+        },
+        {
+            "trigger": "removeTestListener",
+            "contents": "removeTestListener"
+        },
+        {
+            "trigger": "removeTestOutputListener",
+            "contents": "removeTestOutputListener"
+        },
+        {
+            "trigger": "useJUnit",
+            "contents": "useJUnit"
+        },
+        {
+            "trigger": "useTestNG",
+            "contents": "useTestNG"
+        }
+    ]
+}

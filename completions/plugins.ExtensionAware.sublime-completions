@@ -1,0 +1,9 @@
+{
+    "scope": "plugins.ExtensionAware",
+    "completions": [
+        {
+            "trigger": "extensions",
+            "contents": "extensions"
+        }
+    ]
+}

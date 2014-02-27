@@ -1,0 +1,9 @@
+{
+    "scope": "reporting.Reporting",
+    "completions": [
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        }
+    ]
+}

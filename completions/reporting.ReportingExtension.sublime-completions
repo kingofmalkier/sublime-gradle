@@ -1,0 +1,13 @@
+{
+    "scope": "reporting.ReportingExtension",
+    "completions": [
+        {
+            "trigger": "baseDir",
+            "contents": "baseDir"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        }
+    ]
+}

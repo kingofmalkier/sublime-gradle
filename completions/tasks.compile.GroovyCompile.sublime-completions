@@ -1,0 +1,53 @@
+{
+    "scope": "tasks.compile.GroovyCompile",
+    "completions": [
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "groovyClasspath",
+            "contents": "groovyClasspath"
+        },
+        {
+            "trigger": "groovyOptions",
+            "contents": "groovyOptions"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "options",
+            "contents": "options"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "sourceCompatibility",
+            "contents": "sourceCompatibility"
+        },
+        {
+            "trigger": "targetCompatibility",
+            "contents": "targetCompatibility"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        }
+    ]
+}

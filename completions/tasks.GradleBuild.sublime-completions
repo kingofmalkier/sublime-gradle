@@ -1,0 +1,21 @@
+{
+    "scope": "tasks.GradleBuild",
+    "completions": [
+        {
+            "trigger": "buildFile",
+            "contents": "buildFile"
+        },
+        {
+            "trigger": "dir",
+            "contents": "dir"
+        },
+        {
+            "trigger": "startParameter",
+            "contents": "startParameter"
+        },
+        {
+            "trigger": "tasks",
+            "contents": "tasks"
+        }
+    ]
+}

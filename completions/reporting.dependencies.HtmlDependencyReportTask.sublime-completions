@@ -1,0 +1,13 @@
+{
+    "scope": "reporting.dependencies.HtmlDependencyReportTask",
+    "completions": [
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        }
+    ]
+}

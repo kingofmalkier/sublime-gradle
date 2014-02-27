@@ -1,0 +1,13 @@
+{
+    "scope": "tasks.diagnostics.DependencyInsightReportTask",
+    "completions": [
+        {
+            "trigger": "configuration",
+            "contents": "configuration"
+        },
+        {
+            "trigger": "dependencySpec",
+            "contents": "dependencySpec"
+        }
+    ]
+}

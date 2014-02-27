@@ -1,0 +1,13 @@
+{
+    "scope": "publish.maven.tasks.PublishToMavenRepository",
+    "completions": [
+        {
+            "trigger": "publication",
+            "contents": "publication"
+        },
+        {
+            "trigger": "repository",
+            "contents": "repository"
+        }
+    ]
+}

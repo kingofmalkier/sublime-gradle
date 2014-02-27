@@ -1,0 +1,13 @@
+{
+    "scope": "publish.PublishingExtension",
+    "completions": [
+        {
+            "trigger": "publications",
+            "contents": "publications"
+        },
+        {
+            "trigger": "repositories",
+            "contents": "repositories"
+        }
+    ]
+}

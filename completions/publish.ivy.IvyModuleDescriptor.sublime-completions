@@ -1,0 +1,9 @@
+{
+    "scope": "publish.ivy.IvyModuleDescriptor",
+    "completions": [
+        {
+            "trigger": "withXml",
+            "contents": "withXml"
+        }
+    ]
+}

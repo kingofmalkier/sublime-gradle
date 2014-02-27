@@ -1,0 +1,21 @@
+{
+    "scope": "tasks.Upload",
+    "completions": [
+        {
+            "trigger": "artifacts",
+            "contents": "artifacts"
+        },
+        {
+            "trigger": "configuration",
+            "contents": "configuration"
+        },
+        {
+            "trigger": "repositories",
+            "contents": "repositories"
+        },
+        {
+            "trigger": "uploadDescriptor",
+            "contents": "uploadDescriptor"
+        }
+    ]
+}

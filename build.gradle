@@ -22,35 +22,36 @@ ext {
 }
 
 task createCompletions << {
+    file('./completions').deleteDir()
+    file('./completions').mkdir()
+
     def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
 
     def links = findAllApiLinks(parser)
 
+    def json = new JsonBuilder()
     def items = [] as Set
+    
     links.each {
-        println it
+        println "Creating completions for ${it}"
         parser.parse("$gradleDoc/$it").'**'.findAll {
             it.name() == 'H4' && it.@class == 'signature'
         }.each {
             it.CODE.findAll {
                 it.@class == 'literal'
             }.each {
-                println it.text()
                 items << it.text()
             }
         }
-        println "-------------------------\n"
+        def data = []
+        items.each {
+            data << [trigger: it, contents:it]
+        }
+        def scopeName = it - "org.gradle.api." - ".html"
+        json scope: scopeName, completions: data
+        file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
+        items.clear()
     }
-
-    def data = []
-    items.each {
-        data << [trigger: it, contents:it]
-    }
-
-    def json = new JsonBuilder()
-    json scope: 'source.groovy', completions: data
-
-    file('./gradle-completions.sublime-completions').write(json.toPrettyString())
 }
 
 def findAllApiLinks(parser) {
@@ -59,7 +60,6 @@ def findAllApiLinks(parser) {
         it.name() == 'A' && it['@href'] =~ /^org\.gradle\.api/
     }.each {
         def link = it['@href'].toString().replaceAll(/\#.*/, '')
-        println "Adding link: ${link}"
         links << link
     }
     return links

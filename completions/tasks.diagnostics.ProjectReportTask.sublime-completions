@@ -1,0 +1,13 @@
+{
+    "scope": "tasks.diagnostics.ProjectReportTask",
+    "completions": [
+        {
+            "trigger": "outputFile",
+            "contents": "outputFile"
+        },
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        }
+    ]
+}

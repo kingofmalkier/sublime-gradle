@@ -1,0 +1,13 @@
+{
+    "scope": "publish.maven.tasks.GenerateMavenPom",
+    "completions": [
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        },
+        {
+            "trigger": "pom",
+            "contents": "pom"
+        }
+    ]
+}

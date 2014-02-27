@@ -1,0 +1,9 @@
+{
+    "scope": "publish.ivy.IvyArtifactSet",
+    "completions": [
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        }
+    ]
+}

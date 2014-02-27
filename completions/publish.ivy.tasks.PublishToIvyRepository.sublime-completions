@@ -1,0 +1,13 @@
+{
+    "scope": "publish.ivy.tasks.PublishToIvyRepository",
+    "completions": [
+        {
+            "trigger": "publication",
+            "contents": "publication"
+        },
+        {
+            "trigger": "repository",
+            "contents": "repository"
+        }
+    ]
+}

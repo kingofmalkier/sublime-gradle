@@ -1,0 +1,73 @@
+{
+    "scope": "tasks.javadoc.Groovydoc",
+    "completions": [
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "docTitle",
+            "contents": "docTitle"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "footer",
+            "contents": "footer"
+        },
+        {
+            "trigger": "groovyClasspath",
+            "contents": "groovyClasspath"
+        },
+        {
+            "trigger": "header",
+            "contents": "header"
+        },
+        {
+            "trigger": "includePrivate",
+            "contents": "includePrivate"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "links",
+            "contents": "links"
+        },
+        {
+            "trigger": "overview",
+            "contents": "overview"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "use",
+            "contents": "use"
+        },
+        {
+            "trigger": "windowTitle",
+            "contents": "windowTitle"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        },
+        {
+            "trigger": "link",
+            "contents": "link"
+        }
+    ]
+}

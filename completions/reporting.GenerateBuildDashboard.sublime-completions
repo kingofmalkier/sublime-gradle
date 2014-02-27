@@ -1,0 +1,13 @@
+{
+    "scope": "reporting.GenerateBuildDashboard",
+    "completions": [
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "aggregate",
+            "contents": "aggregate"
+        }
+    ]
+}

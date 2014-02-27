@@ -1,0 +1,37 @@
+{
+    "scope": "publish.ivy.IvyPublication",
+    "completions": [
+        {
+            "trigger": "artifacts",
+            "contents": "artifacts"
+        },
+        {
+            "trigger": "configurations",
+            "contents": "configurations"
+        },
+        {
+            "trigger": "descriptor",
+            "contents": "descriptor"
+        },
+        {
+            "trigger": "module",
+            "contents": "module"
+        },
+        {
+            "trigger": "organisation",
+            "contents": "organisation"
+        },
+        {
+            "trigger": "revision",
+            "contents": "revision"
+        },
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        },
+        {
+            "trigger": "from",
+            "contents": "from"
+        }
+    ]
+}

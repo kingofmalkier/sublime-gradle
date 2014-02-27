@@ -1,0 +1,9 @@
+{
+    "scope": "publish.maven.MavenPom",
+    "completions": [
+        {
+            "trigger": "withXml",
+            "contents": "withXml"
+        }
+    ]
+}

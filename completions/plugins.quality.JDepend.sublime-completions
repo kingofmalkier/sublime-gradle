@@ -1,0 +1,17 @@
+{
+    "scope": "plugins.quality.JDepend",
+    "completions": [
+        {
+            "trigger": "classesDir",
+            "contents": "classesDir"
+        },
+        {
+            "trigger": "jdependClasspath",
+            "contents": "jdependClasspath"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        }
+    ]
+}

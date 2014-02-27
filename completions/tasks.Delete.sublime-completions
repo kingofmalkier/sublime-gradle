@@ -1,0 +1,13 @@
+{
+    "scope": "tasks.Delete",
+    "completions": [
+        {
+            "trigger": "delete",
+            "contents": "delete"
+        },
+        {
+            "trigger": "targetFiles",
+            "contents": "targetFiles"
+        }
+    ]
+}

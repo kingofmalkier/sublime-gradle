@@ -1,0 +1,9 @@
+{
+    "scope": "plugins.sonar.SonarAnalyze",
+    "completions": [
+        {
+            "trigger": "rootModel",
+            "contents": "rootModel"
+        }
+    ]
+}

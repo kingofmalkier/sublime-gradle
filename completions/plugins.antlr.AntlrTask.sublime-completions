@@ -1,0 +1,49 @@
+{
+    "scope": "plugins.antlr.AntlrTask",
+    "completions": [
+        {
+            "trigger": "antlrClasspath",
+            "contents": "antlrClasspath"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "outputDirectory",
+            "contents": "outputDirectory"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "trace",
+            "contents": "trace"
+        },
+        {
+            "trigger": "traceLexer",
+            "contents": "traceLexer"
+        },
+        {
+            "trigger": "traceParser",
+            "contents": "traceParser"
+        },
+        {
+            "trigger": "traceTreeWalker",
+            "contents": "traceTreeWalker"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        }
+    ]
+}

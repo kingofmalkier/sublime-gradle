@@ -1,0 +1,21 @@
+{
+    "scope": "tasks.SourceSetOutput",
+    "completions": [
+        {
+            "trigger": "classesDir",
+            "contents": "classesDir"
+        },
+        {
+            "trigger": "resourcesDir",
+            "contents": "resourcesDir"
+        },
+        {
+            "trigger": "dir",
+            "contents": "dir"
+        },
+        {
+            "trigger": "getDirs",
+            "contents": "getDirs"
+        }
+    ]
+}
