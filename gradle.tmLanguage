@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gradle</string>
+	</array>
+	<key>name</key>
+	<string>Gradle</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\s*(task)\s+(\w+)\s*\((.*type: Copy).*\)\s*{</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.task.source.gradle</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>source.groovy</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Copy task definition</string>
+			<key>contentName</key>
+			<string>copy.body.source.gradle</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>copy.task.source.gradle</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.groovy</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.task.source.gradle</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Task definitions</string>
+			<key>match</key>
+			<string>\s*(task)\s+(\w+)</string>
+			<key>name</key>
+			<string>task.source.gradle</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gradle</string>
+	<key>uuid</key>
+	<string>b5741d4f-485d-4bca-9a5b-6a1ec2a5a272</string>
+</dict>
+</plist>
