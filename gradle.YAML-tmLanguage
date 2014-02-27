@@ -6,14 +6,84 @@ fileTypes: ["gradle"]
 uuid: b5741d4f-485d-4bca-9a5b-6a1ec2a5a272
 
 patterns:
-- name: copy.task.source.gradle
+- name: Copy.task.source.gradle
   begin: '\s*(task)\s+(\w+)\s*\(.*type: Copy.*\)\s*{'
   beginCaptures:
     '1': {name: keyword.task.source.gradle}
     '2': {name: entity.name.function}
   end: '}'
-  contentName: "tasks.Copy.body.source.gradle"
+  contentName: 'tasks.Copy.body.source.gradle'
   patterns:
+    - name: support.function.task.tasks.Copy.gradle
+      match: caseSensitive
+    - name: support.function.task.tasks.Copy.gradle
+      match: destinationDir
+    - name: support.function.task.tasks.Copy.gradle
+      match: dirMode
+    - name: support.function.task.tasks.Copy.gradle
+      match: duplicatesStrategy
+    - name: support.function.task.tasks.Copy.gradle
+      match: excludes
+    - name: support.function.task.tasks.Copy.gradle
+      match: fileMode
+    - name: support.function.task.tasks.Copy.gradle
+      match: includeEmptyDirs
+    - name: support.function.task.tasks.Copy.gradle
+      match: includes
+    - name: support.function.task.tasks.Copy.gradle
+      match: source
+    - name: support.function.task.tasks.Copy.gradle
+      match: eachFile
+    - name: support.function.task.tasks.Copy.gradle
+      match: exclude
+    - name: support.function.task.tasks.Copy.gradle
+      match: expand
+    - name: support.function.task.tasks.Copy.gradle
+      match: filesMatching
+    - name: support.function.task.tasks.Copy.gradle
+      match: filesNotMatching
+    - name: support.function.task.tasks.Copy.gradle
+      match: filter
+    - name: support.function.task.tasks.Copy.gradle
+      match: from
+    - name: support.function.task.tasks.Copy.gradle
+      match: include
+    - name: support.function.task.tasks.Copy.gradle
+      match: into
+    - name: support.function.task.tasks.Copy.gradle
+      match: rename
+    - name: support.function.task.tasks.Copy.gradle
+      match: with
+    - include: source.groovy
+
+- name: Exec.task.source.gradle
+  begin: '\s*(task)\s+(\w+)\s*\(.*type: Exec.*\)\s*{'
+  beginCaptures:
+    '1': {name: keyword.task.source.gradle}
+    '2': {name: entity.name.function}
+  end: '}'
+  contentName: 'tasks.Exec.body.source.gradle'
+  patterns:
+    - name: keyword.task.tasks.Exec.gradle
+      match: args
+    - name: keyword.task.tasks.Exec.gradle
+      match: commandLine
+    - name: keyword.task.tasks.Exec.gradle
+      match: environment
+    - name: keyword.task.tasks.Exec.gradle
+      match: errorOutput
+    - name: keyword.task.tasks.Exec.gradle
+      match: execResult
+    - name: keyword.task.tasks.Exec.gradle
+      match: executable
+    - name: keyword.task.tasks.Exec.gradle
+      match: ignoreExitValue
+    - name: keyword.task.tasks.Exec.gradle
+      match: standardInput
+    - name: keyword.task.tasks.Exec.gradle
+      match: standardOutput
+    - name: keyword.task.tasks.Exec.gradle
+      match: workingDir
     - include: source.groovy
 
 - name: task.source.gradle
