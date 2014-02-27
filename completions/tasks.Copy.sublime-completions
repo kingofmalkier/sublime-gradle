@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.Copy",
+    "scope": "tasks.Copy.body.source.gradle",
     "completions": [
         {
             "trigger": "caseSensitive",

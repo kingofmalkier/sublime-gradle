@@ -1,5 +1,5 @@
 {
-    "scope": "Task",
+    "scope": "Task.body.source.gradle",
     "completions": [
         {
             "trigger": "actions",

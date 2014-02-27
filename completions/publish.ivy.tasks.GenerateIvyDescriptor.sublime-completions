@@ -1,5 +1,5 @@
 {
-    "scope": "publish.ivy.tasks.GenerateIvyDescriptor",
+    "scope": "publish.ivy.tasks.GenerateIvyDescriptor.body.source.gradle",
     "completions": [
         {
             "trigger": "descriptor",

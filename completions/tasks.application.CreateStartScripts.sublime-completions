@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.application.CreateStartScripts",
+    "scope": "tasks.application.CreateStartScripts.body.source.gradle",
     "completions": [
         {
             "trigger": "applicationName",

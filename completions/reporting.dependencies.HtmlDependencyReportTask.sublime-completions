@@ -1,5 +1,5 @@
 {
-    "scope": "reporting.dependencies.HtmlDependencyReportTask",
+    "scope": "reporting.dependencies.HtmlDependencyReportTask.body.source.gradle",
     "completions": [
         {
             "trigger": "projects",

@@ -1,5 +1,5 @@
 {
-    "scope": "artifacts.dsl.RepositoryHandler",
+    "scope": "artifacts.dsl.RepositoryHandler.body.source.gradle",
     "completions": [
         {
             "trigger": "flatDir",

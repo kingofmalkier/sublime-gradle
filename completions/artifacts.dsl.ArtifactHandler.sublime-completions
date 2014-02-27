@@ -1,5 +1,5 @@
 {
-    "scope": "artifacts.dsl.ArtifactHandler",
+    "scope": "artifacts.dsl.ArtifactHandler.body.source.gradle",
     "completions": [
         {
             "trigger": "add",

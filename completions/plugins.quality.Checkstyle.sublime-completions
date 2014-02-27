@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.quality.Checkstyle",
+    "scope": "plugins.quality.Checkstyle.body.source.gradle",
     "completions": [
         {
             "trigger": "checkstyleClasspath",

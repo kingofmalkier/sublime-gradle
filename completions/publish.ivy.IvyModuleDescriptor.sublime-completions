@@ -1,5 +1,5 @@
 {
-    "scope": "publish.ivy.IvyModuleDescriptor",
+    "scope": "publish.ivy.IvyModuleDescriptor.body.source.gradle",
     "completions": [
         {
             "trigger": "withXml",

@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.quality.CodeNarc",
+    "scope": "plugins.quality.CodeNarc.body.source.gradle",
     "completions": [
         {
             "trigger": "codenarcClasspath",

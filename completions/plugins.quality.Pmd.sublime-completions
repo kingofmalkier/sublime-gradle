@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.quality.Pmd",
+    "scope": "plugins.quality.Pmd.body.source.gradle",
     "completions": [
         {
             "trigger": "excludes",

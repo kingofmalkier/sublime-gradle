@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.diagnostics.DependencyReportTask",
+    "scope": "tasks.diagnostics.DependencyReportTask.body.source.gradle",
     "completions": [
         {
             "trigger": "configurations",

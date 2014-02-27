@@ -1,5 +1,5 @@
 {
-    "scope": "initialization.Settings",
+    "scope": "initialization.Settings.body.source.gradle",
     "completions": [
         {
             "trigger": "gradle",

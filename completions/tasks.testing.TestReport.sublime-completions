@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.testing.TestReport",
+    "scope": "tasks.testing.TestReport.body.source.gradle",
     "completions": [
         {
             "trigger": "destinationDir",

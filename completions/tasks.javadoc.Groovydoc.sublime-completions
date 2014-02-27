@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.javadoc.Groovydoc",
+    "scope": "tasks.javadoc.Groovydoc.body.source.gradle",
     "completions": [
         {
             "trigger": "classpath",

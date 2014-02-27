@@ -1,5 +1,5 @@
 {
-    "scope": "publish.PublishingExtension",
+    "scope": "publish.PublishingExtension.body.source.gradle",
     "completions": [
         {
             "trigger": "publications",

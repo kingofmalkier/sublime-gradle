@@ -1,5 +1,5 @@
 {
-    "scope": "artifacts.ConfigurationContainer",
+    "scope": "artifacts.ConfigurationContainer.body.source.gradle",
     "completions": [
         {
             "trigger": "add",

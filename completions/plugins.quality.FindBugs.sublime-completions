@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.quality.FindBugs",
+    "scope": "plugins.quality.FindBugs.body.source.gradle",
     "completions": [
         {
             "trigger": "classes",

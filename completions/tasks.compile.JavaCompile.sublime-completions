@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.compile.JavaCompile",
+    "scope": "tasks.compile.JavaCompile.body.source.gradle",
     "completions": [
         {
             "trigger": "classpath",

@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.diagnostics.ProjectReportTask",
+    "scope": "tasks.diagnostics.ProjectReportTask.body.source.gradle",
     "completions": [
         {
             "trigger": "outputFile",

@@ -1,5 +1,5 @@
 {
-    "scope": "publish.maven.tasks.GenerateMavenPom",
+    "scope": "publish.maven.tasks.GenerateMavenPom.body.source.gradle",
     "completions": [
         {
             "trigger": "destination",

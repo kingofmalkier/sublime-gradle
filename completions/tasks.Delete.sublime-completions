@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.Delete",
+    "scope": "tasks.Delete.body.source.gradle",
     "completions": [
         {
             "trigger": "delete",

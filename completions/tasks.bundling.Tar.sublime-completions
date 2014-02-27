@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.bundling.Tar",
+    "scope": "tasks.bundling.Tar.body.source.gradle",
     "completions": [
         {
             "trigger": "appendix",

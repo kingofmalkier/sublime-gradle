@@ -1,5 +1,5 @@
 {
-    "scope": "publish.maven.MavenArtifactSet",
+    "scope": "publish.maven.MavenArtifactSet.body.source.gradle",
     "completions": [
         {
             "trigger": "artifact",

@@ -1,5 +1,5 @@
 {
-    "scope": "publish.ivy.tasks.PublishToIvyRepository",
+    "scope": "publish.ivy.tasks.PublishToIvyRepository.body.source.gradle",
     "completions": [
         {
             "trigger": "publication",

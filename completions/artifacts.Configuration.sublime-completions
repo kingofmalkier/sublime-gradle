@@ -1,5 +1,5 @@
 {
-    "scope": "artifacts.Configuration",
+    "scope": "artifacts.Configuration.body.source.gradle",
     "completions": [
         {
             "trigger": "allArtifacts",

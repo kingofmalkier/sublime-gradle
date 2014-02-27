@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.Upload",
+    "scope": "tasks.Upload.body.source.gradle",
     "completions": [
         {
             "trigger": "artifacts",

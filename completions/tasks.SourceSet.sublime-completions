@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.SourceSet",
+    "scope": "tasks.SourceSet.body.source.gradle",
     "completions": [
         {
             "trigger": "allJava",

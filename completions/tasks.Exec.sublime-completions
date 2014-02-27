@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.Exec",
+    "scope": "tasks.Exec.body.source.gradle",
     "completions": [
         {
             "trigger": "args",

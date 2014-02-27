@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.SourceSetOutput",
+    "scope": "tasks.SourceSetOutput.body.source.gradle",
     "completions": [
         {
             "trigger": "classesDir",

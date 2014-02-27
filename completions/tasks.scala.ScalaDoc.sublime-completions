@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.scala.ScalaDoc",
+    "scope": "tasks.scala.ScalaDoc.body.source.gradle",
     "completions": [
         {
             "trigger": "classpath",

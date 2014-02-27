@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.buildcomparison.gradle.CompareGradleBuilds",
+    "scope": "plugins.buildcomparison.gradle.CompareGradleBuilds.body.source.gradle",
     "completions": [
         {
             "trigger": "ignoreFailures",

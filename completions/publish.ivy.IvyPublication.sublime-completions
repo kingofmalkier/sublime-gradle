@@ -1,5 +1,5 @@
 {
-    "scope": "publish.ivy.IvyPublication",
+    "scope": "publish.ivy.IvyPublication.body.source.gradle",
     "completions": [
         {
             "trigger": "artifacts",

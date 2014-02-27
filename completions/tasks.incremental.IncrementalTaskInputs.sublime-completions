@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.incremental.IncrementalTaskInputs",
+    "scope": "tasks.incremental.IncrementalTaskInputs.body.source.gradle",
     "completions": [
         {
             "trigger": "incremental",

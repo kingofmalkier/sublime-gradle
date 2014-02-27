@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.jetty.JettyStop",
+    "scope": "plugins.jetty.JettyStop.body.source.gradle",
     "completions": [
         {
             "trigger": "stopKey",

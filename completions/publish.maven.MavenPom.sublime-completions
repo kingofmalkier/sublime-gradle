@@ -1,5 +1,5 @@
 {
-    "scope": "publish.maven.MavenPom",
+    "scope": "publish.maven.MavenPom.body.source.gradle",
     "completions": [
         {
             "trigger": "withXml",

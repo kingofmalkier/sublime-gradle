@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.compile.GroovyCompile",
+    "scope": "tasks.compile.GroovyCompile.body.source.gradle",
     "completions": [
         {
             "trigger": "classpath",

@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.ExtensionAware",
+    "scope": "plugins.ExtensionAware.body.source.gradle",
     "completions": [
         {
             "trigger": "extensions",

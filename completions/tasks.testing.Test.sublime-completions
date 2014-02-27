@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.testing.Test",
+    "scope": "tasks.testing.Test.body.source.gradle",
     "completions": [
         {
             "trigger": "allJvmArgs",

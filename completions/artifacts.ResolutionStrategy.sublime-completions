@@ -1,5 +1,5 @@
 {
-    "scope": "artifacts.ResolutionStrategy",
+    "scope": "artifacts.ResolutionStrategy.body.source.gradle",
     "completions": [
         {
             "trigger": "forcedModules",

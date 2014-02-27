@@ -1,5 +1,5 @@
 {
-    "scope": "publish.maven.MavenPublication",
+    "scope": "publish.maven.MavenPublication.body.source.gradle",
     "completions": [
         {
             "trigger": "artifactId",

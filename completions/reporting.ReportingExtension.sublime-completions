@@ -1,5 +1,5 @@
 {
-    "scope": "reporting.ReportingExtension",
+    "scope": "reporting.ReportingExtension.body.source.gradle",
     "completions": [
         {
             "trigger": "baseDir",

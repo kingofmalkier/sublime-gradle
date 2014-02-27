@@ -1,5 +1,5 @@
 {
-    "scope": "publish.ivy.IvyArtifact",
+    "scope": "publish.ivy.IvyArtifact.body.source.gradle",
     "completions": [
         {
             "trigger": "classifier",

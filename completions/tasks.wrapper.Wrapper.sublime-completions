@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.wrapper.Wrapper",
+    "scope": "tasks.wrapper.Wrapper.body.source.gradle",
     "completions": [
         {
             "trigger": "archiveBase",

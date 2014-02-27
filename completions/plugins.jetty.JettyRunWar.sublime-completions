@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.jetty.JettyRunWar",
+    "scope": "plugins.jetty.JettyRunWar.body.source.gradle",
     "completions": [
         {
             "trigger": "additionalRuntimeJars",

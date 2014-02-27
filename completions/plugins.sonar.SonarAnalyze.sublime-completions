@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.sonar.SonarAnalyze",
+    "scope": "plugins.sonar.SonarAnalyze.body.source.gradle",
     "completions": [
         {
             "trigger": "rootModel",

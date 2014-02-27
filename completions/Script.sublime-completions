@@ -1,5 +1,5 @@
 {
-    "scope": "Script",
+    "scope": "Script.body.source.gradle",
     "completions": [
         {
             "trigger": "buildscript",

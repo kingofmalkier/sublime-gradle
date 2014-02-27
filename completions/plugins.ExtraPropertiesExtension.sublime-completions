@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.ExtraPropertiesExtension",
+    "scope": "plugins.ExtraPropertiesExtension.body.source.gradle",
     "completions": [
         {
             "trigger": "properties",

@@ -1,5 +1,5 @@
 {
-    "scope": "plugins.quality.JDepend",
+    "scope": "plugins.quality.JDepend.body.source.gradle",
     "completions": [
         {
             "trigger": "classesDir",

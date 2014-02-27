@@ -1,5 +1,5 @@
 {
-    "scope": "reporting.Report",
+    "scope": "reporting.Report.body.source.gradle",
     "completions": [
         {
             "trigger": "destination",

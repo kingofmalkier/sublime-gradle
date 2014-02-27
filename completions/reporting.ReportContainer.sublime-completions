@@ -1,5 +1,5 @@
 {
-    "scope": "reporting.ReportContainer",
+    "scope": "reporting.ReportContainer.body.source.gradle",
     "completions": [
         {
             "trigger": "enabled",

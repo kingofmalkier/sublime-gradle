@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.JavaExec",
+    "scope": "tasks.JavaExec.body.source.gradle",
     "completions": [
         {
             "trigger": "allJvmArgs",

@@ -1,5 +1,5 @@
 {
-    "scope": "invocation.Gradle",
+    "scope": "invocation.Gradle.body.source.gradle",
     "completions": [
         {
             "trigger": "gradle",

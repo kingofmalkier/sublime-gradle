@@ -1,5 +1,5 @@
 {
-    "scope": "tasks.GradleBuild",
+    "scope": "tasks.GradleBuild.body.source.gradle",
     "completions": [
         {
             "trigger": "buildFile",
