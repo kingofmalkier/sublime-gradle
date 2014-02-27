@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\s*(task)\s+(\w+)\s*\((.*type: Copy.*)\)\s*{</string>
+			<string>\s*(task)\s+(\w+)\s*\(.*type: Copy.*\)\s*{</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -25,16 +25,9 @@
 					<key>name</key>
 					<string>entity.name.function</string>
 				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>source.groovy</string>
-				</dict>
 			</dict>
-			<key>comment</key>
-			<string>Copy task definition</string>
 			<key>contentName</key>
-			<string>copy.body.source.gradle</string>
+			<string>tasks.Copy.body.source.gradle</string>
 			<key>end</key>
 			<string>}</string>
 			<key>name</key>

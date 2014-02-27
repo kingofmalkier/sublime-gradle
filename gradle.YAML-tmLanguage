@@ -7,14 +7,12 @@ uuid: b5741d4f-485d-4bca-9a5b-6a1ec2a5a272
 
 patterns:
 - name: copy.task.source.gradle
-  begin: '\s*(task)\s+(\w+)\s*\((.*type: Copy.*)\)\s*{'
-  comment: 'Copy task definition'
+  begin: '\s*(task)\s+(\w+)\s*\(.*type: Copy.*\)\s*{'
   beginCaptures:
     '1': {name: keyword.task.source.gradle}
     '2': {name: entity.name.function}
-    '3': {name: source.groovy}
   end: '}'
-  contentName: copy.body.source.gradle
+  contentName: "tasks.Copy.body.source.gradle"
   patterns:
     - include: source.groovy
 
