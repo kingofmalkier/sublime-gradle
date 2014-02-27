@@ -24,6 +24,7 @@ ext {
 task createCompletions << {
     file('./completions').deleteDir()
     file('./completions').mkdir()
+    file('./task-patterns.yml').delete()
 
     def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
 
@@ -48,8 +49,30 @@ task createCompletions << {
             data << [trigger: it, contents:it]
         }
         def scopeName = it - "org.gradle.api." - ".html"
-        json scope: scopeName, completions: data
+
+        //Write the completion data out to a new, individually named file
+        json scope: "${scopeName}.body.source.gradle", completions: data
         file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
+
+        // We also want to use that same data to generate the highlighting
+        file('./task-patterns.yml').withWriterAppend { out ->
+            out.println "- name: ${scopeName - 'tasks.'}.task.source.gradle"
+            //out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - tasks.}.*\\)\\s*{'"
+            out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - 'tasks.'}.*\\)\\s*{'"
+            out.println "  beginCaptures:"
+            out.println "    '1': {name: keyword.task.source.gradle}"
+            out.println "    '2': {name: entity.name.function}"
+            out.println "  end: '}'"
+            out.println "  contentName: '${scopeName}.body.source.gradle'"
+            out.println "  patterns:"
+            items.each {
+                out.println "    - name: support.function.task.${scopeName}.gradle"
+                out.println "      match: ${it}"
+            }
+            out.println "    - include: source.groovy"
+            out.println ""
+        }
+
         items.clear()
     }
 }

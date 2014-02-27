@@ -1,3 +1,4 @@
 *.pyc
 .gradle
 test.gradle
+task-patterns.yml
