@@ -28,8 +28,8 @@ task createCompletions << {
 
     def links = findAllApiLinks(parser)
 
-    links.each {
-        createCompletionsForLink(parser, it)
+    links.each { link ->
+        createCompletionsForTask(parser, link)
     }
 }
 
@@ -39,12 +39,12 @@ def cleanFiles() {
     file('./task-patterns.yml').delete()
 }
 
-def createCompletionsForLink(parser, link) {
+def createCompletionsForTask(parser, link) {
     println "Creating completions for ${link}"
     
     def json = new JsonBuilder()
     def scopeName = link - "org.gradle.api." - ".html"
-    items = getLiteralsFromLink(parser, link)
+    def items = getLiteralsFromLink(parser, link)
     
     writeCompletions(json, scopeName, items)
     writeHighlightingInfo(scopeName, items)
