@@ -19,6 +19,7 @@ archivesBaseName = 'sublime-gradle'
 
 ext {
     gradleDoc = 'http://www.gradle.org/docs/current/dsl'
+    topLevelCompletion = [] as Set
 }
 
 task createCompletions << {
@@ -29,7 +30,11 @@ task createCompletions << {
     def links = findAllApiLinks(parser)
 
     links.each { link ->
-        createCompletionsForTask(parser, link)
+        if (link =~ "api.Project") {
+            createCompletionsForProject(parser, link)
+        } else {
+            createCompletionsForTask(parser, link)
+        }
     }
 }
 
@@ -39,17 +44,27 @@ def cleanFiles() {
     file('./task-patterns.yml').delete()
 }
 
+def createCompletionsForProject(parser, link) {
+    println "Creating top-level completions from Project"
+
+    def json = new JsonBuilder()
+    def items = getLiteralsFromLink(parser, link)
+
+    writeCompletions(json, "source.gradle", items)
+}
+
 def createCompletionsForTask(parser, link) {
     println "Creating completions for ${link}"
     
     def json = new JsonBuilder()
-    def scopeName = link - "org.gradle.api." - ".html"
+    def taskName = link - "org.gradle.api.tasks." - ".html"
     def items = getLiteralsFromLink(parser, link)
     
-    writeCompletions(json, scopeName, items)
-    writeHighlightingInfo(scopeName, items)
+    writeCompletions(json, "${taskName}.tasks.body.source.gradle", items)
+    writeHighlightingInfo(taskName, items)
+    addToTopLevelCompletions(taskName)
 
-    items.clear()
+    items.clear() //TODO: Probably safe to delete this now, yeah?
 }
 
 def getLiteralsFromLink(parser, link) {
@@ -72,27 +87,31 @@ def writeCompletions(json, scopeName, items) {
         completionMap << [trigger: it, contents:it]
     }
 
-    json scope: "${scopeName}.body.source.gradle", completions: completionMap
+    json scope: scopeName, completions: completionMap
     file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
 }
 
-def writeHighlightingInfo(scopeName, items) {
+def writeHighlightingInfo(taskName, items) {
     file('./task-patterns.yml').withWriterAppend { out ->
-        out.println "- name: ${scopeName - 'tasks.'}.task.source.gradle"
-        out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${scopeName - 'tasks.'}.*\\)\\s*{'"
+        out.println "- name: ${taskName}.task.source.gradle"
+        out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${taskName}.*\\)\\s*{'"
         out.println "  beginCaptures:"
         out.println "    '1': {name: keyword.task.source.gradle}"
         out.println "    '2': {name: entity.name.function}"
         out.println "  end: '}'"
-        out.println "  contentName: '${scopeName}.body.source.gradle'"
+        out.println "  contentName: '${taskName}.tasks.body.source.gradle'"
         out.println "  patterns:"
         items.each {
-            out.println "    - name: support.function.task.${scopeName}.gradle"
+            out.println "    - name: support.function.task.${taskName}.gradle"
             out.println "      match: ${it}"
         }
         out.println "    - include: source.groovy"
         out.println ""
     }
+}
+
+def addToTopLevelCompletions(scopeName) {
+
 }
 
 def findAllApiLinks(parser) {
