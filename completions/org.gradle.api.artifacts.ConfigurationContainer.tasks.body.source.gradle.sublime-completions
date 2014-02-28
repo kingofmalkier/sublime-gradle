@@ -1,0 +1,21 @@
+{
+    "scope": "org.gradle.api.artifacts.ConfigurationContainer.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "add",
+            "contents": "add"
+        },
+        {
+            "trigger": "detachedConfiguration",
+            "contents": "detachedConfiguration"
+        },
+        {
+            "trigger": "getAt",
+            "contents": "getAt"
+        },
+        {
+            "trigger": "getByName",
+            "contents": "getByName"
+        }
+    ]
+}

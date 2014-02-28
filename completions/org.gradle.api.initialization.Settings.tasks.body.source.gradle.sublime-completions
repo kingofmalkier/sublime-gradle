@@ -1,0 +1,45 @@
+{
+    "scope": "org.gradle.api.initialization.Settings.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "gradle",
+            "contents": "gradle"
+        },
+        {
+            "trigger": "rootDir",
+            "contents": "rootDir"
+        },
+        {
+            "trigger": "rootProject",
+            "contents": "rootProject"
+        },
+        {
+            "trigger": "settings",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settingsDir",
+            "contents": "settingsDir"
+        },
+        {
+            "trigger": "startParameter",
+            "contents": "startParameter"
+        },
+        {
+            "trigger": "findProject",
+            "contents": "findProject"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        },
+        {
+            "trigger": "includeFlat",
+            "contents": "includeFlat"
+        },
+        {
+            "trigger": "project",
+            "contents": "project"
+        }
+    ]
+}

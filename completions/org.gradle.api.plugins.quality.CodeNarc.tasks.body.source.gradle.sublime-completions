@@ -1,0 +1,53 @@
+{
+    "scope": "org.gradle.api.plugins.quality.CodeNarc.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "codenarcClasspath",
+            "contents": "codenarcClasspath"
+        },
+        {
+            "trigger": "configFile",
+            "contents": "configFile"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "ignoreFailures",
+            "contents": "ignoreFailures"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "maxPriority1Violations",
+            "contents": "maxPriority1Violations"
+        },
+        {
+            "trigger": "maxPriority2Violations",
+            "contents": "maxPriority2Violations"
+        },
+        {
+            "trigger": "maxPriority3Violations",
+            "contents": "maxPriority3Violations"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        }
+    ]
+}

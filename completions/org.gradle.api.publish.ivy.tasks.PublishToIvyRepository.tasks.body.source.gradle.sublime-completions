@@ -1,0 +1,13 @@
+{
+    "scope": "org.gradle.api.publish.ivy.tasks.PublishToIvyRepository.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "publication",
+            "contents": "publication"
+        },
+        {
+            "trigger": "repository",
+            "contents": "repository"
+        }
+    ]
+}

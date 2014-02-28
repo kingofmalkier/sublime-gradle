@@ -1,0 +1,13 @@
+{
+    "scope": "org.gradle.api.publish.ivy.tasks.GenerateIvyDescriptor.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "descriptor",
+            "contents": "descriptor"
+        },
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "scope": "org.gradle.api.artifacts.ResolutionStrategy.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "forcedModules",
+            "contents": "forcedModules"
+        },
+        {
+            "trigger": "cacheChangingModulesFor",
+            "contents": "cacheChangingModulesFor"
+        },
+        {
+            "trigger": "cacheDynamicVersionsFor",
+            "contents": "cacheDynamicVersionsFor"
+        },
+        {
+            "trigger": "eachDependency",
+            "contents": "eachDependency"
+        },
+        {
+            "trigger": "failOnVersionConflict",
+            "contents": "failOnVersionConflict"
+        },
+        {
+            "trigger": "force",
+            "contents": "force"
+        }
+    ]
+}

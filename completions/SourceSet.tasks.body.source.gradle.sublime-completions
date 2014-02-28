@@ -1,0 +1,69 @@
+{
+    "scope": "SourceSet.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "allJava",
+            "contents": "allJava"
+        },
+        {
+            "trigger": "allSource",
+            "contents": "allSource"
+        },
+        {
+            "trigger": "compileClasspath",
+            "contents": "compileClasspath"
+        },
+        {
+            "trigger": "java",
+            "contents": "java"
+        },
+        {
+            "trigger": "name",
+            "contents": "name"
+        },
+        {
+            "trigger": "output",
+            "contents": "output"
+        },
+        {
+            "trigger": "resources",
+            "contents": "resources"
+        },
+        {
+            "trigger": "runtimeClasspath",
+            "contents": "runtimeClasspath"
+        },
+        {
+            "trigger": "antlr",
+            "contents": "antlr"
+        },
+        {
+            "trigger": "allGroovy",
+            "contents": "allGroovy"
+        },
+        {
+            "trigger": "groovy",
+            "contents": "groovy"
+        },
+        {
+            "trigger": "allScala",
+            "contents": "allScala"
+        },
+        {
+            "trigger": "scala",
+            "contents": "scala"
+        },
+        {
+            "trigger": "compiledBy",
+            "contents": "compiledBy"
+        },
+        {
+            "trigger": "getCompileTaskName",
+            "contents": "getCompileTaskName"
+        },
+        {
+            "trigger": "getTaskName",
+            "contents": "getTaskName"
+        }
+    ]
+}

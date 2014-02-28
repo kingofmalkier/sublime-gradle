@@ -1,0 +1,89 @@
+{
+    "scope": "org.gradle.api.invocation.Gradle.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "gradle",
+            "contents": "gradle"
+        },
+        {
+            "trigger": "gradleHomeDir",
+            "contents": "gradleHomeDir"
+        },
+        {
+            "trigger": "gradleUserHomeDir",
+            "contents": "gradleUserHomeDir"
+        },
+        {
+            "trigger": "gradleVersion",
+            "contents": "gradleVersion"
+        },
+        {
+            "trigger": "parent",
+            "contents": "parent"
+        },
+        {
+            "trigger": "rootProject",
+            "contents": "rootProject"
+        },
+        {
+            "trigger": "startParameter",
+            "contents": "startParameter"
+        },
+        {
+            "trigger": "taskGraph",
+            "contents": "taskGraph"
+        },
+        {
+            "trigger": "addBuildListener",
+            "contents": "addBuildListener"
+        },
+        {
+            "trigger": "addListener",
+            "contents": "addListener"
+        },
+        {
+            "trigger": "addProjectEvaluationListener",
+            "contents": "addProjectEvaluationListener"
+        },
+        {
+            "trigger": "afterProject",
+            "contents": "afterProject"
+        },
+        {
+            "trigger": "allprojects",
+            "contents": "allprojects"
+        },
+        {
+            "trigger": "beforeProject",
+            "contents": "beforeProject"
+        },
+        {
+            "trigger": "buildFinished",
+            "contents": "buildFinished"
+        },
+        {
+            "trigger": "projectsEvaluated",
+            "contents": "projectsEvaluated"
+        },
+        {
+            "trigger": "projectsLoaded",
+            "contents": "projectsLoaded"
+        },
+        {
+            "trigger": "removeListener",
+            "contents": "removeListener"
+        },
+        {
+            "trigger": "removeProjectEvaluationListener",
+            "contents": "removeProjectEvaluationListener"
+        },
+        {
+            "trigger": "settingsEvaluated",
+            "contents": "settingsEvaluated"
+        },
+        {
+            "trigger": "useLogger",
+            "contents": "useLogger"
+        }
+    ]
+}

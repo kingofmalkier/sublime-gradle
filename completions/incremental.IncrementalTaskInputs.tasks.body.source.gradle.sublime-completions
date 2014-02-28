@@ -1,0 +1,17 @@
+{
+    "scope": "incremental.IncrementalTaskInputs.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "incremental",
+            "contents": "incremental"
+        },
+        {
+            "trigger": "outOfDate",
+            "contents": "outOfDate"
+        },
+        {
+            "trigger": "removed",
+            "contents": "removed"
+        }
+    ]
+}

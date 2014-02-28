@@ -1,0 +1,37 @@
+{
+    "scope": "org.gradle.api.publish.maven.MavenPublication.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "artifactId",
+            "contents": "artifactId"
+        },
+        {
+            "trigger": "artifacts",
+            "contents": "artifacts"
+        },
+        {
+            "trigger": "groupId",
+            "contents": "groupId"
+        },
+        {
+            "trigger": "pom",
+            "contents": "pom"
+        },
+        {
+            "trigger": "version",
+            "contents": "version"
+        },
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        },
+        {
+            "trigger": "from",
+            "contents": "from"
+        },
+        {
+            "trigger": "setArtifacts",
+            "contents": "setArtifacts"
+        }
+    ]
+}

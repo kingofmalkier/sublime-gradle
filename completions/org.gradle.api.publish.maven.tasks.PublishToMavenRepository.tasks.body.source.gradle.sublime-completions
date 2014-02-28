@@ -1,0 +1,13 @@
+{
+    "scope": "org.gradle.api.publish.maven.tasks.PublishToMavenRepository.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "publication",
+            "contents": "publication"
+        },
+        {
+            "trigger": "repository",
+            "contents": "repository"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "scope": "org.gradle.api.Task.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "actions",
+            "contents": "actions"
+        },
+        {
+            "trigger": "ant",
+            "contents": "ant"
+        },
+        {
+            "trigger": "convention",
+            "contents": "convention"
+        },
+        {
+            "trigger": "dependsOn",
+            "contents": "dependsOn"
+        },
+        {
+            "trigger": "description",
+            "contents": "description"
+        },
+        {
+            "trigger": "didWork",
+            "contents": "didWork"
+        },
+        {
+            "trigger": "enabled",
+            "contents": "enabled"
+        },
+        {
+            "trigger": "extensions",
+            "contents": "extensions"
+        },
+        {
+            "trigger": "finalizedBy",
+            "contents": "finalizedBy"
+        },
+        {
+            "trigger": "group",
+            "contents": "group"
+        },
+        {
+            "trigger": "inputs",
+            "contents": "inputs"
+        },
+        {
+            "trigger": "logger",
+            "contents": "logger"
+        },
+        {
+            "trigger": "logging",
+            "contents": "logging"
+        },
+        {
+            "trigger": "mustRunAfter",
+            "contents": "mustRunAfter"
+        },
+        {
+            "trigger": "name",
+            "contents": "name"
+        },
+        {
+            "trigger": "outputs",
+            "contents": "outputs"
+        },
+        {
+            "trigger": "path",
+            "contents": "path"
+        },
+        {
+            "trigger": "project",
+            "contents": "project"
+        },
+        {
+            "trigger": "state",
+            "contents": "state"
+        },
+        {
+            "trigger": "taskDependencies",
+            "contents": "taskDependencies"
+        },
+        {
+            "trigger": "temporaryDir",
+            "contents": "temporaryDir"
+        },
+        {
+            "trigger": "deleteAllActions",
+            "contents": "deleteAllActions"
+        },
+        {
+            "trigger": "doFirst",
+            "contents": "doFirst"
+        },
+        {
+            "trigger": "doLast",
+            "contents": "doLast"
+        },
+        {
+            "trigger": "hasProperty",
+            "contents": "hasProperty"
+        },
+        {
+            "trigger": "leftShift",
+            "contents": "leftShift"
+        },
+        {
+            "trigger": "onlyIf",
+            "contents": "onlyIf"
+        },
+        {
+            "trigger": "property",
+            "contents": "property"
+        },
+        {
+            "trigger": "setProperty",
+            "contents": "setProperty"
+        }
+    ]
+}
