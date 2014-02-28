@@ -1,9 +1,0 @@
-{
-    "scope": "publish.maven.MavenArtifactSet.body.source.gradle",
-    "completions": [
-        {
-            "trigger": "artifact",
-            "contents": "artifact"
-        }
-    ]
-}

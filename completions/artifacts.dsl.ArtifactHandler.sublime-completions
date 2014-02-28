@@ -1,9 +1,0 @@
-{
-    "scope": "artifacts.dsl.ArtifactHandler.body.source.gradle",
-    "completions": [
-        {
-            "trigger": "add",
-            "contents": "add"
-        }
-    ]
-}

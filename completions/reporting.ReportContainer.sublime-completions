@@ -1,9 +1,0 @@
-{
-    "scope": "reporting.ReportContainer.body.source.gradle",
-    "completions": [
-        {
-            "trigger": "enabled",
-            "contents": "enabled"
-        }
-    ]
-}

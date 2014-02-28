@@ -1,9 +1,0 @@
-{
-    "scope": "publish.ivy.IvyModuleDescriptor.body.source.gradle",
-    "completions": [
-        {
-            "trigger": "withXml",
-            "contents": "withXml"
-        }
-    ]
-}
