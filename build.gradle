@@ -51,6 +51,7 @@ def createCompletionsForProject(parser, link) {
     def items = getLiteralsFromLink(parser, link)
 
     writeCompletions(json, "source.gradle", items)
+    writeHighlightingInfoForProject(items)
 }
 
 def createCompletionsForTask(parser, link) {
@@ -61,7 +62,7 @@ def createCompletionsForTask(parser, link) {
     def items = getLiteralsFromLink(parser, link)
     
     writeCompletions(json, "${taskName}.tasks.body.source.gradle", items)
-    writeHighlightingInfo(taskName, items)
+    writeHighlightingInfoForTask(taskName, items)
     addToTopLevelCompletions(taskName)
 
     items.clear() //TODO: Probably safe to delete this now, yeah?
@@ -91,7 +92,7 @@ def writeCompletions(json, scopeName, items) {
     file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
 }
 
-def writeHighlightingInfo(taskName, items) {
+def writeHighlightingInfoForTask(taskName, items) {
     file('./task-patterns.yml').withWriterAppend { out ->
         out.println "- name: ${taskName}.task.source.gradle"
         out.println "  begin: '\\s*(task)\\s+(\\w+)\\s*\\(.*type: ${taskName}.*\\)\\s*{'"
@@ -101,12 +102,24 @@ def writeHighlightingInfo(taskName, items) {
         out.println "  end: '}'"
         out.println "  contentName: '${taskName}.tasks.body.source.gradle'"
         out.println "  patterns:"
+        out.println "    - include: '#project-patterns'"
         items.each {
             out.println "    - name: support.function.task.${taskName}.gradle"
             out.println "      match: ${it}"
         }
         out.println "    - include: source.groovy"
         out.println ""
+    }
+}
+
+def writeHighlightingInfoForProject(items) {
+    file('./project-patterns.yml').withWriter { out ->
+        out.println "project-patterns:"
+        out.println "  patterns:"
+        items.each {
+            out.println "    - name: support.function.project.${it}.gradle"
+            out.println "      match: ${it}"
+        }
     }
 }
 

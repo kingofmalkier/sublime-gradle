@@ -2,3 +2,4 @@
 .gradle
 test.gradle
 task-patterns.yml
+project-patterns.yml
