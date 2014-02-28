@@ -1,0 +1,20 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Gradle
+scopeName: source.gradle
+fileTypes: ["gradle"]
+uuid: b5741d4f-485d-4bca-9a5b-6a1ec2a5a272
+
+patterns:
+  - include: '#auto-generated-tasks'
+  - include: '#project-patterns'
+  - include: source.groovy
+
+repository:
+  project-patterns:
+    @project-patterns@
+
+  auto-generated-tasks:
+    @auto-generated-tasks@
+
+...
