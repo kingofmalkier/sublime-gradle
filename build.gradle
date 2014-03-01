@@ -81,8 +81,6 @@ def createCompletionsForTask(parser, link) {
     writeCompletions(json, "${taskName}.tasks.body.source.gradle", items)
     writeHighlightingInfoForTask(taskName, items)
     addToTopLevelCompletions(taskName)
-
-    items.clear() //TODO: Probably safe to delete this now, yeah?
 }
 
 def getLiteralsFromLink(parser, link) {
@@ -109,6 +107,8 @@ def writeCompletions(json, scopeName, items) {
     file("./completions/${scopeName}.sublime-completions").write(json.toPrettyString())
 }
 
+//TODO: Just initialize the beginning of the repo section into the string builder during config or something
+//then keep appending same as with projects
 def writeHighlightingInfoForTask(taskName, items) {
     file('./task-patterns.yml').withWriterAppend { out ->
         out.println "- name: ${taskName}.task.source.gradle"
