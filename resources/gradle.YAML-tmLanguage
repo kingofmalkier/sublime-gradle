@@ -15,6 +15,5 @@ repository:
     @project-patterns@
 
   auto-generated-tasks:
-    @auto-generated-tasks@
-
+@auto-generated-tasks@
 ...
