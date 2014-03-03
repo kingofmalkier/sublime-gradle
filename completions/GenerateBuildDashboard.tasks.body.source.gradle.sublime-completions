@@ -1,0 +1,13 @@
+{
+    "scope": "GenerateBuildDashboard.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "aggregate",
+            "contents": "aggregate"
+        }
+    ]
+}

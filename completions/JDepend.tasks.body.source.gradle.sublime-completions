@@ -1,0 +1,17 @@
+{
+    "scope": "JDepend.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "classesDir",
+            "contents": "classesDir"
+        },
+        {
+            "trigger": "jdependClasspath",
+            "contents": "jdependClasspath"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        }
+    ]
+}

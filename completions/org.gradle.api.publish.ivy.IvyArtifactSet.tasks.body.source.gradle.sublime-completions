@@ -1,9 +1,0 @@
-{
-    "scope": "org.gradle.api.publish.ivy.IvyArtifactSet.tasks.body.source.gradle",
-    "completions": [
-        {
-            "trigger": "artifact",
-            "contents": "artifact"
-        }
-    ]
-}

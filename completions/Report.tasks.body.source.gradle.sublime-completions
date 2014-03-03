@@ -1,0 +1,25 @@
+{
+    "scope": "Report.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        },
+        {
+            "trigger": "displayName",
+            "contents": "displayName"
+        },
+        {
+            "trigger": "enabled",
+            "contents": "enabled"
+        },
+        {
+            "trigger": "name",
+            "contents": "name"
+        },
+        {
+            "trigger": "outputType",
+            "contents": "outputType"
+        }
+    ]
+}

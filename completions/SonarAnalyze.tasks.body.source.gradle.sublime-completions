@@ -1,0 +1,9 @@
+{
+    "scope": "SonarAnalyze.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "rootModel",
+            "contents": "rootModel"
+        }
+    ]
+}

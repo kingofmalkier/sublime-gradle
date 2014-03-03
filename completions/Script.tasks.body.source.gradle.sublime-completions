@@ -1,0 +1,77 @@
+{
+    "scope": "Script.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "buildscript",
+            "contents": "buildscript"
+        },
+        {
+            "trigger": "logger",
+            "contents": "logger"
+        },
+        {
+            "trigger": "logging",
+            "contents": "logging"
+        },
+        {
+            "trigger": "resources",
+            "contents": "resources"
+        },
+        {
+            "trigger": "apply",
+            "contents": "apply"
+        },
+        {
+            "trigger": "copy",
+            "contents": "copy"
+        },
+        {
+            "trigger": "copySpec",
+            "contents": "copySpec"
+        },
+        {
+            "trigger": "delete",
+            "contents": "delete"
+        },
+        {
+            "trigger": "exec",
+            "contents": "exec"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        },
+        {
+            "trigger": "fileTree",
+            "contents": "fileTree"
+        },
+        {
+            "trigger": "files",
+            "contents": "files"
+        },
+        {
+            "trigger": "javaexec",
+            "contents": "javaexec"
+        },
+        {
+            "trigger": "mkdir",
+            "contents": "mkdir"
+        },
+        {
+            "trigger": "relativePath",
+            "contents": "relativePath"
+        },
+        {
+            "trigger": "tarTree",
+            "contents": "tarTree"
+        },
+        {
+            "trigger": "uri",
+            "contents": "uri"
+        },
+        {
+            "trigger": "zipTree",
+            "contents": "zipTree"
+        }
+    ]
+}

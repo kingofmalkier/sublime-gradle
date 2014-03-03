@@ -1,0 +1,13 @@
+{
+    "scope": "ReportingExtension.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "baseDir",
+            "contents": "baseDir"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        }
+    ]
+}

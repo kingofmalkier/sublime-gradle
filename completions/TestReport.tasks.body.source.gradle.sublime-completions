@@ -1,0 +1,17 @@
+{
+    "scope": "TestReport.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "testResultDirs",
+            "contents": "testResultDirs"
+        },
+        {
+            "trigger": "reportOn",
+            "contents": "reportOn"
+        }
+    ]
+}

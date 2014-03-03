@@ -1,0 +1,53 @@
+{
+    "scope": "JettyRun.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "additionalRuntimeJars",
+            "contents": "additionalRuntimeJars"
+        },
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "contextPath",
+            "contents": "contextPath"
+        },
+        {
+            "trigger": "daemon",
+            "contents": "daemon"
+        },
+        {
+            "trigger": "httpPort",
+            "contents": "httpPort"
+        },
+        {
+            "trigger": "jettyConfig",
+            "contents": "jettyConfig"
+        },
+        {
+            "trigger": "reload",
+            "contents": "reload"
+        },
+        {
+            "trigger": "scanIntervalSeconds",
+            "contents": "scanIntervalSeconds"
+        },
+        {
+            "trigger": "stopKey",
+            "contents": "stopKey"
+        },
+        {
+            "trigger": "stopPort",
+            "contents": "stopPort"
+        },
+        {
+            "trigger": "webAppSourceDirectory",
+            "contents": "webAppSourceDirectory"
+        },
+        {
+            "trigger": "webXml",
+            "contents": "webXml"
+        }
+    ]
+}

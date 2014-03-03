@@ -1,0 +1,9 @@
+{
+    "scope": "ExtensionAware.tasks.body.source.gradle",
+    "completions": [
+        {
+            "trigger": "extensions",
+            "contents": "extensions"
+        }
+    ]
+}
