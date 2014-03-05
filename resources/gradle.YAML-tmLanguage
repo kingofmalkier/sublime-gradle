@@ -26,7 +26,6 @@ repository:
         patterns:
           - include: '#specific-tasks'
           - include: '#project-patterns'
-          #- include: '#task-keywords'
           - include: source.groovy
 
   specific-tasks:
