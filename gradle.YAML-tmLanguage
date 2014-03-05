@@ -6,787 +6,656 @@ fileTypes: ["gradle"]
 uuid: b5741d4f-485d-4bca-9a5b-6a1ec2a5a272
 
 patterns:
-  - include: '#auto-generated-tasks'
+  - include: '#generic-task-beginning'
   - include: '#project-patterns'
   - include: source.groovy
 
 repository:
   project-patterns:
     patterns:
-      - name: support.function.project.allprojects.gradle
+      - name: support.type.project.allprojects.gradle
         match: allprojects
-      - name: support.function.project.ant.gradle
+      - name: support.type.project.ant.gradle
         match: ant
-      - name: support.function.project.artifacts.gradle
+      - name: support.type.project.artifacts.gradle
         match: artifacts
-      - name: support.function.project.buildDir.gradle
+      - name: support.type.project.buildDir.gradle
         match: buildDir
-      - name: support.function.project.buildFile.gradle
+      - name: support.type.project.buildFile.gradle
         match: buildFile
-      - name: support.function.project.buildscript.gradle
+      - name: support.type.project.buildscript.gradle
         match: buildscript
-      - name: support.function.project.childProjects.gradle
+      - name: support.type.project.childProjects.gradle
         match: childProjects
-      - name: support.function.project.configurations.gradle
+      - name: support.type.project.configurations.gradle
         match: configurations
-      - name: support.function.project.convention.gradle
+      - name: support.type.project.convention.gradle
         match: convention
-      - name: support.function.project.defaultTasks.gradle
+      - name: support.type.project.defaultTasks.gradle
         match: defaultTasks
-      - name: support.function.project.dependencies.gradle
+      - name: support.type.project.dependencies.gradle
         match: dependencies
-      - name: support.function.project.dependsOnProjects.gradle
+      - name: support.type.project.dependsOnProjects.gradle
         match: dependsOnProjects
-      - name: support.function.project.description.gradle
+      - name: support.type.project.description.gradle
         match: description
-      - name: support.function.project.extensions.gradle
+      - name: support.type.project.extensions.gradle
         match: extensions
-      - name: support.function.project.gradle.gradle
+      - name: support.type.project.gradle.gradle
         match: gradle
-      - name: support.function.project.group.gradle
+      - name: support.type.project.group.gradle
         match: group
-      - name: support.function.project.logger.gradle
+      - name: support.type.project.logger.gradle
         match: logger
-      - name: support.function.project.logging.gradle
+      - name: support.type.project.logging.gradle
         match: logging
-      - name: support.function.project.name.gradle
+      - name: support.type.project.name.gradle
         match: name
-      - name: support.function.project.parent.gradle
+      - name: support.type.project.parent.gradle
         match: parent
-      - name: support.function.project.path.gradle
+      - name: support.type.project.path.gradle
         match: path
-      - name: support.function.project.plugins.gradle
+      - name: support.type.project.plugins.gradle
         match: plugins
-      - name: support.function.project.project.gradle
+      - name: support.type.project.project.gradle
         match: project
-      - name: support.function.project.projectDir.gradle
+      - name: support.type.project.projectDir.gradle
         match: projectDir
-      - name: support.function.project.properties.gradle
+      - name: support.type.project.properties.gradle
         match: properties
-      - name: support.function.project.repositories.gradle
+      - name: support.type.project.repositories.gradle
         match: repositories
-      - name: support.function.project.resources.gradle
+      - name: support.type.project.resources.gradle
         match: resources
-      - name: support.function.project.rootDir.gradle
+      - name: support.type.project.rootDir.gradle
         match: rootDir
-      - name: support.function.project.rootProject.gradle
+      - name: support.type.project.rootProject.gradle
         match: rootProject
-      - name: support.function.project.state.gradle
+      - name: support.type.project.state.gradle
         match: state
-      - name: support.function.project.status.gradle
+      - name: support.type.project.status.gradle
         match: status
-      - name: support.function.project.subprojects.gradle
+      - name: support.type.project.subprojects.gradle
         match: subprojects
-      - name: support.function.project.tasks.gradle
+      - name: support.type.project.tasks.gradle
         match: tasks
-      - name: support.function.project.version.gradle
+      - name: support.type.project.version.gradle
         match: version
-      - name: support.function.project.binaries.gradle
+      - name: support.type.project.binaries.gradle
         match: binaries
-      - name: support.function.project.sources.gradle
+      - name: support.type.project.sources.gradle
         match: sources
-      - name: support.function.project.announce.gradle
+      - name: support.type.project.announce.gradle
         match: announce
-      - name: support.function.project.applicationDefaultJvmArgs.gradle
+      - name: support.type.project.applicationDefaultJvmArgs.gradle
         match: applicationDefaultJvmArgs
-      - name: support.function.project.applicationDistribution.gradle
+      - name: support.type.project.applicationDistribution.gradle
         match: applicationDistribution
-      - name: support.function.project.applicationName.gradle
+      - name: support.type.project.applicationName.gradle
         match: applicationName
-      - name: support.function.project.mainClassName.gradle
+      - name: support.type.project.mainClassName.gradle
         match: mainClassName
-      - name: support.function.project.checkstyle.gradle
+      - name: support.type.project.checkstyle.gradle
         match: checkstyle
-      - name: support.function.project.checkstyleConfigFile.gradle
+      - name: support.type.project.checkstyleConfigFile.gradle
         match: checkstyleConfigFile
-      - name: support.function.project.checkstyleConfigFileName.gradle
+      - name: support.type.project.checkstyleConfigFileName.gradle
         match: checkstyleConfigFileName
-      - name: support.function.project.checkstyleProperties.gradle
+      - name: support.type.project.checkstyleProperties.gradle
         match: checkstyleProperties
-      - name: support.function.project.checkstyleResultsDir.gradle
+      - name: support.type.project.checkstyleResultsDir.gradle
         match: checkstyleResultsDir
-      - name: support.function.project.checkstyleResultsDirName.gradle
+      - name: support.type.project.checkstyleResultsDirName.gradle
         match: checkstyleResultsDirName
-      - name: support.function.project.codeNarcConfigFile.gradle
+      - name: support.type.project.codeNarcConfigFile.gradle
         match: codeNarcConfigFile
-      - name: support.function.project.codeNarcConfigFileName.gradle
+      - name: support.type.project.codeNarcConfigFileName.gradle
         match: codeNarcConfigFileName
-      - name: support.function.project.codeNarcReportsDir.gradle
+      - name: support.type.project.codeNarcReportsDir.gradle
         match: codeNarcReportsDir
-      - name: support.function.project.codeNarcReportsDirName.gradle
+      - name: support.type.project.codeNarcReportsDirName.gradle
         match: codeNarcReportsDirName
-      - name: support.function.project.codenarc.gradle
+      - name: support.type.project.codenarc.gradle
         match: codenarc
-      - name: support.function.project.distributions.gradle
+      - name: support.type.project.distributions.gradle
         match: distributions
-      - name: support.function.project.appDirName.gradle
+      - name: support.type.project.appDirName.gradle
         match: appDirName
-      - name: support.function.project.deploymentDescriptor.gradle
+      - name: support.type.project.deploymentDescriptor.gradle
         match: deploymentDescriptor
-      - name: support.function.project.libDirName.gradle
+      - name: support.type.project.libDirName.gradle
         match: libDirName
-      - name: support.function.project.eclipse.gradle
+      - name: support.type.project.eclipse.gradle
         match: eclipse
-      - name: support.function.project.findbugs.gradle
+      - name: support.type.project.findbugs.gradle
         match: findbugs
-      - name: support.function.project.idea.gradle
+      - name: support.type.project.idea.gradle
         match: idea
-      - name: support.function.project.jacoco.gradle
+      - name: support.type.project.jacoco.gradle
         match: jacoco
-      - name: support.function.project.apiDocTitle.gradle
+      - name: support.type.project.apiDocTitle.gradle
         match: apiDocTitle
-      - name: support.function.project.archivesBaseName.gradle
+      - name: support.type.project.archivesBaseName.gradle
         match: archivesBaseName
-      - name: support.function.project.distsDir.gradle
+      - name: support.type.project.distsDir.gradle
         match: distsDir
-      - name: support.function.project.distsDirName.gradle
+      - name: support.type.project.distsDirName.gradle
         match: distsDirName
-      - name: support.function.project.docsDir.gradle
+      - name: support.type.project.docsDir.gradle
         match: docsDir
-      - name: support.function.project.docsDirName.gradle
+      - name: support.type.project.docsDirName.gradle
         match: docsDirName
-      - name: support.function.project.libsDir.gradle
+      - name: support.type.project.libsDir.gradle
         match: libsDir
-      - name: support.function.project.libsDirName.gradle
+      - name: support.type.project.libsDirName.gradle
         match: libsDirName
-      - name: support.function.project.reportsDir.gradle
+      - name: support.type.project.reportsDir.gradle
         match: reportsDir
-      - name: support.function.project.reportsDirName.gradle
+      - name: support.type.project.reportsDirName.gradle
         match: reportsDirName
-      - name: support.function.project.sourceCompatibility.gradle
+      - name: support.type.project.sourceCompatibility.gradle
         match: sourceCompatibility
-      - name: support.function.project.sourceSets.gradle
+      - name: support.type.project.sourceSets.gradle
         match: sourceSets
-      - name: support.function.project.targetCompatibility.gradle
+      - name: support.type.project.targetCompatibility.gradle
         match: targetCompatibility
-      - name: support.function.project.testReportDir.gradle
+      - name: support.type.project.testReportDir.gradle
         match: testReportDir
-      - name: support.function.project.testReportDirName.gradle
+      - name: support.type.project.testReportDirName.gradle
         match: testReportDirName
-      - name: support.function.project.testResultsDir.gradle
+      - name: support.type.project.testResultsDir.gradle
         match: testResultsDir
-      - name: support.function.project.testResultsDirName.gradle
+      - name: support.type.project.testResultsDirName.gradle
         match: testResultsDirName
-      - name: support.function.project.jdepend.gradle
+      - name: support.type.project.jdepend.gradle
         match: jdepend
-      - name: support.function.project.httpPort.gradle
+      - name: support.type.project.httpPort.gradle
         match: httpPort
-      - name: support.function.project.stopKey.gradle
+      - name: support.type.project.stopKey.gradle
         match: stopKey
-      - name: support.function.project.stopPort.gradle
+      - name: support.type.project.stopPort.gradle
         match: stopPort
-      - name: support.function.project.conf2ScopeMappings.gradle
+      - name: support.type.project.conf2ScopeMappings.gradle
         match: conf2ScopeMappings
-      - name: support.function.project.mavenPomDir.gradle
+      - name: support.type.project.mavenPomDir.gradle
         match: mavenPomDir
-      - name: support.function.project.buildTypes.gradle
+      - name: support.type.project.buildTypes.gradle
         match: buildTypes
-      - name: support.function.project.executables.gradle
+      - name: support.type.project.executables.gradle
         match: executables
-      - name: support.function.project.flavors.gradle
+      - name: support.type.project.flavors.gradle
         match: flavors
-      - name: support.function.project.libraries.gradle
+      - name: support.type.project.libraries.gradle
         match: libraries
-      - name: support.function.project.platforms.gradle
+      - name: support.type.project.platforms.gradle
         match: platforms
-      - name: support.function.project.toolChains.gradle
+      - name: support.type.project.toolChains.gradle
         match: toolChains
-      - name: support.function.project.pmd.gradle
+      - name: support.type.project.pmd.gradle
         match: pmd
-      - name: support.function.project.projectReportDir.gradle
+      - name: support.type.project.projectReportDir.gradle
         match: projectReportDir
-      - name: support.function.project.projectReportDirName.gradle
+      - name: support.type.project.projectReportDirName.gradle
         match: projectReportDirName
-      - name: support.function.project.publishing.gradle
+      - name: support.type.project.publishing.gradle
         match: publishing
-      - name: support.function.project.signing.gradle
+      - name: support.type.project.signing.gradle
         match: signing
-      - name: support.function.project.visualStudio.gradle
+      - name: support.type.project.visualStudio.gradle
         match: visualStudio
-      - name: support.function.project.webAppDir.gradle
+      - name: support.type.project.webAppDir.gradle
         match: webAppDir
-      - name: support.function.project.webAppDirName.gradle
+      - name: support.type.project.webAppDirName.gradle
         match: webAppDirName
-      - name: support.function.project.absoluteProjectPath.gradle
+      - name: support.type.project.absoluteProjectPath.gradle
         match: absoluteProjectPath
-      - name: support.function.project.afterEvaluate.gradle
+      - name: support.type.project.afterEvaluate.gradle
         match: afterEvaluate
-      - name: support.function.project.apply.gradle
+      - name: support.type.project.apply.gradle
         match: apply
-      - name: support.function.project.beforeEvaluate.gradle
+      - name: support.type.project.beforeEvaluate.gradle
         match: beforeEvaluate
-      - name: support.function.project.childrenDependOnMe.gradle
+      - name: support.type.project.childrenDependOnMe.gradle
         match: childrenDependOnMe
-      - name: support.function.project.configure.gradle
+      - name: support.type.project.configure.gradle
         match: configure
-      - name: support.function.project.container.gradle
+      - name: support.type.project.container.gradle
         match: container
-      - name: support.function.project.copy.gradle
+      - name: support.type.project.copy.gradle
         match: copy
-      - name: support.function.project.copySpec.gradle
+      - name: support.type.project.copySpec.gradle
         match: copySpec
-      - name: support.function.project.delete.gradle
+      - name: support.type.project.delete.gradle
         match: delete
-      - name: support.function.project.dependsOn.gradle
+      - name: support.type.project.dependsOn.gradle
         match: dependsOn
-      - name: support.function.project.dependsOnChildren.gradle
+      - name: support.type.project.dependsOnChildren.gradle
         match: dependsOnChildren
-      - name: support.function.project.evaluationDependsOn.gradle
+      - name: support.type.project.evaluationDependsOn.gradle
         match: evaluationDependsOn
-      - name: support.function.project.exec.gradle
+      - name: support.type.project.exec.gradle
         match: exec
-      - name: support.function.project.file.gradle
+      - name: support.type.project.file.gradle
         match: file
-      - name: support.function.project.fileTree.gradle
+      - name: support.type.project.fileTree.gradle
         match: fileTree
-      - name: support.function.project.files.gradle
+      - name: support.type.project.files.gradle
         match: files
-      - name: support.function.project.findProject.gradle
+      - name: support.type.project.findProject.gradle
         match: findProject
-      - name: support.function.project.getAllTasks.gradle
+      - name: support.type.project.getAllTasks.gradle
         match: getAllTasks
-      - name: support.function.project.getTasksByName.gradle
+      - name: support.type.project.getTasksByName.gradle
         match: getTasksByName
-      - name: support.function.project.hasProperty.gradle
+      - name: support.type.project.hasProperty.gradle
         match: hasProperty
-      - name: support.function.project.javaexec.gradle
+      - name: support.type.project.javaexec.gradle
         match: javaexec
-      - name: support.function.project.mkdir.gradle
+      - name: support.type.project.mkdir.gradle
         match: mkdir
-      - name: support.function.project.property.gradle
+      - name: support.type.project.property.gradle
         match: property
-      - name: support.function.project.relativePath.gradle
+      - name: support.type.project.relativePath.gradle
         match: relativePath
-      - name: support.function.project.relativeProjectPath.gradle
+      - name: support.type.project.relativeProjectPath.gradle
         match: relativeProjectPath
-      - name: support.function.project.setProperty.gradle
+      - name: support.type.project.setProperty.gradle
         match: setProperty
-      - name: support.function.project.tarTree.gradle
+      - name: support.type.project.tarTree.gradle
         match: tarTree
-      - name: support.function.project.task.gradle
+      - name: support.type.project.task.gradle
         match: task
-      - name: support.function.project.uri.gradle
+      - name: support.type.project.uri.gradle
         match: uri
-      - name: support.function.project.zipTree.gradle
+      - name: support.type.project.zipTree.gradle
         match: zipTree
-      - name: support.function.project.manifest.gradle
+      - name: support.type.project.manifest.gradle
         match: manifest
-      - name: support.function.project.pom.gradle
+      - name: support.type.project.pom.gradle
         match: pom
-      - name: support.function.project.osgiManifest.gradle
+      - name: support.type.project.osgiManifest.gradle
         match: osgiManifest
-      - name: support.function.project.Task.gradle
-        match: Task
-      - name: support.function.project.Gradle.gradle
-        match: Gradle
-      - name: support.function.project.Settings.gradle
-        match: Settings
-      - name: support.function.project.Script.gradle
-        match: Script
-      - name: support.function.project.SourceSet.gradle
-        match: SourceSet
-      - name: support.function.project.SourceSetOutput.gradle
-        match: SourceSetOutput
-      - name: support.function.project.IncrementalTaskInputs.gradle
-        match: IncrementalTaskInputs
-      - name: support.function.project.Configuration.gradle
-        match: Configuration
-      - name: support.function.project.ResolutionStrategy.gradle
-        match: ResolutionStrategy
-      - name: support.function.project.ConventionProperty.gradle
-        match: ConventionProperty
-      - name: support.function.project.ExtensionAware.gradle
-        match: ExtensionAware
-      - name: support.function.project.ExtraPropertiesExtension.gradle
-        match: ExtraPropertiesExtension
-      - name: support.function.project.PublishingExtension.gradle
-        match: PublishingExtension
-      - name: support.function.project.Report.gradle
-        match: Report
-      - name: support.function.project.Reporting.gradle
-        match: Reporting
-      - name: support.function.project.ReportContainer.gradle
-        match: ReportContainer
-      - name: support.function.project.ReportingExtension.gradle
-        match: ReportingExtension
-      - name: support.function.project.IvyPublication.gradle
-        match: IvyPublication
-      - name: support.function.project.IvyArtifact.gradle
-        match: IvyArtifact
-      - name: support.function.project.IvyArtifactSet.gradle
-        match: IvyArtifactSet
-      - name: support.function.project.IvyModuleDescriptor.gradle
-        match: IvyModuleDescriptor
-      - name: support.function.project.MavenPublication.gradle
-        match: MavenPublication
-      - name: support.function.project.MavenArtifact.gradle
-        match: MavenArtifact
-      - name: support.function.project.MavenArtifactSet.gradle
-        match: MavenArtifactSet
-      - name: support.function.project.MavenPom.gradle
-        match: MavenPom
-      - name: support.function.project.ConfigurationContainer.gradle
-        match: ConfigurationContainer
-      - name: support.function.project.RepositoryHandler.gradle
-        match: RepositoryHandler
-      - name: support.function.project.DependencyHandler.gradle
-        match: DependencyHandler
-      - name: support.function.project.ArtifactHandler.gradle
-        match: ArtifactHandler
-      - name: support.function.project.TaskReportTask.gradle
-        match: TaskReportTask
-      - name: support.function.project.ProjectReportTask.gradle
-        match: ProjectReportTask
-      - name: support.function.project.DependencyReportTask.gradle
-        match: DependencyReportTask
-      - name: support.function.project.DependencyInsightReportTask.gradle
-        match: DependencyInsightReportTask
-      - name: support.function.project.PropertyReportTask.gradle
-        match: PropertyReportTask
-      - name: support.function.project.AntlrTask.gradle
-        match: AntlrTask
-      - name: support.function.project.Checkstyle.gradle
-        match: Checkstyle
-      - name: support.function.project.CodeNarc.gradle
-        match: CodeNarc
-      - name: support.function.project.CompareGradleBuilds.gradle
-        match: CompareGradleBuilds
-      - name: support.function.project.Copy.gradle
-        match: Copy
-      - name: support.function.project.CreateStartScripts.gradle
-        match: CreateStartScripts
-      - name: support.function.project.Delete.gradle
-        match: Delete
-      - name: support.function.project.Directory.gradle
-        match: Directory
-      - name: support.function.project.Exec.gradle
-        match: Exec
-      - name: support.function.project.FindBugs.gradle
-        match: FindBugs
-      - name: support.function.project.GenerateIvyDescriptor.gradle
-        match: GenerateIvyDescriptor
-      - name: support.function.project.GenerateMavenPom.gradle
-        match: GenerateMavenPom
-      - name: support.function.project.GenerateBuildDashboard.gradle
-        match: GenerateBuildDashboard
-      - name: support.function.project.GradleBuild.gradle
-        match: GradleBuild
-      - name: support.function.project.GroovyCompile.gradle
-        match: GroovyCompile
-      - name: support.function.project.Groovydoc.gradle
-        match: Groovydoc
-      - name: support.function.project.HtmlDependencyReportTask.gradle
-        match: HtmlDependencyReportTask
-      - name: support.function.project.Jar.gradle
-        match: Jar
-      - name: support.function.project.JavaCompile.gradle
-        match: JavaCompile
-      - name: support.function.project.Javadoc.gradle
-        match: Javadoc
-      - name: support.function.project.JavaExec.gradle
-        match: JavaExec
-      - name: support.function.project.JDepend.gradle
-        match: JDepend
-      - name: support.function.project.JettyRun.gradle
-        match: JettyRun
-      - name: support.function.project.JettyRunWar.gradle
-        match: JettyRunWar
-      - name: support.function.project.JettyStop.gradle
-        match: JettyStop
-      - name: support.function.project.Pmd.gradle
-        match: Pmd
-      - name: support.function.project.PublishToIvyRepository.gradle
-        match: PublishToIvyRepository
-      - name: support.function.project.PublishToMavenRepository.gradle
-        match: PublishToMavenRepository
-      - name: support.function.project.ScalaCompile.gradle
-        match: ScalaCompile
-      - name: support.function.project.ScalaDoc.gradle
-        match: ScalaDoc
-      - name: support.function.project.SonarAnalyze.gradle
-        match: SonarAnalyze
-      - name: support.function.project.Sync.gradle
-        match: Sync
-      - name: support.function.project.Tar.gradle
-        match: Tar
-      - name: support.function.project.Test.gradle
-        match: Test
-      - name: support.function.project.TestReport.gradle
-        match: TestReport
-      - name: support.function.project.Upload.gradle
-        match: Upload
-      - name: support.function.project.War.gradle
-        match: War
-      - name: support.function.project.Wrapper.gradle
-        match: Wrapper
-      - name: support.function.project.Zip.gradle
-        match: Zip
 
 
-  auto-generated-tasks:
+  generic-task-beginning:
     patterns:
-      - name: Task.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Task.*\)\s*{'
+      - name: task.source.gradle
+        begin: '\s*(task)\s+(\w+)\s*'
         beginCaptures:
           '1': {name: keyword.task.source.gradle}
           '2': {name: entity.name.function}
+        end: '}'
+        contentName: 'task.body.source.gradle'
+        patterns:
+          - include: '#specific-tasks'
+          - include: '#project-patterns'
+          #- include: '#task-keywords'
+          - include: source.groovy
+
+  specific-tasks:
+    patterns:
+      - name: Task.task.source.gradle
+        begin: '(type):\s*(Task)'
+        beginCaptures:
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Task.gradle}
         end: '}'
         contentName: 'Task.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.actions.gradle
             match: actions
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.ant.gradle
             match: ant
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.convention.gradle
             match: convention
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.dependsOn.gradle
             match: dependsOn
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.description.gradle
             match: description
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.didWork.gradle
             match: didWork
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.enabled.gradle
             match: enabled
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.extensions.gradle
             match: extensions
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.finalizedBy.gradle
             match: finalizedBy
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.group.gradle
             match: group
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.inputs.gradle
             match: inputs
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.logger.gradle
             match: logger
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.logging.gradle
             match: logging
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.mustRunAfter.gradle
             match: mustRunAfter
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.name.gradle
             match: name
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.outputs.gradle
             match: outputs
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.path.gradle
             match: path
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.project.gradle
             match: project
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.state.gradle
             match: state
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.taskDependencies.gradle
             match: taskDependencies
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.temporaryDir.gradle
             match: temporaryDir
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.deleteAllActions.gradle
             match: deleteAllActions
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.doFirst.gradle
             match: doFirst
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.doLast.gradle
             match: doLast
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.hasProperty.gradle
             match: hasProperty
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.leftShift.gradle
             match: leftShift
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.onlyIf.gradle
             match: onlyIf
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.property.gradle
             match: property
-          - name: support.function.task.Task.gradle
+          - name: support.function.tasks.setProperty.gradle
             match: setProperty
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Gradle.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Gradle.*\)\s*{'
+        begin: '(type):\s*(Gradle)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Gradle.gradle}
         end: '}'
         contentName: 'Gradle.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.gradle.gradle
             match: gradle
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.gradleHomeDir.gradle
             match: gradleHomeDir
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.gradleUserHomeDir.gradle
             match: gradleUserHomeDir
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.gradleVersion.gradle
             match: gradleVersion
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.parent.gradle
             match: parent
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.rootProject.gradle
             match: rootProject
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.startParameter.gradle
             match: startParameter
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.taskGraph.gradle
             match: taskGraph
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.addBuildListener.gradle
             match: addBuildListener
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.addListener.gradle
             match: addListener
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.addProjectEvaluationListener.gradle
             match: addProjectEvaluationListener
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.afterProject.gradle
             match: afterProject
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.allprojects.gradle
             match: allprojects
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.beforeProject.gradle
             match: beforeProject
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.buildFinished.gradle
             match: buildFinished
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.projectsEvaluated.gradle
             match: projectsEvaluated
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.projectsLoaded.gradle
             match: projectsLoaded
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.removeListener.gradle
             match: removeListener
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.removeProjectEvaluationListener.gradle
             match: removeProjectEvaluationListener
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.settingsEvaluated.gradle
             match: settingsEvaluated
-          - name: support.function.task.Gradle.gradle
+          - name: support.function.tasks.useLogger.gradle
             match: useLogger
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Settings.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Settings.*\)\s*{'
+        begin: '(type):\s*(Settings)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Settings.gradle}
         end: '}'
         contentName: 'Settings.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.gradle.gradle
             match: gradle
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.rootDir.gradle
             match: rootDir
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.rootProject.gradle
             match: rootProject
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.settings.gradle
             match: settings
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.settingsDir.gradle
             match: settingsDir
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.startParameter.gradle
             match: startParameter
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.findProject.gradle
             match: findProject
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.includeFlat.gradle
             match: includeFlat
-          - name: support.function.task.Settings.gradle
+          - name: support.function.tasks.project.gradle
             match: project
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Script.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Script.*\)\s*{'
+        begin: '(type):\s*(Script)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Script.gradle}
         end: '}'
         contentName: 'Script.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.buildscript.gradle
             match: buildscript
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.logger.gradle
             match: logger
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.logging.gradle
             match: logging
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.resources.gradle
             match: resources
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.apply.gradle
             match: apply
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.copy.gradle
             match: copy
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.copySpec.gradle
             match: copySpec
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.delete.gradle
             match: delete
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.exec.gradle
             match: exec
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.file.gradle
             match: file
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.fileTree.gradle
             match: fileTree
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.files.gradle
             match: files
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.javaexec.gradle
             match: javaexec
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.mkdir.gradle
             match: mkdir
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.relativePath.gradle
             match: relativePath
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.tarTree.gradle
             match: tarTree
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.uri.gradle
             match: uri
-          - name: support.function.task.Script.gradle
+          - name: support.function.tasks.zipTree.gradle
             match: zipTree
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: SourceSet.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: SourceSet.*\)\s*{'
+        begin: '(type):\s*(SourceSet)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.SourceSet.gradle}
         end: '}'
         contentName: 'SourceSet.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.allJava.gradle
             match: allJava
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.allSource.gradle
             match: allSource
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.compileClasspath.gradle
             match: compileClasspath
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.java.gradle
             match: java
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.name.gradle
             match: name
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.output.gradle
             match: output
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.resources.gradle
             match: resources
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.runtimeClasspath.gradle
             match: runtimeClasspath
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.antlr.gradle
             match: antlr
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.allGroovy.gradle
             match: allGroovy
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.groovy.gradle
             match: groovy
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.allScala.gradle
             match: allScala
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.scala.gradle
             match: scala
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.compiledBy.gradle
             match: compiledBy
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.getCompileTaskName.gradle
             match: getCompileTaskName
-          - name: support.function.task.SourceSet.gradle
+          - name: support.function.tasks.getTaskName.gradle
             match: getTaskName
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: SourceSetOutput.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: SourceSetOutput.*\)\s*{'
+        begin: '(type):\s*(SourceSetOutput)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.SourceSetOutput.gradle}
         end: '}'
         contentName: 'SourceSetOutput.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.SourceSetOutput.gradle
+          - name: support.function.tasks.classesDir.gradle
             match: classesDir
-          - name: support.function.task.SourceSetOutput.gradle
+          - name: support.function.tasks.resourcesDir.gradle
             match: resourcesDir
-          - name: support.function.task.SourceSetOutput.gradle
+          - name: support.function.tasks.dir.gradle
             match: dir
-          - name: support.function.task.SourceSetOutput.gradle
+          - name: support.function.tasks.getDirs.gradle
             match: getDirs
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: IncrementalTaskInputs.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: IncrementalTaskInputs.*\)\s*{'
+        begin: '(type):\s*(IncrementalTaskInputs)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.IncrementalTaskInputs.gradle}
         end: '}'
         contentName: 'IncrementalTaskInputs.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.IncrementalTaskInputs.gradle
+          - name: support.function.tasks.incremental.gradle
             match: incremental
-          - name: support.function.task.IncrementalTaskInputs.gradle
+          - name: support.function.tasks.outOfDate.gradle
             match: outOfDate
-          - name: support.function.task.IncrementalTaskInputs.gradle
+          - name: support.function.tasks.removed.gradle
             match: removed
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Configuration.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Configuration.*\)\s*{'
+        begin: '(type):\s*(Configuration)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Configuration.gradle}
         end: '}'
         contentName: 'Configuration.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.allArtifacts.gradle
             match: allArtifacts
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.allDependencies.gradle
             match: allDependencies
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.artifacts.gradle
             match: artifacts
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.buildDependencies.gradle
             match: buildDependencies
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.dependencies.gradle
             match: dependencies
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.description.gradle
             match: description
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.excludeRules.gradle
             match: excludeRules
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.extendsFrom.gradle
             match: extendsFrom
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.hierarchy.gradle
             match: hierarchy
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.incoming.gradle
             match: incoming
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.name.gradle
             match: name
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.resolutionStrategy.gradle
             match: resolutionStrategy
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.resolvedConfiguration.gradle
             match: resolvedConfiguration
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.state.gradle
             match: state
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.transitive.gradle
             match: transitive
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.visible.gradle
             match: visible
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.copy.gradle
             match: copy
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.copyRecursive.gradle
             match: copyRecursive
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.fileCollection.gradle
             match: fileCollection
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.files.gradle
             match: files
-          - name: support.function.task.Configuration.gradle
+          - name: support.function.tasks.getTaskDependencyFromProjectDependency.gradle
             match: getTaskDependencyFromProjectDependency
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ResolutionStrategy.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ResolutionStrategy.*\)\s*{'
+        begin: '(type):\s*(ResolutionStrategy)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ResolutionStrategy.gradle}
         end: '}'
         contentName: 'ResolutionStrategy.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.forcedModules.gradle
             match: forcedModules
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.cacheChangingModulesFor.gradle
             match: cacheChangingModulesFor
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.cacheDynamicVersionsFor.gradle
             match: cacheDynamicVersionsFor
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.eachDependency.gradle
             match: eachDependency
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.failOnVersionConflict.gradle
             match: failOnVersionConflict
-          - name: support.function.task.ResolutionStrategy.gradle
+          - name: support.function.tasks.force.gradle
             match: force
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ConventionProperty.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ConventionProperty.*\)\s*{'
+        begin: '(type):\s*(ConventionProperty)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ConventionProperty.gradle}
         end: '}'
         contentName: 'ConventionProperty.tasks.body.source.gradle'
         patterns:
@@ -794,643 +663,643 @@ repository:
           - include: source.groovy
 
       - name: ExtensionAware.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ExtensionAware.*\)\s*{'
+        begin: '(type):\s*(ExtensionAware)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ExtensionAware.gradle}
         end: '}'
         contentName: 'ExtensionAware.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ExtensionAware.gradle
+          - name: support.function.tasks.extensions.gradle
             match: extensions
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ExtraPropertiesExtension.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ExtraPropertiesExtension.*\)\s*{'
+        begin: '(type):\s*(ExtraPropertiesExtension)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ExtraPropertiesExtension.gradle}
         end: '}'
         contentName: 'ExtraPropertiesExtension.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ExtraPropertiesExtension.gradle
+          - name: support.function.tasks.properties.gradle
             match: properties
-          - name: support.function.task.ExtraPropertiesExtension.gradle
+          - name: support.function.tasks.get.gradle
             match: get
-          - name: support.function.task.ExtraPropertiesExtension.gradle
+          - name: support.function.tasks.has.gradle
             match: has
-          - name: support.function.task.ExtraPropertiesExtension.gradle
+          - name: support.function.tasks.set.gradle
             match: set
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: PublishingExtension.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: PublishingExtension.*\)\s*{'
+        begin: '(type):\s*(PublishingExtension)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.PublishingExtension.gradle}
         end: '}'
         contentName: 'PublishingExtension.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.PublishingExtension.gradle
+          - name: support.function.tasks.publications.gradle
             match: publications
-          - name: support.function.task.PublishingExtension.gradle
+          - name: support.function.tasks.repositories.gradle
             match: repositories
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Report.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Report.*\)\s*{'
+        begin: '(type):\s*(Report)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Report.gradle}
         end: '}'
         contentName: 'Report.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Report.gradle
+          - name: support.function.tasks.destination.gradle
             match: destination
-          - name: support.function.task.Report.gradle
+          - name: support.function.tasks.displayName.gradle
             match: displayName
-          - name: support.function.task.Report.gradle
+          - name: support.function.tasks.enabled.gradle
             match: enabled
-          - name: support.function.task.Report.gradle
+          - name: support.function.tasks.name.gradle
             match: name
-          - name: support.function.task.Report.gradle
+          - name: support.function.tasks.outputType.gradle
             match: outputType
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Reporting.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Reporting.*\)\s*{'
+        begin: '(type):\s*(Reporting)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Reporting.gradle}
         end: '}'
         contentName: 'Reporting.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Reporting.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ReportContainer.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ReportContainer.*\)\s*{'
+        begin: '(type):\s*(ReportContainer)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ReportContainer.gradle}
         end: '}'
         contentName: 'ReportContainer.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ReportContainer.gradle
+          - name: support.function.tasks.enabled.gradle
             match: enabled
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ReportingExtension.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ReportingExtension.*\)\s*{'
+        begin: '(type):\s*(ReportingExtension)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ReportingExtension.gradle}
         end: '}'
         contentName: 'ReportingExtension.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ReportingExtension.gradle
+          - name: support.function.tasks.baseDir.gradle
             match: baseDir
-          - name: support.function.task.ReportingExtension.gradle
+          - name: support.function.tasks.file.gradle
             match: file
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: IvyPublication.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: IvyPublication.*\)\s*{'
+        begin: '(type):\s*(IvyPublication)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.IvyPublication.gradle}
         end: '}'
         contentName: 'IvyPublication.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.artifacts.gradle
             match: artifacts
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.configurations.gradle
             match: configurations
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.descriptor.gradle
             match: descriptor
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.module.gradle
             match: module
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.organisation.gradle
             match: organisation
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.revision.gradle
             match: revision
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.artifact.gradle
             match: artifact
-          - name: support.function.task.IvyPublication.gradle
+          - name: support.function.tasks.from.gradle
             match: from
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: IvyArtifact.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: IvyArtifact.*\)\s*{'
+        begin: '(type):\s*(IvyArtifact)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.IvyArtifact.gradle}
         end: '}'
         contentName: 'IvyArtifact.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.conf.gradle
             match: conf
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.file.gradle
             match: file
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.name.gradle
             match: name
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.type.gradle
             match: type
-          - name: support.function.task.IvyArtifact.gradle
+          - name: support.function.tasks.builtBy.gradle
             match: builtBy
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: IvyArtifactSet.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: IvyArtifactSet.*\)\s*{'
+        begin: '(type):\s*(IvyArtifactSet)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.IvyArtifactSet.gradle}
         end: '}'
         contentName: 'IvyArtifactSet.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.IvyArtifactSet.gradle
+          - name: support.function.tasks.artifact.gradle
             match: artifact
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: IvyModuleDescriptor.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: IvyModuleDescriptor.*\)\s*{'
+        begin: '(type):\s*(IvyModuleDescriptor)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.IvyModuleDescriptor.gradle}
         end: '}'
         contentName: 'IvyModuleDescriptor.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.IvyModuleDescriptor.gradle
+          - name: support.function.tasks.withXml.gradle
             match: withXml
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: MavenPublication.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: MavenPublication.*\)\s*{'
+        begin: '(type):\s*(MavenPublication)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.MavenPublication.gradle}
         end: '}'
         contentName: 'MavenPublication.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.artifactId.gradle
             match: artifactId
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.artifacts.gradle
             match: artifacts
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.groupId.gradle
             match: groupId
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.pom.gradle
             match: pom
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.version.gradle
             match: version
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.artifact.gradle
             match: artifact
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.MavenPublication.gradle
+          - name: support.function.tasks.setArtifacts.gradle
             match: setArtifacts
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: MavenArtifact.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: MavenArtifact.*\)\s*{'
+        begin: '(type):\s*(MavenArtifact)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.MavenArtifact.gradle}
         end: '}'
         contentName: 'MavenArtifact.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.MavenArtifact.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.MavenArtifact.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.MavenArtifact.gradle
+          - name: support.function.tasks.file.gradle
             match: file
-          - name: support.function.task.MavenArtifact.gradle
+          - name: support.function.tasks.builtBy.gradle
             match: builtBy
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: MavenArtifactSet.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: MavenArtifactSet.*\)\s*{'
+        begin: '(type):\s*(MavenArtifactSet)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.MavenArtifactSet.gradle}
         end: '}'
         contentName: 'MavenArtifactSet.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.MavenArtifactSet.gradle
+          - name: support.function.tasks.artifact.gradle
             match: artifact
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: MavenPom.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: MavenPom.*\)\s*{'
+        begin: '(type):\s*(MavenPom)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.MavenPom.gradle}
         end: '}'
         contentName: 'MavenPom.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.MavenPom.gradle
+          - name: support.function.tasks.withXml.gradle
             match: withXml
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ConfigurationContainer.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ConfigurationContainer.*\)\s*{'
+        begin: '(type):\s*(ConfigurationContainer)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ConfigurationContainer.gradle}
         end: '}'
         contentName: 'ConfigurationContainer.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ConfigurationContainer.gradle
+          - name: support.function.tasks.add.gradle
             match: add
-          - name: support.function.task.ConfigurationContainer.gradle
+          - name: support.function.tasks.detachedConfiguration.gradle
             match: detachedConfiguration
-          - name: support.function.task.ConfigurationContainer.gradle
+          - name: support.function.tasks.getAt.gradle
             match: getAt
-          - name: support.function.task.ConfigurationContainer.gradle
+          - name: support.function.tasks.getByName.gradle
             match: getByName
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: RepositoryHandler.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: RepositoryHandler.*\)\s*{'
+        begin: '(type):\s*(RepositoryHandler)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.RepositoryHandler.gradle}
         end: '}'
         contentName: 'RepositoryHandler.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.flatDir.gradle
             match: flatDir
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.ivy.gradle
             match: ivy
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.jcenter.gradle
             match: jcenter
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.maven.gradle
             match: maven
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.mavenCentral.gradle
             match: mavenCentral
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.mavenLocal.gradle
             match: mavenLocal
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.mavenRepo.gradle
             match: mavenRepo
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.mavenDeployer.gradle
             match: mavenDeployer
-          - name: support.function.task.RepositoryHandler.gradle
+          - name: support.function.tasks.mavenInstaller.gradle
             match: mavenInstaller
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: DependencyHandler.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: DependencyHandler.*\)\s*{'
+        begin: '(type):\s*(DependencyHandler)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.DependencyHandler.gradle}
         end: '}'
         contentName: 'DependencyHandler.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.components.gradle
             match: components
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.add.gradle
             match: add
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.create.gradle
             match: create
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.gradleApi.gradle
             match: gradleApi
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.localGroovy.gradle
             match: localGroovy
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.module.gradle
             match: module
-          - name: support.function.task.DependencyHandler.gradle
+          - name: support.function.tasks.project.gradle
             match: project
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ArtifactHandler.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ArtifactHandler.*\)\s*{'
+        begin: '(type):\s*(ArtifactHandler)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ArtifactHandler.gradle}
         end: '}'
         contentName: 'ArtifactHandler.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ArtifactHandler.gradle
+          - name: support.function.tasks.add.gradle
             match: add
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: TaskReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: TaskReportTask.*\)\s*{'
+        begin: '(type):\s*(TaskReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.TaskReportTask.gradle}
         end: '}'
         contentName: 'TaskReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.TaskReportTask.gradle
+          - name: support.function.tasks.outputFile.gradle
             match: outputFile
-          - name: support.function.task.TaskReportTask.gradle
+          - name: support.function.tasks.projects.gradle
             match: projects
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ProjectReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ProjectReportTask.*\)\s*{'
+        begin: '(type):\s*(ProjectReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ProjectReportTask.gradle}
         end: '}'
         contentName: 'ProjectReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ProjectReportTask.gradle
+          - name: support.function.tasks.outputFile.gradle
             match: outputFile
-          - name: support.function.task.ProjectReportTask.gradle
+          - name: support.function.tasks.projects.gradle
             match: projects
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: DependencyReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: DependencyReportTask.*\)\s*{'
+        begin: '(type):\s*(DependencyReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.DependencyReportTask.gradle}
         end: '}'
         contentName: 'DependencyReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.DependencyReportTask.gradle
+          - name: support.function.tasks.configurations.gradle
             match: configurations
-          - name: support.function.task.DependencyReportTask.gradle
+          - name: support.function.tasks.outputFile.gradle
             match: outputFile
-          - name: support.function.task.DependencyReportTask.gradle
+          - name: support.function.tasks.projects.gradle
             match: projects
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: DependencyInsightReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: DependencyInsightReportTask.*\)\s*{'
+        begin: '(type):\s*(DependencyInsightReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.DependencyInsightReportTask.gradle}
         end: '}'
         contentName: 'DependencyInsightReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.DependencyInsightReportTask.gradle
+          - name: support.function.tasks.configuration.gradle
             match: configuration
-          - name: support.function.task.DependencyInsightReportTask.gradle
+          - name: support.function.tasks.dependencySpec.gradle
             match: dependencySpec
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: PropertyReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: PropertyReportTask.*\)\s*{'
+        begin: '(type):\s*(PropertyReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.PropertyReportTask.gradle}
         end: '}'
         contentName: 'PropertyReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.PropertyReportTask.gradle
+          - name: support.function.tasks.outputFile.gradle
             match: outputFile
-          - name: support.function.task.PropertyReportTask.gradle
+          - name: support.function.tasks.projects.gradle
             match: projects
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: AntlrTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: AntlrTask.*\)\s*{'
+        begin: '(type):\s*(AntlrTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.AntlrTask.gradle}
         end: '}'
         contentName: 'AntlrTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.antlrClasspath.gradle
             match: antlrClasspath
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.outputDirectory.gradle
             match: outputDirectory
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.trace.gradle
             match: trace
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.traceLexer.gradle
             match: traceLexer
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.traceParser.gradle
             match: traceParser
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.traceTreeWalker.gradle
             match: traceTreeWalker
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.AntlrTask.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Checkstyle.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Checkstyle.*\)\s*{'
+        begin: '(type):\s*(Checkstyle)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Checkstyle.gradle}
         end: '}'
         contentName: 'Checkstyle.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.checkstyleClasspath.gradle
             match: checkstyleClasspath
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.configFile.gradle
             match: configFile
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.configProperties.gradle
             match: configProperties
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.showViolations.gradle
             match: showViolations
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Checkstyle.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: CodeNarc.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: CodeNarc.*\)\s*{'
+        begin: '(type):\s*(CodeNarc)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.CodeNarc.gradle}
         end: '}'
         contentName: 'CodeNarc.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.codenarcClasspath.gradle
             match: codenarcClasspath
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.configFile.gradle
             match: configFile
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.maxPriority1Violations.gradle
             match: maxPriority1Violations
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.maxPriority2Violations.gradle
             match: maxPriority2Violations
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.maxPriority3Violations.gradle
             match: maxPriority3Violations
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.CodeNarc.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: CompareGradleBuilds.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: CompareGradleBuilds.*\)\s*{'
+        begin: '(type):\s*(CompareGradleBuilds)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.CompareGradleBuilds.gradle}
         end: '}'
         contentName: 'CompareGradleBuilds.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.CompareGradleBuilds.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.CompareGradleBuilds.gradle
+          - name: support.function.tasks.reportDir.gradle
             match: reportDir
-          - name: support.function.task.CompareGradleBuilds.gradle
+          - name: support.function.tasks.sourceBuild.gradle
             match: sourceBuild
-          - name: support.function.task.CompareGradleBuilds.gradle
+          - name: support.function.tasks.targetBuild.gradle
             match: targetBuild
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Copy.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Copy.*\)\s*{'
+        begin: '(type):\s*(Copy)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Copy.gradle}
         end: '}'
         contentName: 'Copy.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.Copy.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: CreateStartScripts.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: CreateStartScripts.*\)\s*{'
+        begin: '(type):\s*(CreateStartScripts)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.CreateStartScripts.gradle}
         end: '}'
         contentName: 'CreateStartScripts.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.applicationName.gradle
             match: applicationName
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.defaultJvmOpts.gradle
             match: defaultJvmOpts
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.mainClassName.gradle
             match: mainClassName
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.optsEnvironmentVar.gradle
             match: optsEnvironmentVar
-          - name: support.function.task.CreateStartScripts.gradle
+          - name: support.function.tasks.outputDir.gradle
             match: outputDir
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Delete.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Delete.*\)\s*{'
+        begin: '(type):\s*(Delete)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Delete.gradle}
         end: '}'
         contentName: 'Delete.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Delete.gradle
+          - name: support.function.tasks.delete.gradle
             match: delete
-          - name: support.function.task.Delete.gradle
+          - name: support.function.tasks.targetFiles.gradle
             match: targetFiles
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Directory.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Directory.*\)\s*{'
+        begin: '(type):\s*(Directory)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Directory.gradle}
         end: '}'
         contentName: 'Directory.tasks.body.source.gradle'
         patterns:
@@ -1438,1088 +1307,1088 @@ repository:
           - include: source.groovy
 
       - name: Exec.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Exec.*\)\s*{'
+        begin: '(type):\s*(Exec)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Exec.gradle}
         end: '}'
         contentName: 'Exec.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.args.gradle
             match: args
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.commandLine.gradle
             match: commandLine
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.environment.gradle
             match: environment
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.errorOutput.gradle
             match: errorOutput
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.execResult.gradle
             match: execResult
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.executable.gradle
             match: executable
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.ignoreExitValue.gradle
             match: ignoreExitValue
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.standardInput.gradle
             match: standardInput
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.standardOutput.gradle
             match: standardOutput
-          - name: support.function.task.Exec.gradle
+          - name: support.function.tasks.workingDir.gradle
             match: workingDir
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: FindBugs.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: FindBugs.*\)\s*{'
+        begin: '(type):\s*(FindBugs)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.FindBugs.gradle}
         end: '}'
         contentName: 'FindBugs.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.classes.gradle
             match: classes
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.effort.gradle
             match: effort
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.excludeFilter.gradle
             match: excludeFilter
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.findbugsClasspath.gradle
             match: findbugsClasspath
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.includeFilter.gradle
             match: includeFilter
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.maxHeapSize.gradle
             match: maxHeapSize
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.omitVisitors.gradle
             match: omitVisitors
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.pluginClasspath.gradle
             match: pluginClasspath
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.reportLevel.gradle
             match: reportLevel
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.visitors.gradle
             match: visitors
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.FindBugs.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: GenerateIvyDescriptor.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: GenerateIvyDescriptor.*\)\s*{'
+        begin: '(type):\s*(GenerateIvyDescriptor)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.GenerateIvyDescriptor.gradle}
         end: '}'
         contentName: 'GenerateIvyDescriptor.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.GenerateIvyDescriptor.gradle
+          - name: support.function.tasks.descriptor.gradle
             match: descriptor
-          - name: support.function.task.GenerateIvyDescriptor.gradle
+          - name: support.function.tasks.destination.gradle
             match: destination
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: GenerateMavenPom.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: GenerateMavenPom.*\)\s*{'
+        begin: '(type):\s*(GenerateMavenPom)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.GenerateMavenPom.gradle}
         end: '}'
         contentName: 'GenerateMavenPom.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.GenerateMavenPom.gradle
+          - name: support.function.tasks.destination.gradle
             match: destination
-          - name: support.function.task.GenerateMavenPom.gradle
+          - name: support.function.tasks.pom.gradle
             match: pom
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: GenerateBuildDashboard.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: GenerateBuildDashboard.*\)\s*{'
+        begin: '(type):\s*(GenerateBuildDashboard)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.GenerateBuildDashboard.gradle}
         end: '}'
         contentName: 'GenerateBuildDashboard.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.GenerateBuildDashboard.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.GenerateBuildDashboard.gradle
+          - name: support.function.tasks.aggregate.gradle
             match: aggregate
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: GradleBuild.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: GradleBuild.*\)\s*{'
+        begin: '(type):\s*(GradleBuild)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.GradleBuild.gradle}
         end: '}'
         contentName: 'GradleBuild.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.GradleBuild.gradle
+          - name: support.function.tasks.buildFile.gradle
             match: buildFile
-          - name: support.function.task.GradleBuild.gradle
+          - name: support.function.tasks.dir.gradle
             match: dir
-          - name: support.function.task.GradleBuild.gradle
+          - name: support.function.tasks.startParameter.gradle
             match: startParameter
-          - name: support.function.task.GradleBuild.gradle
+          - name: support.function.tasks.tasks.gradle
             match: tasks
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: GroovyCompile.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: GroovyCompile.*\)\s*{'
+        begin: '(type):\s*(GroovyCompile)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.GroovyCompile.gradle}
         end: '}'
         contentName: 'GroovyCompile.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.groovyClasspath.gradle
             match: groovyClasspath
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.groovyOptions.gradle
             match: groovyOptions
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.options.gradle
             match: options
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.sourceCompatibility.gradle
             match: sourceCompatibility
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.targetCompatibility.gradle
             match: targetCompatibility
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.GroovyCompile.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Groovydoc.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Groovydoc.*\)\s*{'
+        begin: '(type):\s*(Groovydoc)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Groovydoc.gradle}
         end: '}'
         contentName: 'Groovydoc.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.docTitle.gradle
             match: docTitle
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.footer.gradle
             match: footer
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.groovyClasspath.gradle
             match: groovyClasspath
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.header.gradle
             match: header
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.includePrivate.gradle
             match: includePrivate
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.links.gradle
             match: links
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.overview.gradle
             match: overview
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.use.gradle
             match: use
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.windowTitle.gradle
             match: windowTitle
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Groovydoc.gradle
+          - name: support.function.tasks.link.gradle
             match: link
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: HtmlDependencyReportTask.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: HtmlDependencyReportTask.*\)\s*{'
+        begin: '(type):\s*(HtmlDependencyReportTask)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.HtmlDependencyReportTask.gradle}
         end: '}'
         contentName: 'HtmlDependencyReportTask.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.HtmlDependencyReportTask.gradle
+          - name: support.function.tasks.projects.gradle
             match: projects
-          - name: support.function.task.HtmlDependencyReportTask.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Jar.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Jar.*\)\s*{'
+        begin: '(type):\s*(Jar)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Jar.gradle}
         end: '}'
         contentName: 'Jar.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.appendix.gradle
             match: appendix
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.archiveName.gradle
             match: archiveName
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.archivePath.gradle
             match: archivePath
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.baseName.gradle
             match: baseName
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.entryCompression.gradle
             match: entryCompression
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.manifest.gradle
             match: manifest
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.version.gradle
             match: version
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.metaInf.gradle
             match: metaInf
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.Jar.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JavaCompile.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JavaCompile.*\)\s*{'
+        begin: '(type):\s*(JavaCompile)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JavaCompile.gradle}
         end: '}'
         contentName: 'JavaCompile.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.options.gradle
             match: options
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.sourceCompatibility.gradle
             match: sourceCompatibility
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.targetCompatibility.gradle
             match: targetCompatibility
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.JavaCompile.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Javadoc.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Javadoc.*\)\s*{'
+        begin: '(type):\s*(Javadoc)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Javadoc.gradle}
         end: '}'
         contentName: 'Javadoc.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.executable.gradle
             match: executable
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.failOnError.gradle
             match: failOnError
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.maxMemory.gradle
             match: maxMemory
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.options.gradle
             match: options
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.title.gradle
             match: title
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Javadoc.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JavaExec.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JavaExec.*\)\s*{'
+        begin: '(type):\s*(JavaExec)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JavaExec.gradle}
         end: '}'
         contentName: 'JavaExec.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.allJvmArgs.gradle
             match: allJvmArgs
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.args.gradle
             match: args
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.bootstrapClasspath.gradle
             match: bootstrapClasspath
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.commandLine.gradle
             match: commandLine
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.debug.gradle
             match: debug
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.enableAssertions.gradle
             match: enableAssertions
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.environment.gradle
             match: environment
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.errorOutput.gradle
             match: errorOutput
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.executable.gradle
             match: executable
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.ignoreExitValue.gradle
             match: ignoreExitValue
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.jvmArgs.gradle
             match: jvmArgs
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.main.gradle
             match: main
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.maxHeapSize.gradle
             match: maxHeapSize
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.standardInput.gradle
             match: standardInput
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.standardOutput.gradle
             match: standardOutput
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.systemProperties.gradle
             match: systemProperties
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.workingDir.gradle
             match: workingDir
-          - name: support.function.task.JavaExec.gradle
+          - name: support.function.tasks.copyTo.gradle
             match: copyTo
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JDepend.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JDepend.*\)\s*{'
+        begin: '(type):\s*(JDepend)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JDepend.gradle}
         end: '}'
         contentName: 'JDepend.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JDepend.gradle
+          - name: support.function.tasks.classesDir.gradle
             match: classesDir
-          - name: support.function.task.JDepend.gradle
+          - name: support.function.tasks.jdependClasspath.gradle
             match: jdependClasspath
-          - name: support.function.task.JDepend.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JettyRun.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JettyRun.*\)\s*{'
+        begin: '(type):\s*(JettyRun)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JettyRun.gradle}
         end: '}'
         contentName: 'JettyRun.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.additionalRuntimeJars.gradle
             match: additionalRuntimeJars
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.contextPath.gradle
             match: contextPath
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.daemon.gradle
             match: daemon
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.httpPort.gradle
             match: httpPort
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.jettyConfig.gradle
             match: jettyConfig
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.reload.gradle
             match: reload
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.scanIntervalSeconds.gradle
             match: scanIntervalSeconds
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.stopKey.gradle
             match: stopKey
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.stopPort.gradle
             match: stopPort
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.webAppSourceDirectory.gradle
             match: webAppSourceDirectory
-          - name: support.function.task.JettyRun.gradle
+          - name: support.function.tasks.webXml.gradle
             match: webXml
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JettyRunWar.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JettyRunWar.*\)\s*{'
+        begin: '(type):\s*(JettyRunWar)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JettyRunWar.gradle}
         end: '}'
         contentName: 'JettyRunWar.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.additionalRuntimeJars.gradle
             match: additionalRuntimeJars
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.contextPath.gradle
             match: contextPath
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.daemon.gradle
             match: daemon
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.httpPort.gradle
             match: httpPort
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.jettyConfig.gradle
             match: jettyConfig
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.reload.gradle
             match: reload
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.scanIntervalSeconds.gradle
             match: scanIntervalSeconds
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.stopKey.gradle
             match: stopKey
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.stopPort.gradle
             match: stopPort
-          - name: support.function.task.JettyRunWar.gradle
+          - name: support.function.tasks.webApp.gradle
             match: webApp
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: JettyStop.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: JettyStop.*\)\s*{'
+        begin: '(type):\s*(JettyStop)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.JettyStop.gradle}
         end: '}'
         contentName: 'JettyStop.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.JettyStop.gradle
+          - name: support.function.tasks.stopKey.gradle
             match: stopKey
-          - name: support.function.task.JettyStop.gradle
+          - name: support.function.tasks.stopPort.gradle
             match: stopPort
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Pmd.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Pmd.*\)\s*{'
+        begin: '(type):\s*(Pmd)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Pmd.gradle}
         end: '}'
         contentName: 'Pmd.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.pmdClasspath.gradle
             match: pmdClasspath
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.ruleSetFiles.gradle
             match: ruleSetFiles
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.ruleSets.gradle
             match: ruleSets
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.targetJdk.gradle
             match: targetJdk
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Pmd.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: PublishToIvyRepository.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: PublishToIvyRepository.*\)\s*{'
+        begin: '(type):\s*(PublishToIvyRepository)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.PublishToIvyRepository.gradle}
         end: '}'
         contentName: 'PublishToIvyRepository.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.PublishToIvyRepository.gradle
+          - name: support.function.tasks.publication.gradle
             match: publication
-          - name: support.function.task.PublishToIvyRepository.gradle
+          - name: support.function.tasks.repository.gradle
             match: repository
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: PublishToMavenRepository.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: PublishToMavenRepository.*\)\s*{'
+        begin: '(type):\s*(PublishToMavenRepository)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.PublishToMavenRepository.gradle}
         end: '}'
         contentName: 'PublishToMavenRepository.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.PublishToMavenRepository.gradle
+          - name: support.function.tasks.publication.gradle
             match: publication
-          - name: support.function.task.PublishToMavenRepository.gradle
+          - name: support.function.tasks.repository.gradle
             match: repository
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ScalaCompile.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ScalaCompile.*\)\s*{'
+        begin: '(type):\s*(ScalaCompile)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ScalaCompile.gradle}
         end: '}'
         contentName: 'ScalaCompile.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.options.gradle
             match: options
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.scalaClasspath.gradle
             match: scalaClasspath
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.scalaCompileOptions.gradle
             match: scalaCompileOptions
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.sourceCompatibility.gradle
             match: sourceCompatibility
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.targetCompatibility.gradle
             match: targetCompatibility
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.ScalaCompile.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: ScalaDoc.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: ScalaDoc.*\)\s*{'
+        begin: '(type):\s*(ScalaDoc)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.ScalaDoc.gradle}
         end: '}'
         contentName: 'ScalaDoc.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.scalaClasspath.gradle
             match: scalaClasspath
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.scalaDocOptions.gradle
             match: scalaDocOptions
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.title.gradle
             match: title
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.ScalaDoc.gradle
+          - name: support.function.tasks.include.gradle
             match: include
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: SonarAnalyze.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: SonarAnalyze.*\)\s*{'
+        begin: '(type):\s*(SonarAnalyze)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.SonarAnalyze.gradle}
         end: '}'
         contentName: 'SonarAnalyze.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.SonarAnalyze.gradle
+          - name: support.function.tasks.rootModel.gradle
             match: rootModel
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Sync.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Sync.*\)\s*{'
+        begin: '(type):\s*(Sync)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Sync.gradle}
         end: '}'
         contentName: 'Sync.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.Sync.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Tar.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Tar.*\)\s*{'
+        begin: '(type):\s*(Tar)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Tar.gradle}
         end: '}'
         contentName: 'Tar.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.appendix.gradle
             match: appendix
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.archiveName.gradle
             match: archiveName
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.archivePath.gradle
             match: archivePath
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.baseName.gradle
             match: baseName
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.compression.gradle
             match: compression
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.version.gradle
             match: version
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.Tar.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Test.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Test.*\)\s*{'
+        begin: '(type):\s*(Test)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Test.gradle}
         end: '}'
         contentName: 'Test.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.allJvmArgs.gradle
             match: allJvmArgs
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.binResultsDir.gradle
             match: binResultsDir
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.bootstrapClasspath.gradle
             match: bootstrapClasspath
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.debug.gradle
             match: debug
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.enableAssertions.gradle
             match: enableAssertions
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.environment.gradle
             match: environment
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.executable.gradle
             match: executable
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.forkEvery.gradle
             match: forkEvery
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.ignoreFailures.gradle
             match: ignoreFailures
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.jvmArgs.gradle
             match: jvmArgs
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.maxHeapSize.gradle
             match: maxHeapSize
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.maxParallelForks.gradle
             match: maxParallelForks
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.minHeapSize.gradle
             match: minHeapSize
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.options.gradle
             match: options
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.reports.gradle
             match: reports
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.scanForTestClasses.gradle
             match: scanForTestClasses
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.systemProperties.gradle
             match: systemProperties
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testClassesDir.gradle
             match: testClassesDir
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testLogging.gradle
             match: testLogging
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testReport.gradle
             match: testReport
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testReportDir.gradle
             match: testReportDir
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testResultsDir.gradle
             match: testResultsDir
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.testSrcDirs.gradle
             match: testSrcDirs
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.workingDir.gradle
             match: workingDir
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.jacoco.gradle
             match: jacoco
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.addTestListener.gradle
             match: addTestListener
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.addTestOutputListener.gradle
             match: addTestOutputListener
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.afterSuite.gradle
             match: afterSuite
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.afterTest.gradle
             match: afterTest
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.beforeSuite.gradle
             match: beforeSuite
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.beforeTest.gradle
             match: beforeTest
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.copyTo.gradle
             match: copyTo
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.onOutput.gradle
             match: onOutput
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.removeTestListener.gradle
             match: removeTestListener
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.removeTestOutputListener.gradle
             match: removeTestOutputListener
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.useJUnit.gradle
             match: useJUnit
-          - name: support.function.task.Test.gradle
+          - name: support.function.tasks.useTestNG.gradle
             match: useTestNG
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: TestReport.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: TestReport.*\)\s*{'
+        begin: '(type):\s*(TestReport)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.TestReport.gradle}
         end: '}'
         contentName: 'TestReport.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.TestReport.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.TestReport.gradle
+          - name: support.function.tasks.testResultDirs.gradle
             match: testResultDirs
-          - name: support.function.task.TestReport.gradle
+          - name: support.function.tasks.reportOn.gradle
             match: reportOn
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Upload.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Upload.*\)\s*{'
+        begin: '(type):\s*(Upload)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Upload.gradle}
         end: '}'
         contentName: 'Upload.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Upload.gradle
+          - name: support.function.tasks.artifacts.gradle
             match: artifacts
-          - name: support.function.task.Upload.gradle
+          - name: support.function.tasks.configuration.gradle
             match: configuration
-          - name: support.function.task.Upload.gradle
+          - name: support.function.tasks.repositories.gradle
             match: repositories
-          - name: support.function.task.Upload.gradle
+          - name: support.function.tasks.uploadDescriptor.gradle
             match: uploadDescriptor
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: War.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: War.*\)\s*{'
+        begin: '(type):\s*(War)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.War.gradle}
         end: '}'
         contentName: 'War.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.appendix.gradle
             match: appendix
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.archiveName.gradle
             match: archiveName
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.archivePath.gradle
             match: archivePath
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.baseName.gradle
             match: baseName
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.classpath.gradle
             match: classpath
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.entryCompression.gradle
             match: entryCompression
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.manifest.gradle
             match: manifest
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.version.gradle
             match: version
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.webXml.gradle
             match: webXml
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.metaInf.gradle
             match: metaInf
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.webInf.gradle
             match: webInf
-          - name: support.function.task.War.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Wrapper.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Wrapper.*\)\s*{'
+        begin: '(type):\s*(Wrapper)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Wrapper.gradle}
         end: '}'
         contentName: 'Wrapper.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.archiveBase.gradle
             match: archiveBase
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.archivePath.gradle
             match: archivePath
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.distributionBase.gradle
             match: distributionBase
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.distributionPath.gradle
             match: distributionPath
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.distributionUrl.gradle
             match: distributionUrl
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.gradleVersion.gradle
             match: gradleVersion
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.jarFile.gradle
             match: jarFile
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.propertiesFile.gradle
             match: propertiesFile
-          - name: support.function.task.Wrapper.gradle
+          - name: support.function.tasks.scriptFile.gradle
             match: scriptFile
+          - include: '#project-patterns'
           - include: source.groovy
 
       - name: Zip.task.source.gradle
-        begin: '\s*(task)\s+(\w+)\s*\(.*type: Zip.*\)\s*{'
+        begin: '(type):\s*(Zip)'
         beginCaptures:
-          '1': {name: keyword.task.source.gradle}
-          '2': {name: entity.name.function}
+          '1': {name: support.function.task.gradle}
+          '2': {name: variable.parameter.Zip.gradle}
         end: '}'
         contentName: 'Zip.tasks.body.source.gradle'
         patterns:
-          - include: '#project-patterns'
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.appendix.gradle
             match: appendix
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.archiveName.gradle
             match: archiveName
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.archivePath.gradle
             match: archivePath
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.baseName.gradle
             match: baseName
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.caseSensitive.gradle
             match: caseSensitive
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.classifier.gradle
             match: classifier
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.destinationDir.gradle
             match: destinationDir
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.dirMode.gradle
             match: dirMode
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.duplicatesStrategy.gradle
             match: duplicatesStrategy
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.entryCompression.gradle
             match: entryCompression
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.excludes.gradle
             match: excludes
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.extension.gradle
             match: extension
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.fileMode.gradle
             match: fileMode
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.includeEmptyDirs.gradle
             match: includeEmptyDirs
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.includes.gradle
             match: includes
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.source.gradle
             match: source
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.version.gradle
             match: version
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.eachFile.gradle
             match: eachFile
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.exclude.gradle
             match: exclude
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.expand.gradle
             match: expand
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.filesMatching.gradle
             match: filesMatching
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.filesNotMatching.gradle
             match: filesNotMatching
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.filter.gradle
             match: filter
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.from.gradle
             match: from
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.include.gradle
             match: include
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.into.gradle
             match: into
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.rename.gradle
             match: rename
-          - name: support.function.task.Zip.gradle
+          - name: support.function.tasks.with.gradle
             match: with
+          - include: '#project-patterns'
           - include: source.groovy
 
 
