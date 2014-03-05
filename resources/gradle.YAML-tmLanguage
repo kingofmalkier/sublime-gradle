@@ -6,7 +6,7 @@ fileTypes: ["gradle"]
 uuid: b5741d4f-485d-4bca-9a5b-6a1ec2a5a272
 
 patterns:
-  - include: '#auto-generated-tasks'
+  - include: '#generic-task-beginning'
   - include: '#project-patterns'
   - include: source.groovy
 
@@ -14,6 +14,21 @@ repository:
   project-patterns:
     @project-patterns@
 
-  auto-generated-tasks:
-@auto-generated-tasks@
+  generic-task-beginning:
+    patterns:
+      - name: task.source.gradle
+        begin: '\s*(task)\s+(\w+)\s*'
+        beginCaptures:
+          '1': {name: keyword.task.source.gradle}
+          '2': {name: entity.name.function}
+        end: '}'
+        contentName: 'task.body.source.gradle'
+        patterns:
+          - include: '#specific-tasks'
+          - include: '#project-patterns'
+          #- include: '#task-keywords'
+          - include: source.groovy
+
+  specific-tasks:
+@specific-tasks@
 ...
