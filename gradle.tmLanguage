@@ -75,787 +75,787 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>allprojects</string>
+					<string>\ballprojects\b</string>
 					<key>name</key>
 					<string>support.type.project.allprojects.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>ant</string>
+					<string>\bant\b</string>
 					<key>name</key>
 					<string>support.type.project.ant.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>artifacts</string>
+					<string>\bartifacts\b</string>
 					<key>name</key>
 					<string>support.type.project.artifacts.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>buildDir</string>
+					<string>\bbuildDir\b</string>
 					<key>name</key>
 					<string>support.type.project.buildDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>buildFile</string>
+					<string>\bbuildFile\b</string>
 					<key>name</key>
 					<string>support.type.project.buildFile.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>buildscript</string>
+					<string>\bbuildscript\b</string>
 					<key>name</key>
 					<string>support.type.project.buildscript.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>childProjects</string>
+					<string>\bchildProjects\b</string>
 					<key>name</key>
 					<string>support.type.project.childProjects.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>configurations</string>
+					<string>\bconfigurations\b</string>
 					<key>name</key>
 					<string>support.type.project.configurations.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>convention</string>
+					<string>\bconvention\b</string>
 					<key>name</key>
 					<string>support.type.project.convention.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>defaultTasks</string>
+					<string>\bdefaultTasks\b</string>
 					<key>name</key>
 					<string>support.type.project.defaultTasks.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>dependencies</string>
+					<string>\bdependencies\b</string>
 					<key>name</key>
 					<string>support.type.project.dependencies.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>dependsOnProjects</string>
+					<string>\bdependsOnProjects\b</string>
 					<key>name</key>
 					<string>support.type.project.dependsOnProjects.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>description</string>
+					<string>\bdescription\b</string>
 					<key>name</key>
 					<string>support.type.project.description.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>extensions</string>
+					<string>\bextensions\b</string>
 					<key>name</key>
 					<string>support.type.project.extensions.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>gradle</string>
+					<string>\bgradle\b</string>
 					<key>name</key>
 					<string>support.type.project.gradle.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>group</string>
+					<string>\bgroup\b</string>
 					<key>name</key>
 					<string>support.type.project.group.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>logger</string>
+					<string>\blogger\b</string>
 					<key>name</key>
 					<string>support.type.project.logger.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>logging</string>
+					<string>\blogging\b</string>
 					<key>name</key>
 					<string>support.type.project.logging.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>name</string>
+					<string>\bname\b</string>
 					<key>name</key>
 					<string>support.type.project.name.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>parent</string>
+					<string>\bparent\b</string>
 					<key>name</key>
 					<string>support.type.project.parent.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>path</string>
+					<string>\bpath\b</string>
 					<key>name</key>
 					<string>support.type.project.path.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>plugins</string>
+					<string>\bplugins\b</string>
 					<key>name</key>
 					<string>support.type.project.plugins.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>project</string>
+					<string>\bproject\b</string>
 					<key>name</key>
 					<string>support.type.project.project.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>projectDir</string>
+					<string>\bprojectDir\b</string>
 					<key>name</key>
 					<string>support.type.project.projectDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>properties</string>
+					<string>\bproperties\b</string>
 					<key>name</key>
 					<string>support.type.project.properties.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>repositories</string>
+					<string>\brepositories\b</string>
 					<key>name</key>
 					<string>support.type.project.repositories.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>resources</string>
+					<string>\bresources\b</string>
 					<key>name</key>
 					<string>support.type.project.resources.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>rootDir</string>
+					<string>\brootDir\b</string>
 					<key>name</key>
 					<string>support.type.project.rootDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>rootProject</string>
+					<string>\brootProject\b</string>
 					<key>name</key>
 					<string>support.type.project.rootProject.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>state</string>
+					<string>\bstate\b</string>
 					<key>name</key>
 					<string>support.type.project.state.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>status</string>
+					<string>\bstatus\b</string>
 					<key>name</key>
 					<string>support.type.project.status.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>subprojects</string>
+					<string>\bsubprojects\b</string>
 					<key>name</key>
 					<string>support.type.project.subprojects.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>tasks</string>
+					<string>\btasks\b</string>
 					<key>name</key>
 					<string>support.type.project.tasks.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>version</string>
+					<string>\bversion\b</string>
 					<key>name</key>
 					<string>support.type.project.version.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>binaries</string>
+					<string>\bbinaries\b</string>
 					<key>name</key>
 					<string>support.type.project.binaries.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>sources</string>
+					<string>\bsources\b</string>
 					<key>name</key>
 					<string>support.type.project.sources.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>announce</string>
+					<string>\bannounce\b</string>
 					<key>name</key>
 					<string>support.type.project.announce.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>applicationDefaultJvmArgs</string>
+					<string>\bapplicationDefaultJvmArgs\b</string>
 					<key>name</key>
 					<string>support.type.project.applicationDefaultJvmArgs.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>applicationDistribution</string>
+					<string>\bapplicationDistribution\b</string>
 					<key>name</key>
 					<string>support.type.project.applicationDistribution.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>applicationName</string>
+					<string>\bapplicationName\b</string>
 					<key>name</key>
 					<string>support.type.project.applicationName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>mainClassName</string>
+					<string>\bmainClassName\b</string>
 					<key>name</key>
 					<string>support.type.project.mainClassName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyle</string>
+					<string>\bcheckstyle\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyle.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyleConfigFile</string>
+					<string>\bcheckstyleConfigFile\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyleConfigFile.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyleConfigFileName</string>
+					<string>\bcheckstyleConfigFileName\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyleConfigFileName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyleProperties</string>
+					<string>\bcheckstyleProperties\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyleProperties.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyleResultsDir</string>
+					<string>\bcheckstyleResultsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyleResultsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>checkstyleResultsDirName</string>
+					<string>\bcheckstyleResultsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.checkstyleResultsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>codeNarcConfigFile</string>
+					<string>\bcodeNarcConfigFile\b</string>
 					<key>name</key>
 					<string>support.type.project.codeNarcConfigFile.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>codeNarcConfigFileName</string>
+					<string>\bcodeNarcConfigFileName\b</string>
 					<key>name</key>
 					<string>support.type.project.codeNarcConfigFileName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>codeNarcReportsDir</string>
+					<string>\bcodeNarcReportsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.codeNarcReportsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>codeNarcReportsDirName</string>
+					<string>\bcodeNarcReportsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.codeNarcReportsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>codenarc</string>
+					<string>\bcodenarc\b</string>
 					<key>name</key>
 					<string>support.type.project.codenarc.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>distributions</string>
+					<string>\bdistributions\b</string>
 					<key>name</key>
 					<string>support.type.project.distributions.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>appDirName</string>
+					<string>\bappDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.appDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>deploymentDescriptor</string>
+					<string>\bdeploymentDescriptor\b</string>
 					<key>name</key>
 					<string>support.type.project.deploymentDescriptor.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>libDirName</string>
+					<string>\blibDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.libDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>eclipse</string>
+					<string>\beclipse\b</string>
 					<key>name</key>
 					<string>support.type.project.eclipse.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>findbugs</string>
+					<string>\bfindbugs\b</string>
 					<key>name</key>
 					<string>support.type.project.findbugs.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>idea</string>
+					<string>\bidea\b</string>
 					<key>name</key>
 					<string>support.type.project.idea.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>jacoco</string>
+					<string>\bjacoco\b</string>
 					<key>name</key>
 					<string>support.type.project.jacoco.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>apiDocTitle</string>
+					<string>\bapiDocTitle\b</string>
 					<key>name</key>
 					<string>support.type.project.apiDocTitle.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>archivesBaseName</string>
+					<string>\barchivesBaseName\b</string>
 					<key>name</key>
 					<string>support.type.project.archivesBaseName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>distsDir</string>
+					<string>\bdistsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.distsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>distsDirName</string>
+					<string>\bdistsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.distsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>docsDir</string>
+					<string>\bdocsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.docsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>docsDirName</string>
+					<string>\bdocsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.docsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>libsDir</string>
+					<string>\blibsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.libsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>libsDirName</string>
+					<string>\blibsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.libsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>reportsDir</string>
+					<string>\breportsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.reportsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>reportsDirName</string>
+					<string>\breportsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.reportsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>sourceCompatibility</string>
+					<string>\bsourceCompatibility\b</string>
 					<key>name</key>
 					<string>support.type.project.sourceCompatibility.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>sourceSets</string>
+					<string>\bsourceSets\b</string>
 					<key>name</key>
 					<string>support.type.project.sourceSets.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>targetCompatibility</string>
+					<string>\btargetCompatibility\b</string>
 					<key>name</key>
 					<string>support.type.project.targetCompatibility.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>testReportDir</string>
+					<string>\btestReportDir\b</string>
 					<key>name</key>
 					<string>support.type.project.testReportDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>testReportDirName</string>
+					<string>\btestReportDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.testReportDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>testResultsDir</string>
+					<string>\btestResultsDir\b</string>
 					<key>name</key>
 					<string>support.type.project.testResultsDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>testResultsDirName</string>
+					<string>\btestResultsDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.testResultsDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>jdepend</string>
+					<string>\bjdepend\b</string>
 					<key>name</key>
 					<string>support.type.project.jdepend.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>httpPort</string>
+					<string>\bhttpPort\b</string>
 					<key>name</key>
 					<string>support.type.project.httpPort.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>stopKey</string>
+					<string>\bstopKey\b</string>
 					<key>name</key>
 					<string>support.type.project.stopKey.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>stopPort</string>
+					<string>\bstopPort\b</string>
 					<key>name</key>
 					<string>support.type.project.stopPort.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>conf2ScopeMappings</string>
+					<string>\bconf2ScopeMappings\b</string>
 					<key>name</key>
 					<string>support.type.project.conf2ScopeMappings.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>mavenPomDir</string>
+					<string>\bmavenPomDir\b</string>
 					<key>name</key>
 					<string>support.type.project.mavenPomDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>buildTypes</string>
+					<string>\bbuildTypes\b</string>
 					<key>name</key>
 					<string>support.type.project.buildTypes.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>executables</string>
+					<string>\bexecutables\b</string>
 					<key>name</key>
 					<string>support.type.project.executables.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>flavors</string>
+					<string>\bflavors\b</string>
 					<key>name</key>
 					<string>support.type.project.flavors.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>libraries</string>
+					<string>\blibraries\b</string>
 					<key>name</key>
 					<string>support.type.project.libraries.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>platforms</string>
+					<string>\bplatforms\b</string>
 					<key>name</key>
 					<string>support.type.project.platforms.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>toolChains</string>
+					<string>\btoolChains\b</string>
 					<key>name</key>
 					<string>support.type.project.toolChains.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>pmd</string>
+					<string>\bpmd\b</string>
 					<key>name</key>
 					<string>support.type.project.pmd.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>projectReportDir</string>
+					<string>\bprojectReportDir\b</string>
 					<key>name</key>
 					<string>support.type.project.projectReportDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>projectReportDirName</string>
+					<string>\bprojectReportDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.projectReportDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>publishing</string>
+					<string>\bpublishing\b</string>
 					<key>name</key>
 					<string>support.type.project.publishing.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>signing</string>
+					<string>\bsigning\b</string>
 					<key>name</key>
 					<string>support.type.project.signing.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>visualStudio</string>
+					<string>\bvisualStudio\b</string>
 					<key>name</key>
 					<string>support.type.project.visualStudio.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>webAppDir</string>
+					<string>\bwebAppDir\b</string>
 					<key>name</key>
 					<string>support.type.project.webAppDir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>webAppDirName</string>
+					<string>\bwebAppDirName\b</string>
 					<key>name</key>
 					<string>support.type.project.webAppDirName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>absoluteProjectPath</string>
+					<string>\babsoluteProjectPath\b</string>
 					<key>name</key>
 					<string>support.type.project.absoluteProjectPath.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>afterEvaluate</string>
+					<string>\bafterEvaluate\b</string>
 					<key>name</key>
 					<string>support.type.project.afterEvaluate.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>apply</string>
+					<string>\bapply\b</string>
 					<key>name</key>
 					<string>support.type.project.apply.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>beforeEvaluate</string>
+					<string>\bbeforeEvaluate\b</string>
 					<key>name</key>
 					<string>support.type.project.beforeEvaluate.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>childrenDependOnMe</string>
+					<string>\bchildrenDependOnMe\b</string>
 					<key>name</key>
 					<string>support.type.project.childrenDependOnMe.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>configure</string>
+					<string>\bconfigure\b</string>
 					<key>name</key>
 					<string>support.type.project.configure.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>container</string>
+					<string>\bcontainer\b</string>
 					<key>name</key>
 					<string>support.type.project.container.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>copy</string>
+					<string>\bcopy\b</string>
 					<key>name</key>
 					<string>support.type.project.copy.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>copySpec</string>
+					<string>\bcopySpec\b</string>
 					<key>name</key>
 					<string>support.type.project.copySpec.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>delete</string>
+					<string>\bdelete\b</string>
 					<key>name</key>
 					<string>support.type.project.delete.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>dependsOn</string>
+					<string>\bdependsOn\b</string>
 					<key>name</key>
 					<string>support.type.project.dependsOn.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>dependsOnChildren</string>
+					<string>\bdependsOnChildren\b</string>
 					<key>name</key>
 					<string>support.type.project.dependsOnChildren.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>evaluationDependsOn</string>
+					<string>\bevaluationDependsOn\b</string>
 					<key>name</key>
 					<string>support.type.project.evaluationDependsOn.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>exec</string>
+					<string>\bexec\b</string>
 					<key>name</key>
 					<string>support.type.project.exec.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>file</string>
+					<string>\bfile\b</string>
 					<key>name</key>
 					<string>support.type.project.file.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>fileTree</string>
+					<string>\bfileTree\b</string>
 					<key>name</key>
 					<string>support.type.project.fileTree.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>files</string>
+					<string>\bfiles\b</string>
 					<key>name</key>
 					<string>support.type.project.files.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>findProject</string>
+					<string>\bfindProject\b</string>
 					<key>name</key>
 					<string>support.type.project.findProject.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>getAllTasks</string>
+					<string>\bgetAllTasks\b</string>
 					<key>name</key>
 					<string>support.type.project.getAllTasks.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>getTasksByName</string>
+					<string>\bgetTasksByName\b</string>
 					<key>name</key>
 					<string>support.type.project.getTasksByName.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>hasProperty</string>
+					<string>\bhasProperty\b</string>
 					<key>name</key>
 					<string>support.type.project.hasProperty.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>javaexec</string>
+					<string>\bjavaexec\b</string>
 					<key>name</key>
 					<string>support.type.project.javaexec.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>mkdir</string>
+					<string>\bmkdir\b</string>
 					<key>name</key>
 					<string>support.type.project.mkdir.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>property</string>
+					<string>\bproperty\b</string>
 					<key>name</key>
 					<string>support.type.project.property.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>relativePath</string>
+					<string>\brelativePath\b</string>
 					<key>name</key>
 					<string>support.type.project.relativePath.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>relativeProjectPath</string>
+					<string>\brelativeProjectPath\b</string>
 					<key>name</key>
 					<string>support.type.project.relativeProjectPath.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>setProperty</string>
+					<string>\bsetProperty\b</string>
 					<key>name</key>
 					<string>support.type.project.setProperty.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>tarTree</string>
+					<string>\btarTree\b</string>
 					<key>name</key>
 					<string>support.type.project.tarTree.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>task</string>
+					<string>\btask\b</string>
 					<key>name</key>
 					<string>support.type.project.task.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>uri</string>
+					<string>\buri\b</string>
 					<key>name</key>
 					<string>support.type.project.uri.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>zipTree</string>
+					<string>\bzipTree\b</string>
 					<key>name</key>
 					<string>support.type.project.zipTree.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>manifest</string>
+					<string>\bmanifest\b</string>
 					<key>name</key>
 					<string>support.type.project.manifest.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>pom</string>
+					<string>\bpom\b</string>
 					<key>name</key>
 					<string>support.type.project.pom.gradle</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>osgiManifest</string>
+					<string>\bosgiManifest\b</string>
 					<key>name</key>
 					<string>support.type.project.osgiManifest.gradle</string>
 				</dict>
@@ -891,175 +891,175 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>actions</string>
+							<string>\bactions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.actions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ant</string>
+							<string>\bant\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ant.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>convention</string>
+							<string>\bconvention\b</string>
 							<key>name</key>
 							<string>support.function.tasks.convention.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dependsOn</string>
+							<string>\bdependsOn\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dependsOn.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>description</string>
+							<string>\bdescription\b</string>
 							<key>name</key>
 							<string>support.function.tasks.description.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>didWork</string>
+							<string>\bdidWork\b</string>
 							<key>name</key>
 							<string>support.function.tasks.didWork.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>enabled</string>
+							<string>\benabled\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enabled.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extensions</string>
+							<string>\bextensions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extensions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>finalizedBy</string>
+							<string>\bfinalizedBy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.finalizedBy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>group</string>
+							<string>\bgroup\b</string>
 							<key>name</key>
 							<string>support.function.tasks.group.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>inputs</string>
+							<string>\binputs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.inputs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>logger</string>
+							<string>\blogger\b</string>
 							<key>name</key>
 							<string>support.function.tasks.logger.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>logging</string>
+							<string>\blogging\b</string>
 							<key>name</key>
 							<string>support.function.tasks.logging.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mustRunAfter</string>
+							<string>\bmustRunAfter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mustRunAfter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>name</string>
+							<string>\bname\b</string>
 							<key>name</key>
 							<string>support.function.tasks.name.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outputs</string>
+							<string>\boutputs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>path</string>
+							<string>\bpath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.path.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>project</string>
+							<string>\bproject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.project.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>state</string>
+							<string>\bstate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.state.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>taskDependencies</string>
+							<string>\btaskDependencies\b</string>
 							<key>name</key>
 							<string>support.function.tasks.taskDependencies.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>temporaryDir</string>
+							<string>\btemporaryDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.temporaryDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>deleteAllActions</string>
+							<string>\bdeleteAllActions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.deleteAllActions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>doFirst</string>
+							<string>\bdoFirst\b</string>
 							<key>name</key>
 							<string>support.function.tasks.doFirst.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>doLast</string>
+							<string>\bdoLast\b</string>
 							<key>name</key>
 							<string>support.function.tasks.doLast.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>hasProperty</string>
+							<string>\bhasProperty\b</string>
 							<key>name</key>
 							<string>support.function.tasks.hasProperty.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>leftShift</string>
+							<string>\bleftShift\b</string>
 							<key>name</key>
 							<string>support.function.tasks.leftShift.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>onlyIf</string>
+							<string>\bonlyIf\b</string>
 							<key>name</key>
 							<string>support.function.tasks.onlyIf.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>property</string>
+							<string>\bproperty\b</string>
 							<key>name</key>
 							<string>support.function.tasks.property.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>setProperty</string>
+							<string>\bsetProperty\b</string>
 							<key>name</key>
 							<string>support.function.tasks.setProperty.gradle</string>
 						</dict>
@@ -1099,127 +1099,127 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>gradle</string>
+							<string>\bgradle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradle.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>gradleHomeDir</string>
+							<string>\bgradleHomeDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradleHomeDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>gradleUserHomeDir</string>
+							<string>\bgradleUserHomeDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradleUserHomeDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>gradleVersion</string>
+							<string>\bgradleVersion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradleVersion.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>parent</string>
+							<string>\bparent\b</string>
 							<key>name</key>
 							<string>support.function.tasks.parent.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rootProject</string>
+							<string>\brootProject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rootProject.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>startParameter</string>
+							<string>\bstartParameter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.startParameter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>taskGraph</string>
+							<string>\btaskGraph\b</string>
 							<key>name</key>
 							<string>support.function.tasks.taskGraph.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>addBuildListener</string>
+							<string>\baddBuildListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.addBuildListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>addListener</string>
+							<string>\baddListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.addListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>addProjectEvaluationListener</string>
+							<string>\baddProjectEvaluationListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.addProjectEvaluationListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>afterProject</string>
+							<string>\bafterProject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.afterProject.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>allprojects</string>
+							<string>\ballprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allprojects.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>beforeProject</string>
+							<string>\bbeforeProject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.beforeProject.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>buildFinished</string>
+							<string>\bbuildFinished\b</string>
 							<key>name</key>
 							<string>support.function.tasks.buildFinished.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projectsEvaluated</string>
+							<string>\bprojectsEvaluated\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projectsEvaluated.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projectsLoaded</string>
+							<string>\bprojectsLoaded\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projectsLoaded.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>removeListener</string>
+							<string>\bremoveListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removeListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>removeProjectEvaluationListener</string>
+							<string>\bremoveProjectEvaluationListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removeProjectEvaluationListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>settingsEvaluated</string>
+							<string>\bsettingsEvaluated\b</string>
 							<key>name</key>
 							<string>support.function.tasks.settingsEvaluated.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>useLogger</string>
+							<string>\buseLogger\b</string>
 							<key>name</key>
 							<string>support.function.tasks.useLogger.gradle</string>
 						</dict>
@@ -1259,61 +1259,61 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>gradle</string>
+							<string>\bgradle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradle.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rootDir</string>
+							<string>\brootDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rootDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rootProject</string>
+							<string>\brootProject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rootProject.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>settings</string>
+							<string>\bsettings\b</string>
 							<key>name</key>
 							<string>support.function.tasks.settings.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>settingsDir</string>
+							<string>\bsettingsDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.settingsDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>startParameter</string>
+							<string>\bstartParameter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.startParameter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>findProject</string>
+							<string>\bfindProject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.findProject.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeFlat</string>
+							<string>\bincludeFlat\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeFlat.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>project</string>
+							<string>\bproject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.project.gradle</string>
 						</dict>
@@ -1353,109 +1353,109 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>buildscript</string>
+							<string>\bbuildscript\b</string>
 							<key>name</key>
 							<string>support.function.tasks.buildscript.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>logger</string>
+							<string>\blogger\b</string>
 							<key>name</key>
 							<string>support.function.tasks.logger.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>logging</string>
+							<string>\blogging\b</string>
 							<key>name</key>
 							<string>support.function.tasks.logging.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>resources</string>
+							<string>\bresources\b</string>
 							<key>name</key>
 							<string>support.function.tasks.resources.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>apply</string>
+							<string>\bapply\b</string>
 							<key>name</key>
 							<string>support.function.tasks.apply.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copy</string>
+							<string>\bcopy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copySpec</string>
+							<string>\bcopySpec\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copySpec.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>delete</string>
+							<string>\bdelete\b</string>
 							<key>name</key>
 							<string>support.function.tasks.delete.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exec</string>
+							<string>\bexec\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exec.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>file</string>
+							<string>\bfile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.file.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileTree</string>
+							<string>\bfileTree\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileTree.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>files</string>
+							<string>\bfiles\b</string>
 							<key>name</key>
 							<string>support.function.tasks.files.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>javaexec</string>
+							<string>\bjavaexec\b</string>
 							<key>name</key>
 							<string>support.function.tasks.javaexec.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mkdir</string>
+							<string>\bmkdir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mkdir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>relativePath</string>
+							<string>\brelativePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.relativePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>tarTree</string>
+							<string>\btarTree\b</string>
 							<key>name</key>
 							<string>support.function.tasks.tarTree.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>uri</string>
+							<string>\buri\b</string>
 							<key>name</key>
 							<string>support.function.tasks.uri.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>zipTree</string>
+							<string>\bzipTree\b</string>
 							<key>name</key>
 							<string>support.function.tasks.zipTree.gradle</string>
 						</dict>
@@ -1495,97 +1495,97 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>allJava</string>
+							<string>\ballJava\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allJava.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>allSource</string>
+							<string>\ballSource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allSource.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>compileClasspath</string>
+							<string>\bcompileClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.compileClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>java</string>
+							<string>\bjava\b</string>
 							<key>name</key>
 							<string>support.function.tasks.java.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>name</string>
+							<string>\bname\b</string>
 							<key>name</key>
 							<string>support.function.tasks.name.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>output</string>
+							<string>\boutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.output.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>resources</string>
+							<string>\bresources\b</string>
 							<key>name</key>
 							<string>support.function.tasks.resources.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>runtimeClasspath</string>
+							<string>\bruntimeClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.runtimeClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>antlr</string>
+							<string>\bantlr\b</string>
 							<key>name</key>
 							<string>support.function.tasks.antlr.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>allGroovy</string>
+							<string>\ballGroovy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allGroovy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>groovy</string>
+							<string>\bgroovy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.groovy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>allScala</string>
+							<string>\ballScala\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allScala.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scala</string>
+							<string>\bscala\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scala.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>compiledBy</string>
+							<string>\bcompiledBy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.compiledBy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getCompileTaskName</string>
+							<string>\bgetCompileTaskName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getCompileTaskName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getTaskName</string>
+							<string>\bgetTaskName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getTaskName.gradle</string>
 						</dict>
@@ -1625,25 +1625,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classesDir</string>
+							<string>\bclassesDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classesDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>resourcesDir</string>
+							<string>\bresourcesDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.resourcesDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dir</string>
+							<string>\bdir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getDirs</string>
+							<string>\bgetDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getDirs.gradle</string>
 						</dict>
@@ -1683,19 +1683,19 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>incremental</string>
+							<string>\bincremental\b</string>
 							<key>name</key>
 							<string>support.function.tasks.incremental.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outOfDate</string>
+							<string>\boutOfDate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outOfDate.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>removed</string>
+							<string>\bremoved\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removed.gradle</string>
 						</dict>
@@ -1735,133 +1735,133 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>allArtifacts</string>
+							<string>\ballArtifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allArtifacts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>allDependencies</string>
+							<string>\ballDependencies\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allDependencies.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>artifacts</string>
+							<string>\bartifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifacts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>buildDependencies</string>
+							<string>\bbuildDependencies\b</string>
 							<key>name</key>
 							<string>support.function.tasks.buildDependencies.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dependencies</string>
+							<string>\bdependencies\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dependencies.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>description</string>
+							<string>\bdescription\b</string>
 							<key>name</key>
 							<string>support.function.tasks.description.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludeRules</string>
+							<string>\bexcludeRules\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludeRules.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extendsFrom</string>
+							<string>\bextendsFrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extendsFrom.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>hierarchy</string>
+							<string>\bhierarchy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.hierarchy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>incoming</string>
+							<string>\bincoming\b</string>
 							<key>name</key>
 							<string>support.function.tasks.incoming.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>name</string>
+							<string>\bname\b</string>
 							<key>name</key>
 							<string>support.function.tasks.name.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>resolutionStrategy</string>
+							<string>\bresolutionStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.resolutionStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>resolvedConfiguration</string>
+							<string>\bresolvedConfiguration\b</string>
 							<key>name</key>
 							<string>support.function.tasks.resolvedConfiguration.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>state</string>
+							<string>\bstate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.state.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>transitive</string>
+							<string>\btransitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.transitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>visible</string>
+							<string>\bvisible\b</string>
 							<key>name</key>
 							<string>support.function.tasks.visible.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copy</string>
+							<string>\bcopy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copyRecursive</string>
+							<string>\bcopyRecursive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copyRecursive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileCollection</string>
+							<string>\bfileCollection\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileCollection.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>files</string>
+							<string>\bfiles\b</string>
 							<key>name</key>
 							<string>support.function.tasks.files.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getTaskDependencyFromProjectDependency</string>
+							<string>\bgetTaskDependencyFromProjectDependency\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getTaskDependencyFromProjectDependency.gradle</string>
 						</dict>
@@ -1901,37 +1901,37 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>forcedModules</string>
+							<string>\bforcedModules\b</string>
 							<key>name</key>
 							<string>support.function.tasks.forcedModules.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>cacheChangingModulesFor</string>
+							<string>\bcacheChangingModulesFor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.cacheChangingModulesFor.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>cacheDynamicVersionsFor</string>
+							<string>\bcacheDynamicVersionsFor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.cacheDynamicVersionsFor.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachDependency</string>
+							<string>\beachDependency\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachDependency.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>failOnVersionConflict</string>
+							<string>\bfailOnVersionConflict\b</string>
 							<key>name</key>
 							<string>support.function.tasks.failOnVersionConflict.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>force</string>
+							<string>\bforce\b</string>
 							<key>name</key>
 							<string>support.function.tasks.force.gradle</string>
 						</dict>
@@ -2005,7 +2005,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>extensions</string>
+							<string>\bextensions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extensions.gradle</string>
 						</dict>
@@ -2045,25 +2045,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>properties</string>
+							<string>\bproperties\b</string>
 							<key>name</key>
 							<string>support.function.tasks.properties.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>get</string>
+							<string>\bget\b</string>
 							<key>name</key>
 							<string>support.function.tasks.get.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>has</string>
+							<string>\bhas\b</string>
 							<key>name</key>
 							<string>support.function.tasks.has.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>set</string>
+							<string>\bset\b</string>
 							<key>name</key>
 							<string>support.function.tasks.set.gradle</string>
 						</dict>
@@ -2103,13 +2103,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>publications</string>
+							<string>\bpublications\b</string>
 							<key>name</key>
 							<string>support.function.tasks.publications.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>repositories</string>
+							<string>\brepositories\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repositories.gradle</string>
 						</dict>
@@ -2149,31 +2149,31 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>destination</string>
+							<string>\bdestination\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destination.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>displayName</string>
+							<string>\bdisplayName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.displayName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>enabled</string>
+							<string>\benabled\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enabled.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>name</string>
+							<string>\bname\b</string>
 							<key>name</key>
 							<string>support.function.tasks.name.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outputType</string>
+							<string>\boutputType\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputType.gradle</string>
 						</dict>
@@ -2213,7 +2213,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
@@ -2253,7 +2253,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>enabled</string>
+							<string>\benabled\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enabled.gradle</string>
 						</dict>
@@ -2293,13 +2293,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>baseDir</string>
+							<string>\bbaseDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.baseDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>file</string>
+							<string>\bfile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.file.gradle</string>
 						</dict>
@@ -2339,49 +2339,49 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>artifacts</string>
+							<string>\bartifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifacts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>configurations</string>
+							<string>\bconfigurations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configurations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>descriptor</string>
+							<string>\bdescriptor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.descriptor.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>module</string>
+							<string>\bmodule\b</string>
 							<key>name</key>
 							<string>support.function.tasks.module.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>organisation</string>
+							<string>\borganisation\b</string>
 							<key>name</key>
 							<string>support.function.tasks.organisation.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>revision</string>
+							<string>\brevision\b</string>
 							<key>name</key>
 							<string>support.function.tasks.revision.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>artifact</string>
+							<string>\bartifact\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifact.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
@@ -2421,43 +2421,43 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>conf</string>
+							<string>\bconf\b</string>
 							<key>name</key>
 							<string>support.function.tasks.conf.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>file</string>
+							<string>\bfile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.file.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>name</string>
+							<string>\bname\b</string>
 							<key>name</key>
 							<string>support.function.tasks.name.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>type</string>
+							<string>\btype\b</string>
 							<key>name</key>
 							<string>support.function.tasks.type.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>builtBy</string>
+							<string>\bbuiltBy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.builtBy.gradle</string>
 						</dict>
@@ -2497,7 +2497,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>artifact</string>
+							<string>\bartifact\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifact.gradle</string>
 						</dict>
@@ -2537,7 +2537,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>withXml</string>
+							<string>\bwithXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.withXml.gradle</string>
 						</dict>
@@ -2577,49 +2577,49 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>artifactId</string>
+							<string>\bartifactId\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifactId.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>artifacts</string>
+							<string>\bartifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifacts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>groupId</string>
+							<string>\bgroupId\b</string>
 							<key>name</key>
 							<string>support.function.tasks.groupId.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>pom</string>
+							<string>\bpom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.pom.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>version</string>
+							<string>\bversion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.version.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>artifact</string>
+							<string>\bartifact\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifact.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>setArtifacts</string>
+							<string>\bsetArtifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.setArtifacts.gradle</string>
 						</dict>
@@ -2659,25 +2659,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>file</string>
+							<string>\bfile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.file.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>builtBy</string>
+							<string>\bbuiltBy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.builtBy.gradle</string>
 						</dict>
@@ -2717,7 +2717,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>artifact</string>
+							<string>\bartifact\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifact.gradle</string>
 						</dict>
@@ -2757,7 +2757,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>withXml</string>
+							<string>\bwithXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.withXml.gradle</string>
 						</dict>
@@ -2797,25 +2797,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>add</string>
+							<string>\badd\b</string>
 							<key>name</key>
 							<string>support.function.tasks.add.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>detachedConfiguration</string>
+							<string>\bdetachedConfiguration\b</string>
 							<key>name</key>
 							<string>support.function.tasks.detachedConfiguration.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getAt</string>
+							<string>\bgetAt\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getAt.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>getByName</string>
+							<string>\bgetByName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getByName.gradle</string>
 						</dict>
@@ -2855,55 +2855,55 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>flatDir</string>
+							<string>\bflatDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.flatDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ivy</string>
+							<string>\bivy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ivy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jcenter</string>
+							<string>\bjcenter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jcenter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maven</string>
+							<string>\bmaven\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maven.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mavenCentral</string>
+							<string>\bmavenCentral\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mavenCentral.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mavenLocal</string>
+							<string>\bmavenLocal\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mavenLocal.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mavenRepo</string>
+							<string>\bmavenRepo\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mavenRepo.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mavenDeployer</string>
+							<string>\bmavenDeployer\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mavenDeployer.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mavenInstaller</string>
+							<string>\bmavenInstaller\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mavenInstaller.gradle</string>
 						</dict>
@@ -2943,43 +2943,43 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>components</string>
+							<string>\bcomponents\b</string>
 							<key>name</key>
 							<string>support.function.tasks.components.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>add</string>
+							<string>\badd\b</string>
 							<key>name</key>
 							<string>support.function.tasks.add.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>create</string>
+							<string>\bcreate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.create.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>gradleApi</string>
+							<string>\bgradleApi\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradleApi.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>localGroovy</string>
+							<string>\blocalGroovy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.localGroovy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>module</string>
+							<string>\bmodule\b</string>
 							<key>name</key>
 							<string>support.function.tasks.module.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>project</string>
+							<string>\bproject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.project.gradle</string>
 						</dict>
@@ -3019,7 +3019,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>add</string>
+							<string>\badd\b</string>
 							<key>name</key>
 							<string>support.function.tasks.add.gradle</string>
 						</dict>
@@ -3059,13 +3059,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>outputFile</string>
+							<string>\boutputFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projects</string>
+							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
 						</dict>
@@ -3105,13 +3105,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>outputFile</string>
+							<string>\boutputFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projects</string>
+							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
 						</dict>
@@ -3151,19 +3151,19 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>configurations</string>
+							<string>\bconfigurations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configurations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outputFile</string>
+							<string>\boutputFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projects</string>
+							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
 						</dict>
@@ -3203,13 +3203,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>configuration</string>
+							<string>\bconfiguration\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configuration.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dependencySpec</string>
+							<string>\bdependencySpec\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dependencySpec.gradle</string>
 						</dict>
@@ -3249,13 +3249,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>outputFile</string>
+							<string>\boutputFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>projects</string>
+							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
 						</dict>
@@ -3295,67 +3295,67 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>antlrClasspath</string>
+							<string>\bantlrClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.antlrClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outputDirectory</string>
+							<string>\boutputDirectory\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputDirectory.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>trace</string>
+							<string>\btrace\b</string>
 							<key>name</key>
 							<string>support.function.tasks.trace.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>traceLexer</string>
+							<string>\btraceLexer\b</string>
 							<key>name</key>
 							<string>support.function.tasks.traceLexer.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>traceParser</string>
+							<string>\btraceParser\b</string>
 							<key>name</key>
 							<string>support.function.tasks.traceParser.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>traceTreeWalker</string>
+							<string>\btraceTreeWalker\b</string>
 							<key>name</key>
 							<string>support.function.tasks.traceTreeWalker.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -3395,73 +3395,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>checkstyleClasspath</string>
+							<string>\bcheckstyleClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.checkstyleClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>configFile</string>
+							<string>\bconfigFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>configProperties</string>
+							<string>\bconfigProperties\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configProperties.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>showViolations</string>
+							<string>\bshowViolations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.showViolations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -3501,73 +3501,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>codenarcClasspath</string>
+							<string>\bcodenarcClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.codenarcClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>configFile</string>
+							<string>\bconfigFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxPriority1Violations</string>
+							<string>\bmaxPriority1Violations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxPriority1Violations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxPriority2Violations</string>
+							<string>\bmaxPriority2Violations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxPriority2Violations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxPriority3Violations</string>
+							<string>\bmaxPriority3Violations\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxPriority3Violations.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -3607,25 +3607,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reportDir</string>
+							<string>\breportDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reportDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>sourceBuild</string>
+							<string>\bsourceBuild\b</string>
 							<key>name</key>
 							<string>support.function.tasks.sourceBuild.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetBuild</string>
+							<string>\btargetBuild\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetBuild.gradle</string>
 						</dict>
@@ -3665,121 +3665,121 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>
@@ -3819,37 +3819,37 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>applicationName</string>
+							<string>\bapplicationName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.applicationName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>defaultJvmOpts</string>
+							<string>\bdefaultJvmOpts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.defaultJvmOpts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>mainClassName</string>
+							<string>\bmainClassName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.mainClassName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>optsEnvironmentVar</string>
+							<string>\boptsEnvironmentVar\b</string>
 							<key>name</key>
 							<string>support.function.tasks.optsEnvironmentVar.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>outputDir</string>
+							<string>\boutputDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.outputDir.gradle</string>
 						</dict>
@@ -3889,13 +3889,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>delete</string>
+							<string>\bdelete\b</string>
 							<key>name</key>
 							<string>support.function.tasks.delete.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetFiles</string>
+							<string>\btargetFiles\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetFiles.gradle</string>
 						</dict>
@@ -3969,61 +3969,61 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>args</string>
+							<string>\bargs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.args.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>commandLine</string>
+							<string>\bcommandLine\b</string>
 							<key>name</key>
 							<string>support.function.tasks.commandLine.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>environment</string>
+							<string>\benvironment\b</string>
 							<key>name</key>
 							<string>support.function.tasks.environment.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>errorOutput</string>
+							<string>\berrorOutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.errorOutput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>execResult</string>
+							<string>\bexecResult\b</string>
 							<key>name</key>
 							<string>support.function.tasks.execResult.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>executable</string>
+							<string>\bexecutable\b</string>
 							<key>name</key>
 							<string>support.function.tasks.executable.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreExitValue</string>
+							<string>\bignoreExitValue\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreExitValue.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>standardInput</string>
+							<string>\bstandardInput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.standardInput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>standardOutput</string>
+							<string>\bstandardOutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.standardOutput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>workingDir</string>
+							<string>\bworkingDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.workingDir.gradle</string>
 						</dict>
@@ -4063,109 +4063,109 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classes</string>
+							<string>\bclasses\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>effort</string>
+							<string>\beffort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.effort.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludeFilter</string>
+							<string>\bexcludeFilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludeFilter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>findbugsClasspath</string>
+							<string>\bfindbugsClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.findbugsClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeFilter</string>
+							<string>\bincludeFilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeFilter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxHeapSize</string>
+							<string>\bmaxHeapSize\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxHeapSize.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>omitVisitors</string>
+							<string>\bomitVisitors\b</string>
 							<key>name</key>
 							<string>support.function.tasks.omitVisitors.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>pluginClasspath</string>
+							<string>\bpluginClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.pluginClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reportLevel</string>
+							<string>\breportLevel\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reportLevel.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>visitors</string>
+							<string>\bvisitors\b</string>
 							<key>name</key>
 							<string>support.function.tasks.visitors.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -4205,13 +4205,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>descriptor</string>
+							<string>\bdescriptor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.descriptor.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destination</string>
+							<string>\bdestination\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destination.gradle</string>
 						</dict>
@@ -4251,13 +4251,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>destination</string>
+							<string>\bdestination\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destination.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>pom</string>
+							<string>\bpom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.pom.gradle</string>
 						</dict>
@@ -4297,13 +4297,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>aggregate</string>
+							<string>\baggregate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.aggregate.gradle</string>
 						</dict>
@@ -4343,25 +4343,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>buildFile</string>
+							<string>\bbuildFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.buildFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dir</string>
+							<string>\bdir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>startParameter</string>
+							<string>\bstartParameter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.startParameter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>tasks</string>
+							<string>\btasks\b</string>
 							<key>name</key>
 							<string>support.function.tasks.tasks.gradle</string>
 						</dict>
@@ -4401,73 +4401,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>groovyClasspath</string>
+							<string>\bgroovyClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.groovyClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>groovyOptions</string>
+							<string>\bgroovyOptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.groovyOptions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>options</string>
+							<string>\boptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.options.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>sourceCompatibility</string>
+							<string>\bsourceCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.sourceCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetCompatibility</string>
+							<string>\btargetCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -4507,103 +4507,103 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>docTitle</string>
+							<string>\bdocTitle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.docTitle.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>footer</string>
+							<string>\bfooter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.footer.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>groovyClasspath</string>
+							<string>\bgroovyClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.groovyClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>header</string>
+							<string>\bheader\b</string>
 							<key>name</key>
 							<string>support.function.tasks.header.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includePrivate</string>
+							<string>\bincludePrivate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includePrivate.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>links</string>
+							<string>\blinks\b</string>
 							<key>name</key>
 							<string>support.function.tasks.links.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>overview</string>
+							<string>\boverview\b</string>
 							<key>name</key>
 							<string>support.function.tasks.overview.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>use</string>
+							<string>\buse\b</string>
 							<key>name</key>
 							<string>support.function.tasks.use.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>windowTitle</string>
+							<string>\bwindowTitle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.windowTitle.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>link</string>
+							<string>\blink\b</string>
 							<key>name</key>
 							<string>support.function.tasks.link.gradle</string>
 						</dict>
@@ -4643,13 +4643,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>projects</string>
+							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
@@ -4689,181 +4689,181 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>appendix</string>
+							<string>\bappendix\b</string>
 							<key>name</key>
 							<string>support.function.tasks.appendix.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archiveName</string>
+							<string>\barchiveName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archiveName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archivePath</string>
+							<string>\barchivePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archivePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>baseName</string>
+							<string>\bbaseName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.baseName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>entryCompression</string>
+							<string>\bentryCompression\b</string>
 							<key>name</key>
 							<string>support.function.tasks.entryCompression.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>manifest</string>
+							<string>\bmanifest\b</string>
 							<key>name</key>
 							<string>support.function.tasks.manifest.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>version</string>
+							<string>\bversion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.version.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>metaInf</string>
+							<string>\bmetaInf\b</string>
 							<key>name</key>
 							<string>support.function.tasks.metaInf.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>
@@ -4903,61 +4903,61 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>options</string>
+							<string>\boptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.options.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>sourceCompatibility</string>
+							<string>\bsourceCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.sourceCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetCompatibility</string>
+							<string>\btargetCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -4997,73 +4997,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>executable</string>
+							<string>\bexecutable\b</string>
 							<key>name</key>
 							<string>support.function.tasks.executable.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>failOnError</string>
+							<string>\bfailOnError\b</string>
 							<key>name</key>
 							<string>support.function.tasks.failOnError.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxMemory</string>
+							<string>\bmaxMemory\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxMemory.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>options</string>
+							<string>\boptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.options.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>title</string>
+							<string>\btitle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.title.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -5103,115 +5103,115 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>allJvmArgs</string>
+							<string>\ballJvmArgs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allJvmArgs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>args</string>
+							<string>\bargs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.args.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>bootstrapClasspath</string>
+							<string>\bbootstrapClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.bootstrapClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>commandLine</string>
+							<string>\bcommandLine\b</string>
 							<key>name</key>
 							<string>support.function.tasks.commandLine.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>debug</string>
+							<string>\bdebug\b</string>
 							<key>name</key>
 							<string>support.function.tasks.debug.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>enableAssertions</string>
+							<string>\benableAssertions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enableAssertions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>environment</string>
+							<string>\benvironment\b</string>
 							<key>name</key>
 							<string>support.function.tasks.environment.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>errorOutput</string>
+							<string>\berrorOutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.errorOutput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>executable</string>
+							<string>\bexecutable\b</string>
 							<key>name</key>
 							<string>support.function.tasks.executable.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreExitValue</string>
+							<string>\bignoreExitValue\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreExitValue.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jvmArgs</string>
+							<string>\bjvmArgs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jvmArgs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>main</string>
+							<string>\bmain\b</string>
 							<key>name</key>
 							<string>support.function.tasks.main.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxHeapSize</string>
+							<string>\bmaxHeapSize\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxHeapSize.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>standardInput</string>
+							<string>\bstandardInput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.standardInput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>standardOutput</string>
+							<string>\bstandardOutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.standardOutput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>systemProperties</string>
+							<string>\bsystemProperties\b</string>
 							<key>name</key>
 							<string>support.function.tasks.systemProperties.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>workingDir</string>
+							<string>\bworkingDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.workingDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copyTo</string>
+							<string>\bcopyTo\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copyTo.gradle</string>
 						</dict>
@@ -5251,19 +5251,19 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classesDir</string>
+							<string>\bclassesDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classesDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jdependClasspath</string>
+							<string>\bjdependClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jdependClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
@@ -5303,73 +5303,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>additionalRuntimeJars</string>
+							<string>\badditionalRuntimeJars\b</string>
 							<key>name</key>
 							<string>support.function.tasks.additionalRuntimeJars.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>contextPath</string>
+							<string>\bcontextPath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.contextPath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>daemon</string>
+							<string>\bdaemon\b</string>
 							<key>name</key>
 							<string>support.function.tasks.daemon.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>httpPort</string>
+							<string>\bhttpPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.httpPort.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jettyConfig</string>
+							<string>\bjettyConfig\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jettyConfig.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reload</string>
+							<string>\breload\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reload.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scanIntervalSeconds</string>
+							<string>\bscanIntervalSeconds\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scanIntervalSeconds.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>stopKey</string>
+							<string>\bstopKey\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopKey.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>stopPort</string>
+							<string>\bstopPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopPort.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>webAppSourceDirectory</string>
+							<string>\bwebAppSourceDirectory\b</string>
 							<key>name</key>
 							<string>support.function.tasks.webAppSourceDirectory.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>webXml</string>
+							<string>\bwebXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.webXml.gradle</string>
 						</dict>
@@ -5409,61 +5409,61 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>additionalRuntimeJars</string>
+							<string>\badditionalRuntimeJars\b</string>
 							<key>name</key>
 							<string>support.function.tasks.additionalRuntimeJars.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>contextPath</string>
+							<string>\bcontextPath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.contextPath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>daemon</string>
+							<string>\bdaemon\b</string>
 							<key>name</key>
 							<string>support.function.tasks.daemon.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>httpPort</string>
+							<string>\bhttpPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.httpPort.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jettyConfig</string>
+							<string>\bjettyConfig\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jettyConfig.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reload</string>
+							<string>\breload\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reload.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scanIntervalSeconds</string>
+							<string>\bscanIntervalSeconds\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scanIntervalSeconds.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>stopKey</string>
+							<string>\bstopKey\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopKey.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>stopPort</string>
+							<string>\bstopPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopPort.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>webApp</string>
+							<string>\bwebApp\b</string>
 							<key>name</key>
 							<string>support.function.tasks.webApp.gradle</string>
 						</dict>
@@ -5503,13 +5503,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>stopKey</string>
+							<string>\bstopKey\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopKey.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>stopPort</string>
+							<string>\bstopPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopPort.gradle</string>
 						</dict>
@@ -5549,67 +5549,67 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>pmdClasspath</string>
+							<string>\bpmdClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.pmdClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ruleSetFiles</string>
+							<string>\bruleSetFiles\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ruleSetFiles.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ruleSets</string>
+							<string>\bruleSets\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ruleSets.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetJdk</string>
+							<string>\btargetJdk\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetJdk.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -5649,13 +5649,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>publication</string>
+							<string>\bpublication\b</string>
 							<key>name</key>
 							<string>support.function.tasks.publication.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>repository</string>
+							<string>\brepository\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repository.gradle</string>
 						</dict>
@@ -5695,13 +5695,13 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>publication</string>
+							<string>\bpublication\b</string>
 							<key>name</key>
 							<string>support.function.tasks.publication.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>repository</string>
+							<string>\brepository\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repository.gradle</string>
 						</dict>
@@ -5741,73 +5741,73 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>options</string>
+							<string>\boptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.options.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scalaClasspath</string>
+							<string>\bscalaClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scalaClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scalaCompileOptions</string>
+							<string>\bscalaCompileOptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scalaCompileOptions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>sourceCompatibility</string>
+							<string>\bsourceCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.sourceCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>targetCompatibility</string>
+							<string>\btargetCompatibility\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetCompatibility.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -5847,61 +5847,61 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scalaClasspath</string>
+							<string>\bscalaClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scalaClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scalaDocOptions</string>
+							<string>\bscalaDocOptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scalaDocOptions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>title</string>
+							<string>\btitle\b</string>
 							<key>name</key>
 							<string>support.function.tasks.title.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
@@ -5941,7 +5941,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>rootModel</string>
+							<string>\brootModel\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rootModel.gradle</string>
 						</dict>
@@ -5981,121 +5981,121 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>
@@ -6135,169 +6135,169 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>appendix</string>
+							<string>\bappendix\b</string>
 							<key>name</key>
 							<string>support.function.tasks.appendix.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archiveName</string>
+							<string>\barchiveName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archiveName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archivePath</string>
+							<string>\barchivePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archivePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>baseName</string>
+							<string>\bbaseName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.baseName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>compression</string>
+							<string>\bcompression\b</string>
 							<key>name</key>
 							<string>support.function.tasks.compression.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>version</string>
+							<string>\bversion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.version.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>
@@ -6337,253 +6337,253 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>allJvmArgs</string>
+							<string>\ballJvmArgs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.allJvmArgs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>binResultsDir</string>
+							<string>\bbinResultsDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.binResultsDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>bootstrapClasspath</string>
+							<string>\bbootstrapClasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.bootstrapClasspath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>debug</string>
+							<string>\bdebug\b</string>
 							<key>name</key>
 							<string>support.function.tasks.debug.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>enableAssertions</string>
+							<string>\benableAssertions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enableAssertions.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>environment</string>
+							<string>\benvironment\b</string>
 							<key>name</key>
 							<string>support.function.tasks.environment.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>executable</string>
+							<string>\bexecutable\b</string>
 							<key>name</key>
 							<string>support.function.tasks.executable.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>forkEvery</string>
+							<string>\bforkEvery\b</string>
 							<key>name</key>
 							<string>support.function.tasks.forkEvery.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>ignoreFailures</string>
+							<string>\bignoreFailures\b</string>
 							<key>name</key>
 							<string>support.function.tasks.ignoreFailures.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jvmArgs</string>
+							<string>\bjvmArgs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jvmArgs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxHeapSize</string>
+							<string>\bmaxHeapSize\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxHeapSize.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>maxParallelForks</string>
+							<string>\bmaxParallelForks\b</string>
 							<key>name</key>
 							<string>support.function.tasks.maxParallelForks.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>minHeapSize</string>
+							<string>\bminHeapSize\b</string>
 							<key>name</key>
 							<string>support.function.tasks.minHeapSize.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>options</string>
+							<string>\boptions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.options.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reports</string>
+							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scanForTestClasses</string>
+							<string>\bscanForTestClasses\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scanForTestClasses.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>systemProperties</string>
+							<string>\bsystemProperties\b</string>
 							<key>name</key>
 							<string>support.function.tasks.systemProperties.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testClassesDir</string>
+							<string>\btestClassesDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testClassesDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testLogging</string>
+							<string>\btestLogging\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testLogging.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testReport</string>
+							<string>\btestReport\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testReport.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testReportDir</string>
+							<string>\btestReportDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testReportDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testResultsDir</string>
+							<string>\btestResultsDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testResultsDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testSrcDirs</string>
+							<string>\btestSrcDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testSrcDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>workingDir</string>
+							<string>\bworkingDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.workingDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jacoco</string>
+							<string>\bjacoco\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jacoco.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>addTestListener</string>
+							<string>\baddTestListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.addTestListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>addTestOutputListener</string>
+							<string>\baddTestOutputListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.addTestOutputListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>afterSuite</string>
+							<string>\bafterSuite\b</string>
 							<key>name</key>
 							<string>support.function.tasks.afterSuite.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>afterTest</string>
+							<string>\bafterTest\b</string>
 							<key>name</key>
 							<string>support.function.tasks.afterTest.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>beforeSuite</string>
+							<string>\bbeforeSuite\b</string>
 							<key>name</key>
 							<string>support.function.tasks.beforeSuite.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>beforeTest</string>
+							<string>\bbeforeTest\b</string>
 							<key>name</key>
 							<string>support.function.tasks.beforeTest.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>copyTo</string>
+							<string>\bcopyTo\b</string>
 							<key>name</key>
 							<string>support.function.tasks.copyTo.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>onOutput</string>
+							<string>\bonOutput\b</string>
 							<key>name</key>
 							<string>support.function.tasks.onOutput.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>removeTestListener</string>
+							<string>\bremoveTestListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removeTestListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>removeTestOutputListener</string>
+							<string>\bremoveTestOutputListener\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removeTestOutputListener.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>useJUnit</string>
+							<string>\buseJUnit\b</string>
 							<key>name</key>
 							<string>support.function.tasks.useJUnit.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>useTestNG</string>
+							<string>\buseTestNG\b</string>
 							<key>name</key>
 							<string>support.function.tasks.useTestNG.gradle</string>
 						</dict>
@@ -6623,19 +6623,19 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>testResultDirs</string>
+							<string>\btestResultDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.testResultDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>reportOn</string>
+							<string>\breportOn\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reportOn.gradle</string>
 						</dict>
@@ -6675,25 +6675,25 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>artifacts</string>
+							<string>\bartifacts\b</string>
 							<key>name</key>
 							<string>support.function.tasks.artifacts.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>configuration</string>
+							<string>\bconfiguration\b</string>
 							<key>name</key>
 							<string>support.function.tasks.configuration.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>repositories</string>
+							<string>\brepositories\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repositories.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>uploadDescriptor</string>
+							<string>\buploadDescriptor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.uploadDescriptor.gradle</string>
 						</dict>
@@ -6733,199 +6733,199 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>appendix</string>
+							<string>\bappendix\b</string>
 							<key>name</key>
 							<string>support.function.tasks.appendix.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archiveName</string>
+							<string>\barchiveName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archiveName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archivePath</string>
+							<string>\barchivePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archivePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>baseName</string>
+							<string>\bbaseName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.baseName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classpath</string>
+							<string>\bclasspath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classpath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>entryCompression</string>
+							<string>\bentryCompression\b</string>
 							<key>name</key>
 							<string>support.function.tasks.entryCompression.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>manifest</string>
+							<string>\bmanifest\b</string>
 							<key>name</key>
 							<string>support.function.tasks.manifest.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>version</string>
+							<string>\bversion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.version.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>webXml</string>
+							<string>\bwebXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.webXml.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>metaInf</string>
+							<string>\bmetaInf\b</string>
 							<key>name</key>
 							<string>support.function.tasks.metaInf.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>webInf</string>
+							<string>\bwebInf\b</string>
 							<key>name</key>
 							<string>support.function.tasks.webInf.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>
@@ -6965,55 +6965,55 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>archiveBase</string>
+							<string>\barchiveBase\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archiveBase.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archivePath</string>
+							<string>\barchivePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archivePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>distributionBase</string>
+							<string>\bdistributionBase\b</string>
 							<key>name</key>
 							<string>support.function.tasks.distributionBase.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>distributionPath</string>
+							<string>\bdistributionPath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.distributionPath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>distributionUrl</string>
+							<string>\bdistributionUrl\b</string>
 							<key>name</key>
 							<string>support.function.tasks.distributionUrl.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>gradleVersion</string>
+							<string>\bgradleVersion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.gradleVersion.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>jarFile</string>
+							<string>\bjarFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.jarFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>propertiesFile</string>
+							<string>\bpropertiesFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.propertiesFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>scriptFile</string>
+							<string>\bscriptFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scriptFile.gradle</string>
 						</dict>
@@ -7053,169 +7053,169 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>appendix</string>
+							<string>\bappendix\b</string>
 							<key>name</key>
 							<string>support.function.tasks.appendix.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archiveName</string>
+							<string>\barchiveName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archiveName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>archivePath</string>
+							<string>\barchivePath\b</string>
 							<key>name</key>
 							<string>support.function.tasks.archivePath.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>baseName</string>
+							<string>\bbaseName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.baseName.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>caseSensitive</string>
+							<string>\bcaseSensitive\b</string>
 							<key>name</key>
 							<string>support.function.tasks.caseSensitive.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>classifier</string>
+							<string>\bclassifier\b</string>
 							<key>name</key>
 							<string>support.function.tasks.classifier.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>destinationDir</string>
+							<string>\bdestinationDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destinationDir.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>dirMode</string>
+							<string>\bdirMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.dirMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>duplicatesStrategy</string>
+							<string>\bduplicatesStrategy\b</string>
 							<key>name</key>
 							<string>support.function.tasks.duplicatesStrategy.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>entryCompression</string>
+							<string>\bentryCompression\b</string>
 							<key>name</key>
 							<string>support.function.tasks.entryCompression.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>excludes</string>
+							<string>\bexcludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.excludes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>extension</string>
+							<string>\bextension\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extension.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>fileMode</string>
+							<string>\bfileMode\b</string>
 							<key>name</key>
 							<string>support.function.tasks.fileMode.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includeEmptyDirs</string>
+							<string>\bincludeEmptyDirs\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includeEmptyDirs.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>includes</string>
+							<string>\bincludes\b</string>
 							<key>name</key>
 							<string>support.function.tasks.includes.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>source</string>
+							<string>\bsource\b</string>
 							<key>name</key>
 							<string>support.function.tasks.source.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>version</string>
+							<string>\bversion\b</string>
 							<key>name</key>
 							<string>support.function.tasks.version.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>eachFile</string>
+							<string>\beachFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.eachFile.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>exclude</string>
+							<string>\bexclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.exclude.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>expand</string>
+							<string>\bexpand\b</string>
 							<key>name</key>
 							<string>support.function.tasks.expand.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesMatching</string>
+							<string>\bfilesMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filesNotMatching</string>
+							<string>\bfilesNotMatching\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filesNotMatching.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>filter</string>
+							<string>\bfilter\b</string>
 							<key>name</key>
 							<string>support.function.tasks.filter.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>from</string>
+							<string>\bfrom\b</string>
 							<key>name</key>
 							<string>support.function.tasks.from.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>include</string>
+							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>into</string>
+							<string>\binto\b</string>
 							<key>name</key>
 							<string>support.function.tasks.into.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>rename</string>
+							<string>\brename\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rename.gradle</string>
 						</dict>
 						<dict>
 							<key>match</key>
-							<string>with</string>
+							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
 						</dict>

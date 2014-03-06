@@ -14,267 +14,267 @@ repository:
   project-patterns:
     patterns:
       - name: support.type.project.allprojects.gradle
-        match: allprojects
+        match: \ballprojects\b
       - name: support.type.project.ant.gradle
-        match: ant
+        match: \bant\b
       - name: support.type.project.artifacts.gradle
-        match: artifacts
+        match: \bartifacts\b
       - name: support.type.project.buildDir.gradle
-        match: buildDir
+        match: \bbuildDir\b
       - name: support.type.project.buildFile.gradle
-        match: buildFile
+        match: \bbuildFile\b
       - name: support.type.project.buildscript.gradle
-        match: buildscript
+        match: \bbuildscript\b
       - name: support.type.project.childProjects.gradle
-        match: childProjects
+        match: \bchildProjects\b
       - name: support.type.project.configurations.gradle
-        match: configurations
+        match: \bconfigurations\b
       - name: support.type.project.convention.gradle
-        match: convention
+        match: \bconvention\b
       - name: support.type.project.defaultTasks.gradle
-        match: defaultTasks
+        match: \bdefaultTasks\b
       - name: support.type.project.dependencies.gradle
-        match: dependencies
+        match: \bdependencies\b
       - name: support.type.project.dependsOnProjects.gradle
-        match: dependsOnProjects
+        match: \bdependsOnProjects\b
       - name: support.type.project.description.gradle
-        match: description
+        match: \bdescription\b
       - name: support.type.project.extensions.gradle
-        match: extensions
+        match: \bextensions\b
       - name: support.type.project.gradle.gradle
-        match: gradle
+        match: \bgradle\b
       - name: support.type.project.group.gradle
-        match: group
+        match: \bgroup\b
       - name: support.type.project.logger.gradle
-        match: logger
+        match: \blogger\b
       - name: support.type.project.logging.gradle
-        match: logging
+        match: \blogging\b
       - name: support.type.project.name.gradle
-        match: name
+        match: \bname\b
       - name: support.type.project.parent.gradle
-        match: parent
+        match: \bparent\b
       - name: support.type.project.path.gradle
-        match: path
+        match: \bpath\b
       - name: support.type.project.plugins.gradle
-        match: plugins
+        match: \bplugins\b
       - name: support.type.project.project.gradle
-        match: project
+        match: \bproject\b
       - name: support.type.project.projectDir.gradle
-        match: projectDir
+        match: \bprojectDir\b
       - name: support.type.project.properties.gradle
-        match: properties
+        match: \bproperties\b
       - name: support.type.project.repositories.gradle
-        match: repositories
+        match: \brepositories\b
       - name: support.type.project.resources.gradle
-        match: resources
+        match: \bresources\b
       - name: support.type.project.rootDir.gradle
-        match: rootDir
+        match: \brootDir\b
       - name: support.type.project.rootProject.gradle
-        match: rootProject
+        match: \brootProject\b
       - name: support.type.project.state.gradle
-        match: state
+        match: \bstate\b
       - name: support.type.project.status.gradle
-        match: status
+        match: \bstatus\b
       - name: support.type.project.subprojects.gradle
-        match: subprojects
+        match: \bsubprojects\b
       - name: support.type.project.tasks.gradle
-        match: tasks
+        match: \btasks\b
       - name: support.type.project.version.gradle
-        match: version
+        match: \bversion\b
       - name: support.type.project.binaries.gradle
-        match: binaries
+        match: \bbinaries\b
       - name: support.type.project.sources.gradle
-        match: sources
+        match: \bsources\b
       - name: support.type.project.announce.gradle
-        match: announce
+        match: \bannounce\b
       - name: support.type.project.applicationDefaultJvmArgs.gradle
-        match: applicationDefaultJvmArgs
+        match: \bapplicationDefaultJvmArgs\b
       - name: support.type.project.applicationDistribution.gradle
-        match: applicationDistribution
+        match: \bapplicationDistribution\b
       - name: support.type.project.applicationName.gradle
-        match: applicationName
+        match: \bapplicationName\b
       - name: support.type.project.mainClassName.gradle
-        match: mainClassName
+        match: \bmainClassName\b
       - name: support.type.project.checkstyle.gradle
-        match: checkstyle
+        match: \bcheckstyle\b
       - name: support.type.project.checkstyleConfigFile.gradle
-        match: checkstyleConfigFile
+        match: \bcheckstyleConfigFile\b
       - name: support.type.project.checkstyleConfigFileName.gradle
-        match: checkstyleConfigFileName
+        match: \bcheckstyleConfigFileName\b
       - name: support.type.project.checkstyleProperties.gradle
-        match: checkstyleProperties
+        match: \bcheckstyleProperties\b
       - name: support.type.project.checkstyleResultsDir.gradle
-        match: checkstyleResultsDir
+        match: \bcheckstyleResultsDir\b
       - name: support.type.project.checkstyleResultsDirName.gradle
-        match: checkstyleResultsDirName
+        match: \bcheckstyleResultsDirName\b
       - name: support.type.project.codeNarcConfigFile.gradle
-        match: codeNarcConfigFile
+        match: \bcodeNarcConfigFile\b
       - name: support.type.project.codeNarcConfigFileName.gradle
-        match: codeNarcConfigFileName
+        match: \bcodeNarcConfigFileName\b
       - name: support.type.project.codeNarcReportsDir.gradle
-        match: codeNarcReportsDir
+        match: \bcodeNarcReportsDir\b
       - name: support.type.project.codeNarcReportsDirName.gradle
-        match: codeNarcReportsDirName
+        match: \bcodeNarcReportsDirName\b
       - name: support.type.project.codenarc.gradle
-        match: codenarc
+        match: \bcodenarc\b
       - name: support.type.project.distributions.gradle
-        match: distributions
+        match: \bdistributions\b
       - name: support.type.project.appDirName.gradle
-        match: appDirName
+        match: \bappDirName\b
       - name: support.type.project.deploymentDescriptor.gradle
-        match: deploymentDescriptor
+        match: \bdeploymentDescriptor\b
       - name: support.type.project.libDirName.gradle
-        match: libDirName
+        match: \blibDirName\b
       - name: support.type.project.eclipse.gradle
-        match: eclipse
+        match: \beclipse\b
       - name: support.type.project.findbugs.gradle
-        match: findbugs
+        match: \bfindbugs\b
       - name: support.type.project.idea.gradle
-        match: idea
+        match: \bidea\b
       - name: support.type.project.jacoco.gradle
-        match: jacoco
+        match: \bjacoco\b
       - name: support.type.project.apiDocTitle.gradle
-        match: apiDocTitle
+        match: \bapiDocTitle\b
       - name: support.type.project.archivesBaseName.gradle
-        match: archivesBaseName
+        match: \barchivesBaseName\b
       - name: support.type.project.distsDir.gradle
-        match: distsDir
+        match: \bdistsDir\b
       - name: support.type.project.distsDirName.gradle
-        match: distsDirName
+        match: \bdistsDirName\b
       - name: support.type.project.docsDir.gradle
-        match: docsDir
+        match: \bdocsDir\b
       - name: support.type.project.docsDirName.gradle
-        match: docsDirName
+        match: \bdocsDirName\b
       - name: support.type.project.libsDir.gradle
-        match: libsDir
+        match: \blibsDir\b
       - name: support.type.project.libsDirName.gradle
-        match: libsDirName
+        match: \blibsDirName\b
       - name: support.type.project.reportsDir.gradle
-        match: reportsDir
+        match: \breportsDir\b
       - name: support.type.project.reportsDirName.gradle
-        match: reportsDirName
+        match: \breportsDirName\b
       - name: support.type.project.sourceCompatibility.gradle
-        match: sourceCompatibility
+        match: \bsourceCompatibility\b
       - name: support.type.project.sourceSets.gradle
-        match: sourceSets
+        match: \bsourceSets\b
       - name: support.type.project.targetCompatibility.gradle
-        match: targetCompatibility
+        match: \btargetCompatibility\b
       - name: support.type.project.testReportDir.gradle
-        match: testReportDir
+        match: \btestReportDir\b
       - name: support.type.project.testReportDirName.gradle
-        match: testReportDirName
+        match: \btestReportDirName\b
       - name: support.type.project.testResultsDir.gradle
-        match: testResultsDir
+        match: \btestResultsDir\b
       - name: support.type.project.testResultsDirName.gradle
-        match: testResultsDirName
+        match: \btestResultsDirName\b
       - name: support.type.project.jdepend.gradle
-        match: jdepend
+        match: \bjdepend\b
       - name: support.type.project.httpPort.gradle
-        match: httpPort
+        match: \bhttpPort\b
       - name: support.type.project.stopKey.gradle
-        match: stopKey
+        match: \bstopKey\b
       - name: support.type.project.stopPort.gradle
-        match: stopPort
+        match: \bstopPort\b
       - name: support.type.project.conf2ScopeMappings.gradle
-        match: conf2ScopeMappings
+        match: \bconf2ScopeMappings\b
       - name: support.type.project.mavenPomDir.gradle
-        match: mavenPomDir
+        match: \bmavenPomDir\b
       - name: support.type.project.buildTypes.gradle
-        match: buildTypes
+        match: \bbuildTypes\b
       - name: support.type.project.executables.gradle
-        match: executables
+        match: \bexecutables\b
       - name: support.type.project.flavors.gradle
-        match: flavors
+        match: \bflavors\b
       - name: support.type.project.libraries.gradle
-        match: libraries
+        match: \blibraries\b
       - name: support.type.project.platforms.gradle
-        match: platforms
+        match: \bplatforms\b
       - name: support.type.project.toolChains.gradle
-        match: toolChains
+        match: \btoolChains\b
       - name: support.type.project.pmd.gradle
-        match: pmd
+        match: \bpmd\b
       - name: support.type.project.projectReportDir.gradle
-        match: projectReportDir
+        match: \bprojectReportDir\b
       - name: support.type.project.projectReportDirName.gradle
-        match: projectReportDirName
+        match: \bprojectReportDirName\b
       - name: support.type.project.publishing.gradle
-        match: publishing
+        match: \bpublishing\b
       - name: support.type.project.signing.gradle
-        match: signing
+        match: \bsigning\b
       - name: support.type.project.visualStudio.gradle
-        match: visualStudio
+        match: \bvisualStudio\b
       - name: support.type.project.webAppDir.gradle
-        match: webAppDir
+        match: \bwebAppDir\b
       - name: support.type.project.webAppDirName.gradle
-        match: webAppDirName
+        match: \bwebAppDirName\b
       - name: support.type.project.absoluteProjectPath.gradle
-        match: absoluteProjectPath
+        match: \babsoluteProjectPath\b
       - name: support.type.project.afterEvaluate.gradle
-        match: afterEvaluate
+        match: \bafterEvaluate\b
       - name: support.type.project.apply.gradle
-        match: apply
+        match: \bapply\b
       - name: support.type.project.beforeEvaluate.gradle
-        match: beforeEvaluate
+        match: \bbeforeEvaluate\b
       - name: support.type.project.childrenDependOnMe.gradle
-        match: childrenDependOnMe
+        match: \bchildrenDependOnMe\b
       - name: support.type.project.configure.gradle
-        match: configure
+        match: \bconfigure\b
       - name: support.type.project.container.gradle
-        match: container
+        match: \bcontainer\b
       - name: support.type.project.copy.gradle
-        match: copy
+        match: \bcopy\b
       - name: support.type.project.copySpec.gradle
-        match: copySpec
+        match: \bcopySpec\b
       - name: support.type.project.delete.gradle
-        match: delete
+        match: \bdelete\b
       - name: support.type.project.dependsOn.gradle
-        match: dependsOn
+        match: \bdependsOn\b
       - name: support.type.project.dependsOnChildren.gradle
-        match: dependsOnChildren
+        match: \bdependsOnChildren\b
       - name: support.type.project.evaluationDependsOn.gradle
-        match: evaluationDependsOn
+        match: \bevaluationDependsOn\b
       - name: support.type.project.exec.gradle
-        match: exec
+        match: \bexec\b
       - name: support.type.project.file.gradle
-        match: file
+        match: \bfile\b
       - name: support.type.project.fileTree.gradle
-        match: fileTree
+        match: \bfileTree\b
       - name: support.type.project.files.gradle
-        match: files
+        match: \bfiles\b
       - name: support.type.project.findProject.gradle
-        match: findProject
+        match: \bfindProject\b
       - name: support.type.project.getAllTasks.gradle
-        match: getAllTasks
+        match: \bgetAllTasks\b
       - name: support.type.project.getTasksByName.gradle
-        match: getTasksByName
+        match: \bgetTasksByName\b
       - name: support.type.project.hasProperty.gradle
-        match: hasProperty
+        match: \bhasProperty\b
       - name: support.type.project.javaexec.gradle
-        match: javaexec
+        match: \bjavaexec\b
       - name: support.type.project.mkdir.gradle
-        match: mkdir
+        match: \bmkdir\b
       - name: support.type.project.property.gradle
-        match: property
+        match: \bproperty\b
       - name: support.type.project.relativePath.gradle
-        match: relativePath
+        match: \brelativePath\b
       - name: support.type.project.relativeProjectPath.gradle
-        match: relativeProjectPath
+        match: \brelativeProjectPath\b
       - name: support.type.project.setProperty.gradle
-        match: setProperty
+        match: \bsetProperty\b
       - name: support.type.project.tarTree.gradle
-        match: tarTree
+        match: \btarTree\b
       - name: support.type.project.task.gradle
-        match: task
+        match: \btask\b
       - name: support.type.project.uri.gradle
-        match: uri
+        match: \buri\b
       - name: support.type.project.zipTree.gradle
-        match: zipTree
+        match: \bzipTree\b
       - name: support.type.project.manifest.gradle
-        match: manifest
+        match: \bmanifest\b
       - name: support.type.project.pom.gradle
-        match: pom
+        match: \bpom\b
       - name: support.type.project.osgiManifest.gradle
-        match: osgiManifest
+        match: \bosgiManifest\b
 
 
   generic-task-beginning:
@@ -289,7 +289,6 @@ repository:
         patterns:
           - include: '#specific-tasks'
           - include: '#project-patterns'
-          #- include: '#task-keywords'
           - include: source.groovy
 
   specific-tasks:
@@ -303,63 +302,63 @@ repository:
         contentName: 'Task.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.actions.gradle
-            match: actions
+            match: \bactions\b
           - name: support.function.tasks.ant.gradle
-            match: ant
+            match: \bant\b
           - name: support.function.tasks.convention.gradle
-            match: convention
+            match: \bconvention\b
           - name: support.function.tasks.dependsOn.gradle
-            match: dependsOn
+            match: \bdependsOn\b
           - name: support.function.tasks.description.gradle
-            match: description
+            match: \bdescription\b
           - name: support.function.tasks.didWork.gradle
-            match: didWork
+            match: \bdidWork\b
           - name: support.function.tasks.enabled.gradle
-            match: enabled
+            match: \benabled\b
           - name: support.function.tasks.extensions.gradle
-            match: extensions
+            match: \bextensions\b
           - name: support.function.tasks.finalizedBy.gradle
-            match: finalizedBy
+            match: \bfinalizedBy\b
           - name: support.function.tasks.group.gradle
-            match: group
+            match: \bgroup\b
           - name: support.function.tasks.inputs.gradle
-            match: inputs
+            match: \binputs\b
           - name: support.function.tasks.logger.gradle
-            match: logger
+            match: \blogger\b
           - name: support.function.tasks.logging.gradle
-            match: logging
+            match: \blogging\b
           - name: support.function.tasks.mustRunAfter.gradle
-            match: mustRunAfter
+            match: \bmustRunAfter\b
           - name: support.function.tasks.name.gradle
-            match: name
+            match: \bname\b
           - name: support.function.tasks.outputs.gradle
-            match: outputs
+            match: \boutputs\b
           - name: support.function.tasks.path.gradle
-            match: path
+            match: \bpath\b
           - name: support.function.tasks.project.gradle
-            match: project
+            match: \bproject\b
           - name: support.function.tasks.state.gradle
-            match: state
+            match: \bstate\b
           - name: support.function.tasks.taskDependencies.gradle
-            match: taskDependencies
+            match: \btaskDependencies\b
           - name: support.function.tasks.temporaryDir.gradle
-            match: temporaryDir
+            match: \btemporaryDir\b
           - name: support.function.tasks.deleteAllActions.gradle
-            match: deleteAllActions
+            match: \bdeleteAllActions\b
           - name: support.function.tasks.doFirst.gradle
-            match: doFirst
+            match: \bdoFirst\b
           - name: support.function.tasks.doLast.gradle
-            match: doLast
+            match: \bdoLast\b
           - name: support.function.tasks.hasProperty.gradle
-            match: hasProperty
+            match: \bhasProperty\b
           - name: support.function.tasks.leftShift.gradle
-            match: leftShift
+            match: \bleftShift\b
           - name: support.function.tasks.onlyIf.gradle
-            match: onlyIf
+            match: \bonlyIf\b
           - name: support.function.tasks.property.gradle
-            match: property
+            match: \bproperty\b
           - name: support.function.tasks.setProperty.gradle
-            match: setProperty
+            match: \bsetProperty\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -372,47 +371,47 @@ repository:
         contentName: 'Gradle.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.gradle.gradle
-            match: gradle
+            match: \bgradle\b
           - name: support.function.tasks.gradleHomeDir.gradle
-            match: gradleHomeDir
+            match: \bgradleHomeDir\b
           - name: support.function.tasks.gradleUserHomeDir.gradle
-            match: gradleUserHomeDir
+            match: \bgradleUserHomeDir\b
           - name: support.function.tasks.gradleVersion.gradle
-            match: gradleVersion
+            match: \bgradleVersion\b
           - name: support.function.tasks.parent.gradle
-            match: parent
+            match: \bparent\b
           - name: support.function.tasks.rootProject.gradle
-            match: rootProject
+            match: \brootProject\b
           - name: support.function.tasks.startParameter.gradle
-            match: startParameter
+            match: \bstartParameter\b
           - name: support.function.tasks.taskGraph.gradle
-            match: taskGraph
+            match: \btaskGraph\b
           - name: support.function.tasks.addBuildListener.gradle
-            match: addBuildListener
+            match: \baddBuildListener\b
           - name: support.function.tasks.addListener.gradle
-            match: addListener
+            match: \baddListener\b
           - name: support.function.tasks.addProjectEvaluationListener.gradle
-            match: addProjectEvaluationListener
+            match: \baddProjectEvaluationListener\b
           - name: support.function.tasks.afterProject.gradle
-            match: afterProject
+            match: \bafterProject\b
           - name: support.function.tasks.allprojects.gradle
-            match: allprojects
+            match: \ballprojects\b
           - name: support.function.tasks.beforeProject.gradle
-            match: beforeProject
+            match: \bbeforeProject\b
           - name: support.function.tasks.buildFinished.gradle
-            match: buildFinished
+            match: \bbuildFinished\b
           - name: support.function.tasks.projectsEvaluated.gradle
-            match: projectsEvaluated
+            match: \bprojectsEvaluated\b
           - name: support.function.tasks.projectsLoaded.gradle
-            match: projectsLoaded
+            match: \bprojectsLoaded\b
           - name: support.function.tasks.removeListener.gradle
-            match: removeListener
+            match: \bremoveListener\b
           - name: support.function.tasks.removeProjectEvaluationListener.gradle
-            match: removeProjectEvaluationListener
+            match: \bremoveProjectEvaluationListener\b
           - name: support.function.tasks.settingsEvaluated.gradle
-            match: settingsEvaluated
+            match: \bsettingsEvaluated\b
           - name: support.function.tasks.useLogger.gradle
-            match: useLogger
+            match: \buseLogger\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -425,25 +424,25 @@ repository:
         contentName: 'Settings.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.gradle.gradle
-            match: gradle
+            match: \bgradle\b
           - name: support.function.tasks.rootDir.gradle
-            match: rootDir
+            match: \brootDir\b
           - name: support.function.tasks.rootProject.gradle
-            match: rootProject
+            match: \brootProject\b
           - name: support.function.tasks.settings.gradle
-            match: settings
+            match: \bsettings\b
           - name: support.function.tasks.settingsDir.gradle
-            match: settingsDir
+            match: \bsettingsDir\b
           - name: support.function.tasks.startParameter.gradle
-            match: startParameter
+            match: \bstartParameter\b
           - name: support.function.tasks.findProject.gradle
-            match: findProject
+            match: \bfindProject\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.includeFlat.gradle
-            match: includeFlat
+            match: \bincludeFlat\b
           - name: support.function.tasks.project.gradle
-            match: project
+            match: \bproject\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -456,41 +455,41 @@ repository:
         contentName: 'Script.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.buildscript.gradle
-            match: buildscript
+            match: \bbuildscript\b
           - name: support.function.tasks.logger.gradle
-            match: logger
+            match: \blogger\b
           - name: support.function.tasks.logging.gradle
-            match: logging
+            match: \blogging\b
           - name: support.function.tasks.resources.gradle
-            match: resources
+            match: \bresources\b
           - name: support.function.tasks.apply.gradle
-            match: apply
+            match: \bapply\b
           - name: support.function.tasks.copy.gradle
-            match: copy
+            match: \bcopy\b
           - name: support.function.tasks.copySpec.gradle
-            match: copySpec
+            match: \bcopySpec\b
           - name: support.function.tasks.delete.gradle
-            match: delete
+            match: \bdelete\b
           - name: support.function.tasks.exec.gradle
-            match: exec
+            match: \bexec\b
           - name: support.function.tasks.file.gradle
-            match: file
+            match: \bfile\b
           - name: support.function.tasks.fileTree.gradle
-            match: fileTree
+            match: \bfileTree\b
           - name: support.function.tasks.files.gradle
-            match: files
+            match: \bfiles\b
           - name: support.function.tasks.javaexec.gradle
-            match: javaexec
+            match: \bjavaexec\b
           - name: support.function.tasks.mkdir.gradle
-            match: mkdir
+            match: \bmkdir\b
           - name: support.function.tasks.relativePath.gradle
-            match: relativePath
+            match: \brelativePath\b
           - name: support.function.tasks.tarTree.gradle
-            match: tarTree
+            match: \btarTree\b
           - name: support.function.tasks.uri.gradle
-            match: uri
+            match: \buri\b
           - name: support.function.tasks.zipTree.gradle
-            match: zipTree
+            match: \bzipTree\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -503,37 +502,37 @@ repository:
         contentName: 'SourceSet.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.allJava.gradle
-            match: allJava
+            match: \ballJava\b
           - name: support.function.tasks.allSource.gradle
-            match: allSource
+            match: \ballSource\b
           - name: support.function.tasks.compileClasspath.gradle
-            match: compileClasspath
+            match: \bcompileClasspath\b
           - name: support.function.tasks.java.gradle
-            match: java
+            match: \bjava\b
           - name: support.function.tasks.name.gradle
-            match: name
+            match: \bname\b
           - name: support.function.tasks.output.gradle
-            match: output
+            match: \boutput\b
           - name: support.function.tasks.resources.gradle
-            match: resources
+            match: \bresources\b
           - name: support.function.tasks.runtimeClasspath.gradle
-            match: runtimeClasspath
+            match: \bruntimeClasspath\b
           - name: support.function.tasks.antlr.gradle
-            match: antlr
+            match: \bantlr\b
           - name: support.function.tasks.allGroovy.gradle
-            match: allGroovy
+            match: \ballGroovy\b
           - name: support.function.tasks.groovy.gradle
-            match: groovy
+            match: \bgroovy\b
           - name: support.function.tasks.allScala.gradle
-            match: allScala
+            match: \ballScala\b
           - name: support.function.tasks.scala.gradle
-            match: scala
+            match: \bscala\b
           - name: support.function.tasks.compiledBy.gradle
-            match: compiledBy
+            match: \bcompiledBy\b
           - name: support.function.tasks.getCompileTaskName.gradle
-            match: getCompileTaskName
+            match: \bgetCompileTaskName\b
           - name: support.function.tasks.getTaskName.gradle
-            match: getTaskName
+            match: \bgetTaskName\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -546,13 +545,13 @@ repository:
         contentName: 'SourceSetOutput.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classesDir.gradle
-            match: classesDir
+            match: \bclassesDir\b
           - name: support.function.tasks.resourcesDir.gradle
-            match: resourcesDir
+            match: \bresourcesDir\b
           - name: support.function.tasks.dir.gradle
-            match: dir
+            match: \bdir\b
           - name: support.function.tasks.getDirs.gradle
-            match: getDirs
+            match: \bgetDirs\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -565,11 +564,11 @@ repository:
         contentName: 'IncrementalTaskInputs.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.incremental.gradle
-            match: incremental
+            match: \bincremental\b
           - name: support.function.tasks.outOfDate.gradle
-            match: outOfDate
+            match: \boutOfDate\b
           - name: support.function.tasks.removed.gradle
-            match: removed
+            match: \bremoved\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -582,49 +581,49 @@ repository:
         contentName: 'Configuration.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.allArtifacts.gradle
-            match: allArtifacts
+            match: \ballArtifacts\b
           - name: support.function.tasks.allDependencies.gradle
-            match: allDependencies
+            match: \ballDependencies\b
           - name: support.function.tasks.artifacts.gradle
-            match: artifacts
+            match: \bartifacts\b
           - name: support.function.tasks.buildDependencies.gradle
-            match: buildDependencies
+            match: \bbuildDependencies\b
           - name: support.function.tasks.dependencies.gradle
-            match: dependencies
+            match: \bdependencies\b
           - name: support.function.tasks.description.gradle
-            match: description
+            match: \bdescription\b
           - name: support.function.tasks.excludeRules.gradle
-            match: excludeRules
+            match: \bexcludeRules\b
           - name: support.function.tasks.extendsFrom.gradle
-            match: extendsFrom
+            match: \bextendsFrom\b
           - name: support.function.tasks.hierarchy.gradle
-            match: hierarchy
+            match: \bhierarchy\b
           - name: support.function.tasks.incoming.gradle
-            match: incoming
+            match: \bincoming\b
           - name: support.function.tasks.name.gradle
-            match: name
+            match: \bname\b
           - name: support.function.tasks.resolutionStrategy.gradle
-            match: resolutionStrategy
+            match: \bresolutionStrategy\b
           - name: support.function.tasks.resolvedConfiguration.gradle
-            match: resolvedConfiguration
+            match: \bresolvedConfiguration\b
           - name: support.function.tasks.state.gradle
-            match: state
+            match: \bstate\b
           - name: support.function.tasks.transitive.gradle
-            match: transitive
+            match: \btransitive\b
           - name: support.function.tasks.visible.gradle
-            match: visible
+            match: \bvisible\b
           - name: support.function.tasks.copy.gradle
-            match: copy
+            match: \bcopy\b
           - name: support.function.tasks.copyRecursive.gradle
-            match: copyRecursive
+            match: \bcopyRecursive\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.fileCollection.gradle
-            match: fileCollection
+            match: \bfileCollection\b
           - name: support.function.tasks.files.gradle
-            match: files
+            match: \bfiles\b
           - name: support.function.tasks.getTaskDependencyFromProjectDependency.gradle
-            match: getTaskDependencyFromProjectDependency
+            match: \bgetTaskDependencyFromProjectDependency\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -637,17 +636,17 @@ repository:
         contentName: 'ResolutionStrategy.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.forcedModules.gradle
-            match: forcedModules
+            match: \bforcedModules\b
           - name: support.function.tasks.cacheChangingModulesFor.gradle
-            match: cacheChangingModulesFor
+            match: \bcacheChangingModulesFor\b
           - name: support.function.tasks.cacheDynamicVersionsFor.gradle
-            match: cacheDynamicVersionsFor
+            match: \bcacheDynamicVersionsFor\b
           - name: support.function.tasks.eachDependency.gradle
-            match: eachDependency
+            match: \beachDependency\b
           - name: support.function.tasks.failOnVersionConflict.gradle
-            match: failOnVersionConflict
+            match: \bfailOnVersionConflict\b
           - name: support.function.tasks.force.gradle
-            match: force
+            match: \bforce\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -671,7 +670,7 @@ repository:
         contentName: 'ExtensionAware.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.extensions.gradle
-            match: extensions
+            match: \bextensions\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -684,13 +683,13 @@ repository:
         contentName: 'ExtraPropertiesExtension.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.properties.gradle
-            match: properties
+            match: \bproperties\b
           - name: support.function.tasks.get.gradle
-            match: get
+            match: \bget\b
           - name: support.function.tasks.has.gradle
-            match: has
+            match: \bhas\b
           - name: support.function.tasks.set.gradle
-            match: set
+            match: \bset\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -703,9 +702,9 @@ repository:
         contentName: 'PublishingExtension.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.publications.gradle
-            match: publications
+            match: \bpublications\b
           - name: support.function.tasks.repositories.gradle
-            match: repositories
+            match: \brepositories\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -718,15 +717,15 @@ repository:
         contentName: 'Report.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.destination.gradle
-            match: destination
+            match: \bdestination\b
           - name: support.function.tasks.displayName.gradle
-            match: displayName
+            match: \bdisplayName\b
           - name: support.function.tasks.enabled.gradle
-            match: enabled
+            match: \benabled\b
           - name: support.function.tasks.name.gradle
-            match: name
+            match: \bname\b
           - name: support.function.tasks.outputType.gradle
-            match: outputType
+            match: \boutputType\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -739,7 +738,7 @@ repository:
         contentName: 'Reporting.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -752,7 +751,7 @@ repository:
         contentName: 'ReportContainer.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.enabled.gradle
-            match: enabled
+            match: \benabled\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -765,9 +764,9 @@ repository:
         contentName: 'ReportingExtension.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.baseDir.gradle
-            match: baseDir
+            match: \bbaseDir\b
           - name: support.function.tasks.file.gradle
-            match: file
+            match: \bfile\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -780,21 +779,21 @@ repository:
         contentName: 'IvyPublication.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.artifacts.gradle
-            match: artifacts
+            match: \bartifacts\b
           - name: support.function.tasks.configurations.gradle
-            match: configurations
+            match: \bconfigurations\b
           - name: support.function.tasks.descriptor.gradle
-            match: descriptor
+            match: \bdescriptor\b
           - name: support.function.tasks.module.gradle
-            match: module
+            match: \bmodule\b
           - name: support.function.tasks.organisation.gradle
-            match: organisation
+            match: \borganisation\b
           - name: support.function.tasks.revision.gradle
-            match: revision
+            match: \brevision\b
           - name: support.function.tasks.artifact.gradle
-            match: artifact
+            match: \bartifact\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -807,19 +806,19 @@ repository:
         contentName: 'IvyArtifact.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.conf.gradle
-            match: conf
+            match: \bconf\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.file.gradle
-            match: file
+            match: \bfile\b
           - name: support.function.tasks.name.gradle
-            match: name
+            match: \bname\b
           - name: support.function.tasks.type.gradle
-            match: type
+            match: \btype\b
           - name: support.function.tasks.builtBy.gradle
-            match: builtBy
+            match: \bbuiltBy\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -832,7 +831,7 @@ repository:
         contentName: 'IvyArtifactSet.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.artifact.gradle
-            match: artifact
+            match: \bartifact\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -845,7 +844,7 @@ repository:
         contentName: 'IvyModuleDescriptor.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.withXml.gradle
-            match: withXml
+            match: \bwithXml\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -858,21 +857,21 @@ repository:
         contentName: 'MavenPublication.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.artifactId.gradle
-            match: artifactId
+            match: \bartifactId\b
           - name: support.function.tasks.artifacts.gradle
-            match: artifacts
+            match: \bartifacts\b
           - name: support.function.tasks.groupId.gradle
-            match: groupId
+            match: \bgroupId\b
           - name: support.function.tasks.pom.gradle
-            match: pom
+            match: \bpom\b
           - name: support.function.tasks.version.gradle
-            match: version
+            match: \bversion\b
           - name: support.function.tasks.artifact.gradle
-            match: artifact
+            match: \bartifact\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.setArtifacts.gradle
-            match: setArtifacts
+            match: \bsetArtifacts\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -885,13 +884,13 @@ repository:
         contentName: 'MavenArtifact.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.file.gradle
-            match: file
+            match: \bfile\b
           - name: support.function.tasks.builtBy.gradle
-            match: builtBy
+            match: \bbuiltBy\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -904,7 +903,7 @@ repository:
         contentName: 'MavenArtifactSet.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.artifact.gradle
-            match: artifact
+            match: \bartifact\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -917,7 +916,7 @@ repository:
         contentName: 'MavenPom.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.withXml.gradle
-            match: withXml
+            match: \bwithXml\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -930,13 +929,13 @@ repository:
         contentName: 'ConfigurationContainer.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.add.gradle
-            match: add
+            match: \badd\b
           - name: support.function.tasks.detachedConfiguration.gradle
-            match: detachedConfiguration
+            match: \bdetachedConfiguration\b
           - name: support.function.tasks.getAt.gradle
-            match: getAt
+            match: \bgetAt\b
           - name: support.function.tasks.getByName.gradle
-            match: getByName
+            match: \bgetByName\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -949,23 +948,23 @@ repository:
         contentName: 'RepositoryHandler.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.flatDir.gradle
-            match: flatDir
+            match: \bflatDir\b
           - name: support.function.tasks.ivy.gradle
-            match: ivy
+            match: \bivy\b
           - name: support.function.tasks.jcenter.gradle
-            match: jcenter
+            match: \bjcenter\b
           - name: support.function.tasks.maven.gradle
-            match: maven
+            match: \bmaven\b
           - name: support.function.tasks.mavenCentral.gradle
-            match: mavenCentral
+            match: \bmavenCentral\b
           - name: support.function.tasks.mavenLocal.gradle
-            match: mavenLocal
+            match: \bmavenLocal\b
           - name: support.function.tasks.mavenRepo.gradle
-            match: mavenRepo
+            match: \bmavenRepo\b
           - name: support.function.tasks.mavenDeployer.gradle
-            match: mavenDeployer
+            match: \bmavenDeployer\b
           - name: support.function.tasks.mavenInstaller.gradle
-            match: mavenInstaller
+            match: \bmavenInstaller\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -978,19 +977,19 @@ repository:
         contentName: 'DependencyHandler.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.components.gradle
-            match: components
+            match: \bcomponents\b
           - name: support.function.tasks.add.gradle
-            match: add
+            match: \badd\b
           - name: support.function.tasks.create.gradle
-            match: create
+            match: \bcreate\b
           - name: support.function.tasks.gradleApi.gradle
-            match: gradleApi
+            match: \bgradleApi\b
           - name: support.function.tasks.localGroovy.gradle
-            match: localGroovy
+            match: \blocalGroovy\b
           - name: support.function.tasks.module.gradle
-            match: module
+            match: \bmodule\b
           - name: support.function.tasks.project.gradle
-            match: project
+            match: \bproject\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1003,7 +1002,7 @@ repository:
         contentName: 'ArtifactHandler.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.add.gradle
-            match: add
+            match: \badd\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1016,9 +1015,9 @@ repository:
         contentName: 'TaskReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
-            match: outputFile
+            match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
-            match: projects
+            match: \bprojects\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1031,9 +1030,9 @@ repository:
         contentName: 'ProjectReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
-            match: outputFile
+            match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
-            match: projects
+            match: \bprojects\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1046,11 +1045,11 @@ repository:
         contentName: 'DependencyReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.configurations.gradle
-            match: configurations
+            match: \bconfigurations\b
           - name: support.function.tasks.outputFile.gradle
-            match: outputFile
+            match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
-            match: projects
+            match: \bprojects\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1063,9 +1062,9 @@ repository:
         contentName: 'DependencyInsightReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.configuration.gradle
-            match: configuration
+            match: \bconfiguration\b
           - name: support.function.tasks.dependencySpec.gradle
-            match: dependencySpec
+            match: \bdependencySpec\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1078,9 +1077,9 @@ repository:
         contentName: 'PropertyReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
-            match: outputFile
+            match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
-            match: projects
+            match: \bprojects\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1093,27 +1092,27 @@ repository:
         contentName: 'AntlrTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.antlrClasspath.gradle
-            match: antlrClasspath
+            match: \bantlrClasspath\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.outputDirectory.gradle
-            match: outputDirectory
+            match: \boutputDirectory\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.trace.gradle
-            match: trace
+            match: \btrace\b
           - name: support.function.tasks.traceLexer.gradle
-            match: traceLexer
+            match: \btraceLexer\b
           - name: support.function.tasks.traceParser.gradle
-            match: traceParser
+            match: \btraceParser\b
           - name: support.function.tasks.traceTreeWalker.gradle
-            match: traceTreeWalker
+            match: \btraceTreeWalker\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1126,29 +1125,29 @@ repository:
         contentName: 'Checkstyle.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.checkstyleClasspath.gradle
-            match: checkstyleClasspath
+            match: \bcheckstyleClasspath\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.configFile.gradle
-            match: configFile
+            match: \bconfigFile\b
           - name: support.function.tasks.configProperties.gradle
-            match: configProperties
+            match: \bconfigProperties\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.showViolations.gradle
-            match: showViolations
+            match: \bshowViolations\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1161,29 +1160,29 @@ repository:
         contentName: 'CodeNarc.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.codenarcClasspath.gradle
-            match: codenarcClasspath
+            match: \bcodenarcClasspath\b
           - name: support.function.tasks.configFile.gradle
-            match: configFile
+            match: \bconfigFile\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.maxPriority1Violations.gradle
-            match: maxPriority1Violations
+            match: \bmaxPriority1Violations\b
           - name: support.function.tasks.maxPriority2Violations.gradle
-            match: maxPriority2Violations
+            match: \bmaxPriority2Violations\b
           - name: support.function.tasks.maxPriority3Violations.gradle
-            match: maxPriority3Violations
+            match: \bmaxPriority3Violations\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1196,13 +1195,13 @@ repository:
         contentName: 'CompareGradleBuilds.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.reportDir.gradle
-            match: reportDir
+            match: \breportDir\b
           - name: support.function.tasks.sourceBuild.gradle
-            match: sourceBuild
+            match: \bsourceBuild\b
           - name: support.function.tasks.targetBuild.gradle
-            match: targetBuild
+            match: \btargetBuild\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1215,45 +1214,45 @@ repository:
         contentName: 'Copy.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1266,17 +1265,17 @@ repository:
         contentName: 'CreateStartScripts.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.applicationName.gradle
-            match: applicationName
+            match: \bapplicationName\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.defaultJvmOpts.gradle
-            match: defaultJvmOpts
+            match: \bdefaultJvmOpts\b
           - name: support.function.tasks.mainClassName.gradle
-            match: mainClassName
+            match: \bmainClassName\b
           - name: support.function.tasks.optsEnvironmentVar.gradle
-            match: optsEnvironmentVar
+            match: \boptsEnvironmentVar\b
           - name: support.function.tasks.outputDir.gradle
-            match: outputDir
+            match: \boutputDir\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1289,9 +1288,9 @@ repository:
         contentName: 'Delete.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.delete.gradle
-            match: delete
+            match: \bdelete\b
           - name: support.function.tasks.targetFiles.gradle
-            match: targetFiles
+            match: \btargetFiles\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1315,25 +1314,25 @@ repository:
         contentName: 'Exec.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.args.gradle
-            match: args
+            match: \bargs\b
           - name: support.function.tasks.commandLine.gradle
-            match: commandLine
+            match: \bcommandLine\b
           - name: support.function.tasks.environment.gradle
-            match: environment
+            match: \benvironment\b
           - name: support.function.tasks.errorOutput.gradle
-            match: errorOutput
+            match: \berrorOutput\b
           - name: support.function.tasks.execResult.gradle
-            match: execResult
+            match: \bexecResult\b
           - name: support.function.tasks.executable.gradle
-            match: executable
+            match: \bexecutable\b
           - name: support.function.tasks.ignoreExitValue.gradle
-            match: ignoreExitValue
+            match: \bignoreExitValue\b
           - name: support.function.tasks.standardInput.gradle
-            match: standardInput
+            match: \bstandardInput\b
           - name: support.function.tasks.standardOutput.gradle
-            match: standardOutput
+            match: \bstandardOutput\b
           - name: support.function.tasks.workingDir.gradle
-            match: workingDir
+            match: \bworkingDir\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1346,41 +1345,41 @@ repository:
         contentName: 'FindBugs.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classes.gradle
-            match: classes
+            match: \bclasses\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.effort.gradle
-            match: effort
+            match: \beffort\b
           - name: support.function.tasks.excludeFilter.gradle
-            match: excludeFilter
+            match: \bexcludeFilter\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.findbugsClasspath.gradle
-            match: findbugsClasspath
+            match: \bfindbugsClasspath\b
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.includeFilter.gradle
-            match: includeFilter
+            match: \bincludeFilter\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.maxHeapSize.gradle
-            match: maxHeapSize
+            match: \bmaxHeapSize\b
           - name: support.function.tasks.omitVisitors.gradle
-            match: omitVisitors
+            match: \bomitVisitors\b
           - name: support.function.tasks.pluginClasspath.gradle
-            match: pluginClasspath
+            match: \bpluginClasspath\b
           - name: support.function.tasks.reportLevel.gradle
-            match: reportLevel
+            match: \breportLevel\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.visitors.gradle
-            match: visitors
+            match: \bvisitors\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1393,9 +1392,9 @@ repository:
         contentName: 'GenerateIvyDescriptor.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.descriptor.gradle
-            match: descriptor
+            match: \bdescriptor\b
           - name: support.function.tasks.destination.gradle
-            match: destination
+            match: \bdestination\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1408,9 +1407,9 @@ repository:
         contentName: 'GenerateMavenPom.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.destination.gradle
-            match: destination
+            match: \bdestination\b
           - name: support.function.tasks.pom.gradle
-            match: pom
+            match: \bpom\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1423,9 +1422,9 @@ repository:
         contentName: 'GenerateBuildDashboard.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.aggregate.gradle
-            match: aggregate
+            match: \baggregate\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1438,13 +1437,13 @@ repository:
         contentName: 'GradleBuild.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.buildFile.gradle
-            match: buildFile
+            match: \bbuildFile\b
           - name: support.function.tasks.dir.gradle
-            match: dir
+            match: \bdir\b
           - name: support.function.tasks.startParameter.gradle
-            match: startParameter
+            match: \bstartParameter\b
           - name: support.function.tasks.tasks.gradle
-            match: tasks
+            match: \btasks\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1457,29 +1456,29 @@ repository:
         contentName: 'GroovyCompile.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.groovyClasspath.gradle
-            match: groovyClasspath
+            match: \bgroovyClasspath\b
           - name: support.function.tasks.groovyOptions.gradle
-            match: groovyOptions
+            match: \bgroovyOptions\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.options.gradle
-            match: options
+            match: \boptions\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.sourceCompatibility.gradle
-            match: sourceCompatibility
+            match: \bsourceCompatibility\b
           - name: support.function.tasks.targetCompatibility.gradle
-            match: targetCompatibility
+            match: \btargetCompatibility\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1492,39 +1491,39 @@ repository:
         contentName: 'Groovydoc.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.docTitle.gradle
-            match: docTitle
+            match: \bdocTitle\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.footer.gradle
-            match: footer
+            match: \bfooter\b
           - name: support.function.tasks.groovyClasspath.gradle
-            match: groovyClasspath
+            match: \bgroovyClasspath\b
           - name: support.function.tasks.header.gradle
-            match: header
+            match: \bheader\b
           - name: support.function.tasks.includePrivate.gradle
-            match: includePrivate
+            match: \bincludePrivate\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.links.gradle
-            match: links
+            match: \blinks\b
           - name: support.function.tasks.overview.gradle
-            match: overview
+            match: \boverview\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.use.gradle
-            match: use
+            match: \buse\b
           - name: support.function.tasks.windowTitle.gradle
-            match: windowTitle
+            match: \bwindowTitle\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.link.gradle
-            match: link
+            match: \blink\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1537,9 +1536,9 @@ repository:
         contentName: 'HtmlDependencyReportTask.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.projects.gradle
-            match: projects
+            match: \bprojects\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1552,65 +1551,65 @@ repository:
         contentName: 'Jar.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
-            match: appendix
+            match: \bappendix\b
           - name: support.function.tasks.archiveName.gradle
-            match: archiveName
+            match: \barchiveName\b
           - name: support.function.tasks.archivePath.gradle
-            match: archivePath
+            match: \barchivePath\b
           - name: support.function.tasks.baseName.gradle
-            match: baseName
+            match: \bbaseName\b
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.entryCompression.gradle
-            match: entryCompression
+            match: \bentryCompression\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.manifest.gradle
-            match: manifest
+            match: \bmanifest\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.version.gradle
-            match: version
+            match: \bversion\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.metaInf.gradle
-            match: metaInf
+            match: \bmetaInf\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1623,25 +1622,25 @@ repository:
         contentName: 'JavaCompile.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.options.gradle
-            match: options
+            match: \boptions\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.sourceCompatibility.gradle
-            match: sourceCompatibility
+            match: \bsourceCompatibility\b
           - name: support.function.tasks.targetCompatibility.gradle
-            match: targetCompatibility
+            match: \btargetCompatibility\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1654,29 +1653,29 @@ repository:
         contentName: 'Javadoc.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.executable.gradle
-            match: executable
+            match: \bexecutable\b
           - name: support.function.tasks.failOnError.gradle
-            match: failOnError
+            match: \bfailOnError\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.maxMemory.gradle
-            match: maxMemory
+            match: \bmaxMemory\b
           - name: support.function.tasks.options.gradle
-            match: options
+            match: \boptions\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.title.gradle
-            match: title
+            match: \btitle\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1689,43 +1688,43 @@ repository:
         contentName: 'JavaExec.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.allJvmArgs.gradle
-            match: allJvmArgs
+            match: \ballJvmArgs\b
           - name: support.function.tasks.args.gradle
-            match: args
+            match: \bargs\b
           - name: support.function.tasks.bootstrapClasspath.gradle
-            match: bootstrapClasspath
+            match: \bbootstrapClasspath\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.commandLine.gradle
-            match: commandLine
+            match: \bcommandLine\b
           - name: support.function.tasks.debug.gradle
-            match: debug
+            match: \bdebug\b
           - name: support.function.tasks.enableAssertions.gradle
-            match: enableAssertions
+            match: \benableAssertions\b
           - name: support.function.tasks.environment.gradle
-            match: environment
+            match: \benvironment\b
           - name: support.function.tasks.errorOutput.gradle
-            match: errorOutput
+            match: \berrorOutput\b
           - name: support.function.tasks.executable.gradle
-            match: executable
+            match: \bexecutable\b
           - name: support.function.tasks.ignoreExitValue.gradle
-            match: ignoreExitValue
+            match: \bignoreExitValue\b
           - name: support.function.tasks.jvmArgs.gradle
-            match: jvmArgs
+            match: \bjvmArgs\b
           - name: support.function.tasks.main.gradle
-            match: main
+            match: \bmain\b
           - name: support.function.tasks.maxHeapSize.gradle
-            match: maxHeapSize
+            match: \bmaxHeapSize\b
           - name: support.function.tasks.standardInput.gradle
-            match: standardInput
+            match: \bstandardInput\b
           - name: support.function.tasks.standardOutput.gradle
-            match: standardOutput
+            match: \bstandardOutput\b
           - name: support.function.tasks.systemProperties.gradle
-            match: systemProperties
+            match: \bsystemProperties\b
           - name: support.function.tasks.workingDir.gradle
-            match: workingDir
+            match: \bworkingDir\b
           - name: support.function.tasks.copyTo.gradle
-            match: copyTo
+            match: \bcopyTo\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1738,11 +1737,11 @@ repository:
         contentName: 'JDepend.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classesDir.gradle
-            match: classesDir
+            match: \bclassesDir\b
           - name: support.function.tasks.jdependClasspath.gradle
-            match: jdependClasspath
+            match: \bjdependClasspath\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1755,29 +1754,29 @@ repository:
         contentName: 'JettyRun.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.additionalRuntimeJars.gradle
-            match: additionalRuntimeJars
+            match: \badditionalRuntimeJars\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.contextPath.gradle
-            match: contextPath
+            match: \bcontextPath\b
           - name: support.function.tasks.daemon.gradle
-            match: daemon
+            match: \bdaemon\b
           - name: support.function.tasks.httpPort.gradle
-            match: httpPort
+            match: \bhttpPort\b
           - name: support.function.tasks.jettyConfig.gradle
-            match: jettyConfig
+            match: \bjettyConfig\b
           - name: support.function.tasks.reload.gradle
-            match: reload
+            match: \breload\b
           - name: support.function.tasks.scanIntervalSeconds.gradle
-            match: scanIntervalSeconds
+            match: \bscanIntervalSeconds\b
           - name: support.function.tasks.stopKey.gradle
-            match: stopKey
+            match: \bstopKey\b
           - name: support.function.tasks.stopPort.gradle
-            match: stopPort
+            match: \bstopPort\b
           - name: support.function.tasks.webAppSourceDirectory.gradle
-            match: webAppSourceDirectory
+            match: \bwebAppSourceDirectory\b
           - name: support.function.tasks.webXml.gradle
-            match: webXml
+            match: \bwebXml\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1790,25 +1789,25 @@ repository:
         contentName: 'JettyRunWar.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.additionalRuntimeJars.gradle
-            match: additionalRuntimeJars
+            match: \badditionalRuntimeJars\b
           - name: support.function.tasks.contextPath.gradle
-            match: contextPath
+            match: \bcontextPath\b
           - name: support.function.tasks.daemon.gradle
-            match: daemon
+            match: \bdaemon\b
           - name: support.function.tasks.httpPort.gradle
-            match: httpPort
+            match: \bhttpPort\b
           - name: support.function.tasks.jettyConfig.gradle
-            match: jettyConfig
+            match: \bjettyConfig\b
           - name: support.function.tasks.reload.gradle
-            match: reload
+            match: \breload\b
           - name: support.function.tasks.scanIntervalSeconds.gradle
-            match: scanIntervalSeconds
+            match: \bscanIntervalSeconds\b
           - name: support.function.tasks.stopKey.gradle
-            match: stopKey
+            match: \bstopKey\b
           - name: support.function.tasks.stopPort.gradle
-            match: stopPort
+            match: \bstopPort\b
           - name: support.function.tasks.webApp.gradle
-            match: webApp
+            match: \bwebApp\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1821,9 +1820,9 @@ repository:
         contentName: 'JettyStop.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.stopKey.gradle
-            match: stopKey
+            match: \bstopKey\b
           - name: support.function.tasks.stopPort.gradle
-            match: stopPort
+            match: \bstopPort\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1836,27 +1835,27 @@ repository:
         contentName: 'Pmd.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.pmdClasspath.gradle
-            match: pmdClasspath
+            match: \bpmdClasspath\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.ruleSetFiles.gradle
-            match: ruleSetFiles
+            match: \bruleSetFiles\b
           - name: support.function.tasks.ruleSets.gradle
-            match: ruleSets
+            match: \bruleSets\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.targetJdk.gradle
-            match: targetJdk
+            match: \btargetJdk\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1869,9 +1868,9 @@ repository:
         contentName: 'PublishToIvyRepository.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.publication.gradle
-            match: publication
+            match: \bpublication\b
           - name: support.function.tasks.repository.gradle
-            match: repository
+            match: \brepository\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1884,9 +1883,9 @@ repository:
         contentName: 'PublishToMavenRepository.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.publication.gradle
-            match: publication
+            match: \bpublication\b
           - name: support.function.tasks.repository.gradle
-            match: repository
+            match: \brepository\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1899,29 +1898,29 @@ repository:
         contentName: 'ScalaCompile.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.options.gradle
-            match: options
+            match: \boptions\b
           - name: support.function.tasks.scalaClasspath.gradle
-            match: scalaClasspath
+            match: \bscalaClasspath\b
           - name: support.function.tasks.scalaCompileOptions.gradle
-            match: scalaCompileOptions
+            match: \bscalaCompileOptions\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.sourceCompatibility.gradle
-            match: sourceCompatibility
+            match: \bsourceCompatibility\b
           - name: support.function.tasks.targetCompatibility.gradle
-            match: targetCompatibility
+            match: \btargetCompatibility\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1934,25 +1933,25 @@ repository:
         contentName: 'ScalaDoc.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.scalaClasspath.gradle
-            match: scalaClasspath
+            match: \bscalaClasspath\b
           - name: support.function.tasks.scalaDocOptions.gradle
-            match: scalaDocOptions
+            match: \bscalaDocOptions\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.title.gradle
-            match: title
+            match: \btitle\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1965,7 +1964,7 @@ repository:
         contentName: 'SonarAnalyze.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.rootModel.gradle
-            match: rootModel
+            match: \brootModel\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1978,45 +1977,45 @@ repository:
         contentName: 'Sync.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2029,61 +2028,61 @@ repository:
         contentName: 'Tar.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
-            match: appendix
+            match: \bappendix\b
           - name: support.function.tasks.archiveName.gradle
-            match: archiveName
+            match: \barchiveName\b
           - name: support.function.tasks.archivePath.gradle
-            match: archivePath
+            match: \barchivePath\b
           - name: support.function.tasks.baseName.gradle
-            match: baseName
+            match: \bbaseName\b
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.compression.gradle
-            match: compression
+            match: \bcompression\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.version.gradle
-            match: version
+            match: \bversion\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2096,89 +2095,89 @@ repository:
         contentName: 'Test.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.allJvmArgs.gradle
-            match: allJvmArgs
+            match: \ballJvmArgs\b
           - name: support.function.tasks.binResultsDir.gradle
-            match: binResultsDir
+            match: \bbinResultsDir\b
           - name: support.function.tasks.bootstrapClasspath.gradle
-            match: bootstrapClasspath
+            match: \bbootstrapClasspath\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.debug.gradle
-            match: debug
+            match: \bdebug\b
           - name: support.function.tasks.enableAssertions.gradle
-            match: enableAssertions
+            match: \benableAssertions\b
           - name: support.function.tasks.environment.gradle
-            match: environment
+            match: \benvironment\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.executable.gradle
-            match: executable
+            match: \bexecutable\b
           - name: support.function.tasks.forkEvery.gradle
-            match: forkEvery
+            match: \bforkEvery\b
           - name: support.function.tasks.ignoreFailures.gradle
-            match: ignoreFailures
+            match: \bignoreFailures\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.jvmArgs.gradle
-            match: jvmArgs
+            match: \bjvmArgs\b
           - name: support.function.tasks.maxHeapSize.gradle
-            match: maxHeapSize
+            match: \bmaxHeapSize\b
           - name: support.function.tasks.maxParallelForks.gradle
-            match: maxParallelForks
+            match: \bmaxParallelForks\b
           - name: support.function.tasks.minHeapSize.gradle
-            match: minHeapSize
+            match: \bminHeapSize\b
           - name: support.function.tasks.options.gradle
-            match: options
+            match: \boptions\b
           - name: support.function.tasks.reports.gradle
-            match: reports
+            match: \breports\b
           - name: support.function.tasks.scanForTestClasses.gradle
-            match: scanForTestClasses
+            match: \bscanForTestClasses\b
           - name: support.function.tasks.systemProperties.gradle
-            match: systemProperties
+            match: \bsystemProperties\b
           - name: support.function.tasks.testClassesDir.gradle
-            match: testClassesDir
+            match: \btestClassesDir\b
           - name: support.function.tasks.testLogging.gradle
-            match: testLogging
+            match: \btestLogging\b
           - name: support.function.tasks.testReport.gradle
-            match: testReport
+            match: \btestReport\b
           - name: support.function.tasks.testReportDir.gradle
-            match: testReportDir
+            match: \btestReportDir\b
           - name: support.function.tasks.testResultsDir.gradle
-            match: testResultsDir
+            match: \btestResultsDir\b
           - name: support.function.tasks.testSrcDirs.gradle
-            match: testSrcDirs
+            match: \btestSrcDirs\b
           - name: support.function.tasks.workingDir.gradle
-            match: workingDir
+            match: \bworkingDir\b
           - name: support.function.tasks.jacoco.gradle
-            match: jacoco
+            match: \bjacoco\b
           - name: support.function.tasks.addTestListener.gradle
-            match: addTestListener
+            match: \baddTestListener\b
           - name: support.function.tasks.addTestOutputListener.gradle
-            match: addTestOutputListener
+            match: \baddTestOutputListener\b
           - name: support.function.tasks.afterSuite.gradle
-            match: afterSuite
+            match: \bafterSuite\b
           - name: support.function.tasks.afterTest.gradle
-            match: afterTest
+            match: \bafterTest\b
           - name: support.function.tasks.beforeSuite.gradle
-            match: beforeSuite
+            match: \bbeforeSuite\b
           - name: support.function.tasks.beforeTest.gradle
-            match: beforeTest
+            match: \bbeforeTest\b
           - name: support.function.tasks.copyTo.gradle
-            match: copyTo
+            match: \bcopyTo\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.onOutput.gradle
-            match: onOutput
+            match: \bonOutput\b
           - name: support.function.tasks.removeTestListener.gradle
-            match: removeTestListener
+            match: \bremoveTestListener\b
           - name: support.function.tasks.removeTestOutputListener.gradle
-            match: removeTestOutputListener
+            match: \bremoveTestOutputListener\b
           - name: support.function.tasks.useJUnit.gradle
-            match: useJUnit
+            match: \buseJUnit\b
           - name: support.function.tasks.useTestNG.gradle
-            match: useTestNG
+            match: \buseTestNG\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2191,11 +2190,11 @@ repository:
         contentName: 'TestReport.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.testResultDirs.gradle
-            match: testResultDirs
+            match: \btestResultDirs\b
           - name: support.function.tasks.reportOn.gradle
-            match: reportOn
+            match: \breportOn\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2208,13 +2207,13 @@ repository:
         contentName: 'Upload.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.artifacts.gradle
-            match: artifacts
+            match: \bartifacts\b
           - name: support.function.tasks.configuration.gradle
-            match: configuration
+            match: \bconfiguration\b
           - name: support.function.tasks.repositories.gradle
-            match: repositories
+            match: \brepositories\b
           - name: support.function.tasks.uploadDescriptor.gradle
-            match: uploadDescriptor
+            match: \buploadDescriptor\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2227,71 +2226,71 @@ repository:
         contentName: 'War.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
-            match: appendix
+            match: \bappendix\b
           - name: support.function.tasks.archiveName.gradle
-            match: archiveName
+            match: \barchiveName\b
           - name: support.function.tasks.archivePath.gradle
-            match: archivePath
+            match: \barchivePath\b
           - name: support.function.tasks.baseName.gradle
-            match: baseName
+            match: \bbaseName\b
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.classpath.gradle
-            match: classpath
+            match: \bclasspath\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.entryCompression.gradle
-            match: entryCompression
+            match: \bentryCompression\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.manifest.gradle
-            match: manifest
+            match: \bmanifest\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.version.gradle
-            match: version
+            match: \bversion\b
           - name: support.function.tasks.webXml.gradle
-            match: webXml
+            match: \bwebXml\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.metaInf.gradle
-            match: metaInf
+            match: \bmetaInf\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.webInf.gradle
-            match: webInf
+            match: \bwebInf\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2304,23 +2303,23 @@ repository:
         contentName: 'Wrapper.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.archiveBase.gradle
-            match: archiveBase
+            match: \barchiveBase\b
           - name: support.function.tasks.archivePath.gradle
-            match: archivePath
+            match: \barchivePath\b
           - name: support.function.tasks.distributionBase.gradle
-            match: distributionBase
+            match: \bdistributionBase\b
           - name: support.function.tasks.distributionPath.gradle
-            match: distributionPath
+            match: \bdistributionPath\b
           - name: support.function.tasks.distributionUrl.gradle
-            match: distributionUrl
+            match: \bdistributionUrl\b
           - name: support.function.tasks.gradleVersion.gradle
-            match: gradleVersion
+            match: \bgradleVersion\b
           - name: support.function.tasks.jarFile.gradle
-            match: jarFile
+            match: \bjarFile\b
           - name: support.function.tasks.propertiesFile.gradle
-            match: propertiesFile
+            match: \bpropertiesFile\b
           - name: support.function.tasks.scriptFile.gradle
-            match: scriptFile
+            match: \bscriptFile\b
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2333,61 +2332,61 @@ repository:
         contentName: 'Zip.tasks.body.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
-            match: appendix
+            match: \bappendix\b
           - name: support.function.tasks.archiveName.gradle
-            match: archiveName
+            match: \barchiveName\b
           - name: support.function.tasks.archivePath.gradle
-            match: archivePath
+            match: \barchivePath\b
           - name: support.function.tasks.baseName.gradle
-            match: baseName
+            match: \bbaseName\b
           - name: support.function.tasks.caseSensitive.gradle
-            match: caseSensitive
+            match: \bcaseSensitive\b
           - name: support.function.tasks.classifier.gradle
-            match: classifier
+            match: \bclassifier\b
           - name: support.function.tasks.destinationDir.gradle
-            match: destinationDir
+            match: \bdestinationDir\b
           - name: support.function.tasks.dirMode.gradle
-            match: dirMode
+            match: \bdirMode\b
           - name: support.function.tasks.duplicatesStrategy.gradle
-            match: duplicatesStrategy
+            match: \bduplicatesStrategy\b
           - name: support.function.tasks.entryCompression.gradle
-            match: entryCompression
+            match: \bentryCompression\b
           - name: support.function.tasks.excludes.gradle
-            match: excludes
+            match: \bexcludes\b
           - name: support.function.tasks.extension.gradle
-            match: extension
+            match: \bextension\b
           - name: support.function.tasks.fileMode.gradle
-            match: fileMode
+            match: \bfileMode\b
           - name: support.function.tasks.includeEmptyDirs.gradle
-            match: includeEmptyDirs
+            match: \bincludeEmptyDirs\b
           - name: support.function.tasks.includes.gradle
-            match: includes
+            match: \bincludes\b
           - name: support.function.tasks.source.gradle
-            match: source
+            match: \bsource\b
           - name: support.function.tasks.version.gradle
-            match: version
+            match: \bversion\b
           - name: support.function.tasks.eachFile.gradle
-            match: eachFile
+            match: \beachFile\b
           - name: support.function.tasks.exclude.gradle
-            match: exclude
+            match: \bexclude\b
           - name: support.function.tasks.expand.gradle
-            match: expand
+            match: \bexpand\b
           - name: support.function.tasks.filesMatching.gradle
-            match: filesMatching
+            match: \bfilesMatching\b
           - name: support.function.tasks.filesNotMatching.gradle
-            match: filesNotMatching
+            match: \bfilesNotMatching\b
           - name: support.function.tasks.filter.gradle
-            match: filter
+            match: \bfilter\b
           - name: support.function.tasks.from.gradle
-            match: from
+            match: \bfrom\b
           - name: support.function.tasks.include.gradle
-            match: include
+            match: \binclude\b
           - name: support.function.tasks.into.gradle
-            match: into
+            match: \binto\b
           - name: support.function.tasks.rename.gradle
-            match: rename
+            match: \brename\b
           - name: support.function.tasks.with.gradle
-            match: with
+            match: \bwith\b
           - include: '#project-patterns'
           - include: source.groovy
 
