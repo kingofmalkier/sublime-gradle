@@ -13,9 +13,9 @@ Use version:
 
 ## Installation
 
-**The easiest and best way to install is via the** [**Sublime Package Control**](http://wbond.net/sublime_packages/package_control) **plugin.** Package control makes it easier to upgrade and also ensure you won't get pre-release updates unless you specifically want to.
+**The easiest and best way to install is via the** [**Sublime Package Control**](http://wbond.net/sublime_packages/package_control) **plugin.** Package control makes it easier to upgrade and also ensures you won't get pre-release updates unless you specifically want to.
 
-1. Open "Package Control: Add Repository" in your Command Palette and add to "https://github.com/kingofmalkier/sublime-gradle"
+1. Open "Package Control: Add Repository" in your Command Palette and add the repo "https://github.com/kingofmalkier/sublime-gradle"
 
 2. Open "Package Control: Install Package" in your Command Palette and search for "sublime-gradle"
 
