@@ -288,80 +288,12 @@ repository:
         contentName: 'task.body.source.gradle'
         patterns:
           - include: '#specific-tasks'
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
   specific-tasks:
     patterns:
-      - name: Task.task.source.gradle
-        begin: '(type):\s*(Task)'
-        beginCaptures:
-          '1': {name: support.function.task.gradle}
-          '2': {name: variable.parameter.Task.gradle}
-        end: '}'
-        contentName: 'Task.tasks.body.source.gradle'
-        patterns:
-          - name: support.function.tasks.actions.gradle
-            match: \bactions\b
-          - name: support.function.tasks.ant.gradle
-            match: \bant\b
-          - name: support.function.tasks.convention.gradle
-            match: \bconvention\b
-          - name: support.function.tasks.dependsOn.gradle
-            match: \bdependsOn\b
-          - name: support.function.tasks.description.gradle
-            match: \bdescription\b
-          - name: support.function.tasks.didWork.gradle
-            match: \bdidWork\b
-          - name: support.function.tasks.enabled.gradle
-            match: \benabled\b
-          - name: support.function.tasks.extensions.gradle
-            match: \bextensions\b
-          - name: support.function.tasks.finalizedBy.gradle
-            match: \bfinalizedBy\b
-          - name: support.function.tasks.group.gradle
-            match: \bgroup\b
-          - name: support.function.tasks.inputs.gradle
-            match: \binputs\b
-          - name: support.function.tasks.logger.gradle
-            match: \blogger\b
-          - name: support.function.tasks.logging.gradle
-            match: \blogging\b
-          - name: support.function.tasks.mustRunAfter.gradle
-            match: \bmustRunAfter\b
-          - name: support.function.tasks.name.gradle
-            match: \bname\b
-          - name: support.function.tasks.outputs.gradle
-            match: \boutputs\b
-          - name: support.function.tasks.path.gradle
-            match: \bpath\b
-          - name: support.function.tasks.project.gradle
-            match: \bproject\b
-          - name: support.function.tasks.state.gradle
-            match: \bstate\b
-          - name: support.function.tasks.taskDependencies.gradle
-            match: \btaskDependencies\b
-          - name: support.function.tasks.temporaryDir.gradle
-            match: \btemporaryDir\b
-          - name: support.function.tasks.deleteAllActions.gradle
-            match: \bdeleteAllActions\b
-          - name: support.function.tasks.doFirst.gradle
-            match: \bdoFirst\b
-          - name: support.function.tasks.doLast.gradle
-            match: \bdoLast\b
-          - name: support.function.tasks.hasProperty.gradle
-            match: \bhasProperty\b
-          - name: support.function.tasks.leftShift.gradle
-            match: \bleftShift\b
-          - name: support.function.tasks.onlyIf.gradle
-            match: \bonlyIf\b
-          - name: support.function.tasks.property.gradle
-            match: \bproperty\b
-          - name: support.function.tasks.setProperty.gradle
-            match: \bsetProperty\b
-          - include: '#project-patterns'
-          - include: source.groovy
-
       - name: Gradle.task.source.gradle
         begin: '(type):\s*(Gradle)'
         beginCaptures:
@@ -412,6 +344,7 @@ repository:
             match: \bsettingsEvaluated\b
           - name: support.function.tasks.useLogger.gradle
             match: \buseLogger\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -443,6 +376,7 @@ repository:
             match: \bincludeFlat\b
           - name: support.function.tasks.project.gradle
             match: \bproject\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -490,6 +424,7 @@ repository:
             match: \buri\b
           - name: support.function.tasks.zipTree.gradle
             match: \bzipTree\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -533,6 +468,7 @@ repository:
             match: \bgetCompileTaskName\b
           - name: support.function.tasks.getTaskName.gradle
             match: \bgetTaskName\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -552,6 +488,7 @@ repository:
             match: \bdir\b
           - name: support.function.tasks.getDirs.gradle
             match: \bgetDirs\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -569,6 +506,7 @@ repository:
             match: \boutOfDate\b
           - name: support.function.tasks.removed.gradle
             match: \bremoved\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -624,6 +562,7 @@ repository:
             match: \bfiles\b
           - name: support.function.tasks.getTaskDependencyFromProjectDependency.gradle
             match: \bgetTaskDependencyFromProjectDependency\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -647,6 +586,7 @@ repository:
             match: \bfailOnVersionConflict\b
           - name: support.function.tasks.force.gradle
             match: \bforce\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -658,6 +598,7 @@ repository:
         end: '}'
         contentName: 'ConventionProperty.tasks.body.source.gradle'
         patterns:
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -671,6 +612,7 @@ repository:
         patterns:
           - name: support.function.tasks.extensions.gradle
             match: \bextensions\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -690,6 +632,7 @@ repository:
             match: \bhas\b
           - name: support.function.tasks.set.gradle
             match: \bset\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -705,6 +648,7 @@ repository:
             match: \bpublications\b
           - name: support.function.tasks.repositories.gradle
             match: \brepositories\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -726,6 +670,7 @@ repository:
             match: \bname\b
           - name: support.function.tasks.outputType.gradle
             match: \boutputType\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -739,6 +684,7 @@ repository:
         patterns:
           - name: support.function.tasks.reports.gradle
             match: \breports\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -752,6 +698,7 @@ repository:
         patterns:
           - name: support.function.tasks.enabled.gradle
             match: \benabled\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -767,6 +714,7 @@ repository:
             match: \bbaseDir\b
           - name: support.function.tasks.file.gradle
             match: \bfile\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -794,6 +742,7 @@ repository:
             match: \bartifact\b
           - name: support.function.tasks.from.gradle
             match: \bfrom\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -819,6 +768,7 @@ repository:
             match: \btype\b
           - name: support.function.tasks.builtBy.gradle
             match: \bbuiltBy\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -832,6 +782,7 @@ repository:
         patterns:
           - name: support.function.tasks.artifact.gradle
             match: \bartifact\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -845,6 +796,7 @@ repository:
         patterns:
           - name: support.function.tasks.withXml.gradle
             match: \bwithXml\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -872,6 +824,7 @@ repository:
             match: \bfrom\b
           - name: support.function.tasks.setArtifacts.gradle
             match: \bsetArtifacts\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -891,6 +844,7 @@ repository:
             match: \bfile\b
           - name: support.function.tasks.builtBy.gradle
             match: \bbuiltBy\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -904,6 +858,7 @@ repository:
         patterns:
           - name: support.function.tasks.artifact.gradle
             match: \bartifact\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -917,6 +872,7 @@ repository:
         patterns:
           - name: support.function.tasks.withXml.gradle
             match: \bwithXml\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -936,6 +892,7 @@ repository:
             match: \bgetAt\b
           - name: support.function.tasks.getByName.gradle
             match: \bgetByName\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -965,6 +922,7 @@ repository:
             match: \bmavenDeployer\b
           - name: support.function.tasks.mavenInstaller.gradle
             match: \bmavenInstaller\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -990,6 +948,7 @@ repository:
             match: \bmodule\b
           - name: support.function.tasks.project.gradle
             match: \bproject\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1003,6 +962,7 @@ repository:
         patterns:
           - name: support.function.tasks.add.gradle
             match: \badd\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1018,6 +978,7 @@ repository:
             match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
             match: \bprojects\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1033,6 +994,7 @@ repository:
             match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
             match: \bprojects\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1050,6 +1012,7 @@ repository:
             match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
             match: \bprojects\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1065,6 +1028,7 @@ repository:
             match: \bconfiguration\b
           - name: support.function.tasks.dependencySpec.gradle
             match: \bdependencySpec\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1080,6 +1044,7 @@ repository:
             match: \boutputFile\b
           - name: support.function.tasks.projects.gradle
             match: \bprojects\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1113,6 +1078,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1148,6 +1114,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1183,6 +1150,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1202,6 +1170,7 @@ repository:
             match: \bsourceBuild\b
           - name: support.function.tasks.targetBuild.gradle
             match: \btargetBuild\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1253,6 +1222,7 @@ repository:
             match: \brename\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1276,6 +1246,7 @@ repository:
             match: \boptsEnvironmentVar\b
           - name: support.function.tasks.outputDir.gradle
             match: \boutputDir\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1291,6 +1262,7 @@ repository:
             match: \bdelete\b
           - name: support.function.tasks.targetFiles.gradle
             match: \btargetFiles\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1302,6 +1274,7 @@ repository:
         end: '}'
         contentName: 'Directory.tasks.body.source.gradle'
         patterns:
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1333,6 +1306,7 @@ repository:
             match: \bstandardOutput\b
           - name: support.function.tasks.workingDir.gradle
             match: \bworkingDir\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1380,6 +1354,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1395,6 +1370,7 @@ repository:
             match: \bdescriptor\b
           - name: support.function.tasks.destination.gradle
             match: \bdestination\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1410,6 +1386,7 @@ repository:
             match: \bdestination\b
           - name: support.function.tasks.pom.gradle
             match: \bpom\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1425,6 +1402,7 @@ repository:
             match: \breports\b
           - name: support.function.tasks.aggregate.gradle
             match: \baggregate\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1444,6 +1422,7 @@ repository:
             match: \bstartParameter\b
           - name: support.function.tasks.tasks.gradle
             match: \btasks\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1479,6 +1458,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1524,6 +1504,7 @@ repository:
             match: \binclude\b
           - name: support.function.tasks.link.gradle
             match: \blink\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1539,6 +1520,7 @@ repository:
             match: \bprojects\b
           - name: support.function.tasks.reports.gradle
             match: \breports\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1610,6 +1592,7 @@ repository:
             match: \brename\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1641,6 +1624,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1676,6 +1660,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1725,6 +1710,7 @@ repository:
             match: \bworkingDir\b
           - name: support.function.tasks.copyTo.gradle
             match: \bcopyTo\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1742,6 +1728,7 @@ repository:
             match: \bjdependClasspath\b
           - name: support.function.tasks.reports.gradle
             match: \breports\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1777,6 +1764,7 @@ repository:
             match: \bwebAppSourceDirectory\b
           - name: support.function.tasks.webXml.gradle
             match: \bwebXml\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1808,6 +1796,7 @@ repository:
             match: \bstopPort\b
           - name: support.function.tasks.webApp.gradle
             match: \bwebApp\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1823,6 +1812,7 @@ repository:
             match: \bstopKey\b
           - name: support.function.tasks.stopPort.gradle
             match: \bstopPort\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1856,6 +1846,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1871,6 +1862,7 @@ repository:
             match: \bpublication\b
           - name: support.function.tasks.repository.gradle
             match: \brepository\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1886,6 +1878,7 @@ repository:
             match: \bpublication\b
           - name: support.function.tasks.repository.gradle
             match: \brepository\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1921,6 +1914,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1952,6 +1946,7 @@ repository:
             match: \bexclude\b
           - name: support.function.tasks.include.gradle
             match: \binclude\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -1965,6 +1960,7 @@ repository:
         patterns:
           - name: support.function.tasks.rootModel.gradle
             match: \brootModel\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2016,6 +2012,7 @@ repository:
             match: \brename\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2083,6 +2080,7 @@ repository:
             match: \brename\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2178,6 +2176,7 @@ repository:
             match: \buseJUnit\b
           - name: support.function.tasks.useTestNG.gradle
             match: \buseTestNG\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2195,6 +2194,7 @@ repository:
             match: \btestResultDirs\b
           - name: support.function.tasks.reportOn.gradle
             match: \breportOn\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2214,6 +2214,7 @@ repository:
             match: \brepositories\b
           - name: support.function.tasks.uploadDescriptor.gradle
             match: \buploadDescriptor\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2291,6 +2292,7 @@ repository:
             match: \bwebInf\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2320,6 +2322,7 @@ repository:
             match: \bpropertiesFile\b
           - name: support.function.tasks.scriptFile.gradle
             match: \bscriptFile\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
@@ -2387,8 +2390,71 @@ repository:
             match: \brename\b
           - name: support.function.tasks.with.gradle
             match: \bwith\b
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
+
+
+  parent-task-patterns:
+    patterns:
+      - name: support.function.parent.task.actions.gradle
+        match: \bactions\b
+      - name: support.function.parent.task.ant.gradle
+        match: \bant\b
+      - name: support.function.parent.task.convention.gradle
+        match: \bconvention\b
+      - name: support.function.parent.task.dependsOn.gradle
+        match: \bdependsOn\b
+      - name: support.function.parent.task.description.gradle
+        match: \bdescription\b
+      - name: support.function.parent.task.didWork.gradle
+        match: \bdidWork\b
+      - name: support.function.parent.task.enabled.gradle
+        match: \benabled\b
+      - name: support.function.parent.task.extensions.gradle
+        match: \bextensions\b
+      - name: support.function.parent.task.finalizedBy.gradle
+        match: \bfinalizedBy\b
+      - name: support.function.parent.task.group.gradle
+        match: \bgroup\b
+      - name: support.function.parent.task.inputs.gradle
+        match: \binputs\b
+      - name: support.function.parent.task.logger.gradle
+        match: \blogger\b
+      - name: support.function.parent.task.logging.gradle
+        match: \blogging\b
+      - name: support.function.parent.task.mustRunAfter.gradle
+        match: \bmustRunAfter\b
+      - name: support.function.parent.task.name.gradle
+        match: \bname\b
+      - name: support.function.parent.task.outputs.gradle
+        match: \boutputs\b
+      - name: support.function.parent.task.path.gradle
+        match: \bpath\b
+      - name: support.function.parent.task.project.gradle
+        match: \bproject\b
+      - name: support.function.parent.task.state.gradle
+        match: \bstate\b
+      - name: support.function.parent.task.taskDependencies.gradle
+        match: \btaskDependencies\b
+      - name: support.function.parent.task.temporaryDir.gradle
+        match: \btemporaryDir\b
+      - name: support.function.parent.task.deleteAllActions.gradle
+        match: \bdeleteAllActions\b
+      - name: support.function.parent.task.doFirst.gradle
+        match: \bdoFirst\b
+      - name: support.function.parent.task.doLast.gradle
+        match: \bdoLast\b
+      - name: support.function.parent.task.hasProperty.gradle
+        match: \bhasProperty\b
+      - name: support.function.parent.task.leftShift.gradle
+        match: \bleftShift\b
+      - name: support.function.parent.task.onlyIf.gradle
+        match: \bonlyIf\b
+      - name: support.function.parent.task.property.gradle
+        match: \bproperty\b
+      - name: support.function.parent.task.setProperty.gradle
+        match: \bsetProperty\b
 
 ...

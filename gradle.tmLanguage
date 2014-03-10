@@ -59,6 +59,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -66,6 +70,186 @@
 							<string>source.groovy</string>
 						</dict>
 					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>parent-task-patterns</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\bactions\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.actions.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bant\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.ant.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bconvention\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.convention.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdependsOn\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.dependsOn.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdescription\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.description.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdidWork\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.didWork.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\benabled\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.enabled.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bextensions\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.extensions.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bfinalizedBy\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.finalizedBy.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bgroup\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.group.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\binputs\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.inputs.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\blogger\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.logger.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\blogging\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.logging.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bmustRunAfter\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.mustRunAfter.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bname\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.name.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\boutputs\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.outputs.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bpath\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.path.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bproject\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.project.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bstate\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.state.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\btaskDependencies\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.taskDependencies.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\btemporaryDir\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.temporaryDir.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdeleteAllActions\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.deleteAllActions.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdoFirst\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.doFirst.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bdoLast\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.doLast.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bhasProperty\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.hasProperty.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bleftShift\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.leftShift.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bonlyIf\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.onlyIf.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bproperty\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.property.gradle</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\bsetProperty\b</string>
+					<key>name</key>
+					<string>support.function.parent.task.setProperty.gradle</string>
 				</dict>
 			</array>
 		</dict>
@@ -867,214 +1051,6 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(type):\s*(Task)</string>
-					<key>beginCaptures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>support.function.task.gradle</string>
-						</dict>
-						<key>2</key>
-						<dict>
-							<key>name</key>
-							<string>variable.parameter.Task.gradle</string>
-						</dict>
-					</dict>
-					<key>contentName</key>
-					<string>Task.tasks.body.source.gradle</string>
-					<key>end</key>
-					<string>}</string>
-					<key>name</key>
-					<string>Task.task.source.gradle</string>
-					<key>patterns</key>
-					<array>
-						<dict>
-							<key>match</key>
-							<string>\bactions\b</string>
-							<key>name</key>
-							<string>support.function.tasks.actions.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bant\b</string>
-							<key>name</key>
-							<string>support.function.tasks.ant.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bconvention\b</string>
-							<key>name</key>
-							<string>support.function.tasks.convention.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdependsOn\b</string>
-							<key>name</key>
-							<string>support.function.tasks.dependsOn.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdescription\b</string>
-							<key>name</key>
-							<string>support.function.tasks.description.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdidWork\b</string>
-							<key>name</key>
-							<string>support.function.tasks.didWork.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\benabled\b</string>
-							<key>name</key>
-							<string>support.function.tasks.enabled.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bextensions\b</string>
-							<key>name</key>
-							<string>support.function.tasks.extensions.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bfinalizedBy\b</string>
-							<key>name</key>
-							<string>support.function.tasks.finalizedBy.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bgroup\b</string>
-							<key>name</key>
-							<string>support.function.tasks.group.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\binputs\b</string>
-							<key>name</key>
-							<string>support.function.tasks.inputs.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\blogger\b</string>
-							<key>name</key>
-							<string>support.function.tasks.logger.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\blogging\b</string>
-							<key>name</key>
-							<string>support.function.tasks.logging.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bmustRunAfter\b</string>
-							<key>name</key>
-							<string>support.function.tasks.mustRunAfter.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bname\b</string>
-							<key>name</key>
-							<string>support.function.tasks.name.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\boutputs\b</string>
-							<key>name</key>
-							<string>support.function.tasks.outputs.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bpath\b</string>
-							<key>name</key>
-							<string>support.function.tasks.path.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bproject\b</string>
-							<key>name</key>
-							<string>support.function.tasks.project.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bstate\b</string>
-							<key>name</key>
-							<string>support.function.tasks.state.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\btaskDependencies\b</string>
-							<key>name</key>
-							<string>support.function.tasks.taskDependencies.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\btemporaryDir\b</string>
-							<key>name</key>
-							<string>support.function.tasks.temporaryDir.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdeleteAllActions\b</string>
-							<key>name</key>
-							<string>support.function.tasks.deleteAllActions.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdoFirst\b</string>
-							<key>name</key>
-							<string>support.function.tasks.doFirst.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bdoLast\b</string>
-							<key>name</key>
-							<string>support.function.tasks.doLast.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bhasProperty\b</string>
-							<key>name</key>
-							<string>support.function.tasks.hasProperty.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bleftShift\b</string>
-							<key>name</key>
-							<string>support.function.tasks.leftShift.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bonlyIf\b</string>
-							<key>name</key>
-							<string>support.function.tasks.onlyIf.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bproperty\b</string>
-							<key>name</key>
-							<string>support.function.tasks.property.gradle</string>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>\bsetProperty\b</string>
-							<key>name</key>
-							<string>support.function.tasks.setProperty.gradle</string>
-						</dict>
-						<dict>
-							<key>include</key>
-							<string>#project-patterns</string>
-						</dict>
-						<dict>
-							<key>include</key>
-							<string>source.groovy</string>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>begin</key>
 					<string>(type):\s*(Gradle)</string>
 					<key>beginCaptures</key>
 					<dict>
@@ -1225,6 +1201,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1316,6 +1296,10 @@
 							<string>\bproject\b</string>
 							<key>name</key>
 							<string>support.function.tasks.project.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1461,6 +1445,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1591,6 +1579,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1649,6 +1641,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1698,6 +1694,10 @@
 							<string>\bremoved\b</string>
 							<key>name</key>
 							<string>support.function.tasks.removed.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1867,6 +1867,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1937,6 +1941,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -1969,6 +1977,10 @@
 					<string>ConventionProperty.task.source.gradle</string>
 					<key>patterns</key>
 					<array>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
 						<dict>
 							<key>include</key>
 							<string>#project-patterns</string>
@@ -2008,6 +2020,10 @@
 							<string>\bextensions\b</string>
 							<key>name</key>
 							<string>support.function.tasks.extensions.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2069,6 +2085,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2112,6 +2132,10 @@
 							<string>\brepositories\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repositories.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2179,6 +2203,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2219,6 +2247,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2256,6 +2288,10 @@
 							<string>\benabled\b</string>
 							<key>name</key>
 							<string>support.function.tasks.enabled.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2302,6 +2338,10 @@
 							<string>\bfile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.file.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2387,6 +2427,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2463,6 +2507,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2503,6 +2551,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2540,6 +2592,10 @@
 							<string>\bwithXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.withXml.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2625,6 +2681,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2683,6 +2743,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2723,6 +2787,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2760,6 +2828,10 @@
 							<string>\bwithXml\b</string>
 							<key>name</key>
 							<string>support.function.tasks.withXml.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2818,6 +2890,10 @@
 							<string>\bgetByName\b</string>
 							<key>name</key>
 							<string>support.function.tasks.getByName.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -2909,6 +2985,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -2985,6 +3065,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3022,6 +3106,10 @@
 							<string>\badd\b</string>
 							<key>name</key>
 							<string>support.function.tasks.add.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -3071,6 +3159,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3114,6 +3206,10 @@
 							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -3169,6 +3265,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3215,6 +3315,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3258,6 +3362,10 @@
 							<string>\bprojects\b</string>
 							<key>name</key>
 							<string>support.function.tasks.projects.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -3358,6 +3466,10 @@
 							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -3467,6 +3579,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3573,6 +3689,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3628,6 +3748,10 @@
 							<string>\btargetBuild\b</string>
 							<key>name</key>
 							<string>support.function.tasks.targetBuild.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -3785,6 +3909,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3855,6 +3983,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3901,6 +4033,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -3933,6 +4069,10 @@
 					<string>Directory.task.source.gradle</string>
 					<key>patterns</key>
 					<array>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
 						<dict>
 							<key>include</key>
 							<string>#project-patterns</string>
@@ -4026,6 +4166,10 @@
 							<string>\bworkingDir\b</string>
 							<key>name</key>
 							<string>support.function.tasks.workingDir.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4171,6 +4315,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -4214,6 +4362,10 @@
 							<string>\bdestination\b</string>
 							<key>name</key>
 							<string>support.function.tasks.destination.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4263,6 +4415,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -4306,6 +4462,10 @@
 							<string>\baggregate\b</string>
 							<key>name</key>
 							<string>support.function.tasks.aggregate.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4364,6 +4524,10 @@
 							<string>\btasks\b</string>
 							<key>name</key>
 							<string>support.function.tasks.tasks.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4470,6 +4634,10 @@
 							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4609,6 +4777,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -4652,6 +4824,10 @@
 							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -4869,6 +5045,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -4960,6 +5140,10 @@
 							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -5066,6 +5250,10 @@
 							<string>\binclude\b</string>
 							<key>name</key>
 							<string>support.function.tasks.include.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -5217,6 +5405,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5266,6 +5458,10 @@
 							<string>\breports\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reports.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -5375,6 +5571,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5469,6 +5669,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5512,6 +5716,10 @@
 							<string>\bstopPort\b</string>
 							<key>name</key>
 							<string>support.function.tasks.stopPort.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -5615,6 +5823,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5661,6 +5873,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5704,6 +5920,10 @@
 							<string>\brepository\b</string>
 							<key>name</key>
 							<string>support.function.tasks.repository.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -5813,6 +6033,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5907,6 +6131,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -5944,6 +6172,10 @@
 							<string>\brootModel\b</string>
 							<key>name</key>
 							<string>support.function.tasks.rootModel.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -6098,6 +6330,10 @@
 							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -6300,6 +6536,10 @@
 							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -6589,6 +6829,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -6638,6 +6882,10 @@
 							<string>\breportOn\b</string>
 							<key>name</key>
 							<string>support.function.tasks.reportOn.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -6696,6 +6944,10 @@
 							<string>\buploadDescriptor\b</string>
 							<key>name</key>
 							<string>support.function.tasks.uploadDescriptor.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -6931,6 +7183,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#parent-task-patterns</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#project-patterns</string>
 						</dict>
 						<dict>
@@ -7016,6 +7272,10 @@
 							<string>\bscriptFile\b</string>
 							<key>name</key>
 							<string>support.function.tasks.scriptFile.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -7218,6 +7478,10 @@
 							<string>\bwith\b</string>
 							<key>name</key>
 							<string>support.function.tasks.with.gradle</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#parent-task-patterns</string>
 						</dict>
 						<dict>
 							<key>include</key>
