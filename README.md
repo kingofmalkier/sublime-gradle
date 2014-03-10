@@ -1,10 +1,10 @@
 # Origins
 
-Forked from [the excellent start by koizuss](https://github.com/koizuss/sublime-gradle), I've kept it separate as I think some of my changes are really philosophical departures that not everyone may want.
+Forked from [the excellent start by koizuss](https://github.com/koizuss/sublime-gradle), I've kept this project separate because I think some of my changes are really philosophical departures that not everyone may want.
 
 # Sublime Gradle
 
-Support for use [Gradle](http://www.gradle.org/) on [Sublime Text 3](http://www.sublimetext.com/).
+Support for use with [Gradle](http://www.gradle.org/) in [Sublime Text 3](http://www.sublimetext.com/3).
 
 Use version:
 
