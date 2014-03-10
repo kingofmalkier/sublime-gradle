@@ -25,9 +25,13 @@ repository:
         contentName: 'task.body.source.gradle'
         patterns:
           - include: '#specific-tasks'
+          - include: '#parent-task-patterns'
           - include: '#project-patterns'
           - include: source.groovy
 
   specific-tasks:
 @specific-tasks@
+
+  parent-task-patterns:
+@parent-task-patterns@
 ...
