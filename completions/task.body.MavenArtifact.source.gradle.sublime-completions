@@ -1,0 +1,21 @@
+{
+    "scope": "task.body.MavenArtifact.source.gradle",
+    "completions": [
+        {
+            "trigger": "classifier",
+            "contents": "classifier"
+        },
+        {
+            "trigger": "extension",
+            "contents": "extension"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        },
+        {
+            "trigger": "builtBy",
+            "contents": "builtBy"
+        }
+    ]
+}

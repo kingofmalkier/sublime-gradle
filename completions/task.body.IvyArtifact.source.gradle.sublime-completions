@@ -1,0 +1,33 @@
+{
+    "scope": "task.body.IvyArtifact.source.gradle",
+    "completions": [
+        {
+            "trigger": "classifier",
+            "contents": "classifier"
+        },
+        {
+            "trigger": "conf",
+            "contents": "conf"
+        },
+        {
+            "trigger": "extension",
+            "contents": "extension"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        },
+        {
+            "trigger": "name",
+            "contents": "name"
+        },
+        {
+            "trigger": "type",
+            "contents": "type"
+        },
+        {
+            "trigger": "builtBy",
+            "contents": "builtBy"
+        }
+    ]
+}

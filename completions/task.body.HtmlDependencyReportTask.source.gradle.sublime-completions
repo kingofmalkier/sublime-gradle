@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.HtmlDependencyReportTask.source.gradle",
+    "completions": [
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        }
+    ]
+}

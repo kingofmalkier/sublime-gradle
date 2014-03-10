@@ -1066,7 +1066,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Gradle.tasks.body.source.gradle</string>
+					<string>tasks.body.Gradle.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1230,7 +1230,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Settings.tasks.body.source.gradle</string>
+					<string>tasks.body.Settings.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1328,7 +1328,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Script.tasks.body.source.gradle</string>
+					<string>tasks.body.Script.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1474,7 +1474,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>SourceSet.tasks.body.source.gradle</string>
+					<string>tasks.body.SourceSet.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1608,7 +1608,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>SourceSetOutput.tasks.body.source.gradle</string>
+					<string>tasks.body.SourceSetOutput.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1670,7 +1670,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>IncrementalTaskInputs.tasks.body.source.gradle</string>
+					<string>tasks.body.IncrementalTaskInputs.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1726,7 +1726,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Configuration.tasks.body.source.gradle</string>
+					<string>tasks.body.Configuration.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1896,7 +1896,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ResolutionStrategy.tasks.body.source.gradle</string>
+					<string>tasks.body.ResolutionStrategy.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -1970,7 +1970,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ConventionProperty.tasks.body.source.gradle</string>
+					<string>tasks.body.ConventionProperty.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2008,7 +2008,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ExtensionAware.tasks.body.source.gradle</string>
+					<string>tasks.body.ExtensionAware.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2052,7 +2052,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ExtraPropertiesExtension.tasks.body.source.gradle</string>
+					<string>tasks.body.ExtraPropertiesExtension.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2114,7 +2114,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>PublishingExtension.tasks.body.source.gradle</string>
+					<string>tasks.body.PublishingExtension.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2164,7 +2164,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Report.tasks.body.source.gradle</string>
+					<string>tasks.body.Report.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2232,7 +2232,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Reporting.tasks.body.source.gradle</string>
+					<string>tasks.body.Reporting.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2276,7 +2276,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ReportContainer.tasks.body.source.gradle</string>
+					<string>tasks.body.ReportContainer.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2320,7 +2320,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ReportingExtension.tasks.body.source.gradle</string>
+					<string>tasks.body.ReportingExtension.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2370,7 +2370,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>IvyPublication.tasks.body.source.gradle</string>
+					<string>tasks.body.IvyPublication.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2456,7 +2456,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>IvyArtifact.tasks.body.source.gradle</string>
+					<string>tasks.body.IvyArtifact.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2536,7 +2536,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>IvyArtifactSet.tasks.body.source.gradle</string>
+					<string>tasks.body.IvyArtifactSet.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2580,7 +2580,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>IvyModuleDescriptor.tasks.body.source.gradle</string>
+					<string>tasks.body.IvyModuleDescriptor.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2624,7 +2624,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>MavenPublication.tasks.body.source.gradle</string>
+					<string>tasks.body.MavenPublication.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2710,7 +2710,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>MavenArtifact.tasks.body.source.gradle</string>
+					<string>tasks.body.MavenArtifact.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2772,7 +2772,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>MavenArtifactSet.tasks.body.source.gradle</string>
+					<string>tasks.body.MavenArtifactSet.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2816,7 +2816,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>MavenPom.tasks.body.source.gradle</string>
+					<string>tasks.body.MavenPom.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2860,7 +2860,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ConfigurationContainer.tasks.body.source.gradle</string>
+					<string>tasks.body.ConfigurationContainer.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -2922,7 +2922,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>RepositoryHandler.tasks.body.source.gradle</string>
+					<string>tasks.body.RepositoryHandler.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3014,7 +3014,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>DependencyHandler.tasks.body.source.gradle</string>
+					<string>tasks.body.DependencyHandler.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3094,7 +3094,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ArtifactHandler.tasks.body.source.gradle</string>
+					<string>tasks.body.ArtifactHandler.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3138,7 +3138,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>TaskReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.TaskReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3188,7 +3188,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ProjectReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.ProjectReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3238,7 +3238,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>DependencyReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.DependencyReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3294,7 +3294,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>DependencyInsightReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.DependencyInsightReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3344,7 +3344,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>PropertyReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.PropertyReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3394,7 +3394,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>AntlrTask.tasks.body.source.gradle</string>
+					<string>tasks.body.AntlrTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3498,7 +3498,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Checkstyle.tasks.body.source.gradle</string>
+					<string>tasks.body.Checkstyle.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3608,7 +3608,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>CodeNarc.tasks.body.source.gradle</string>
+					<string>tasks.body.CodeNarc.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3718,7 +3718,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>CompareGradleBuilds.tasks.body.source.gradle</string>
+					<string>tasks.body.CompareGradleBuilds.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3780,7 +3780,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Copy.tasks.body.source.gradle</string>
+					<string>tasks.body.Copy.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -3938,7 +3938,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>CreateStartScripts.tasks.body.source.gradle</string>
+					<string>tasks.body.CreateStartScripts.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4012,7 +4012,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Delete.tasks.body.source.gradle</string>
+					<string>tasks.body.Delete.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4062,7 +4062,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Directory.tasks.body.source.gradle</string>
+					<string>tasks.body.Directory.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4100,7 +4100,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Exec.tasks.body.source.gradle</string>
+					<string>tasks.body.Exec.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4198,7 +4198,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>FindBugs.tasks.body.source.gradle</string>
+					<string>tasks.body.FindBugs.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4344,7 +4344,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>GenerateIvyDescriptor.tasks.body.source.gradle</string>
+					<string>tasks.body.GenerateIvyDescriptor.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4394,7 +4394,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>GenerateMavenPom.tasks.body.source.gradle</string>
+					<string>tasks.body.GenerateMavenPom.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4444,7 +4444,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>GenerateBuildDashboard.tasks.body.source.gradle</string>
+					<string>tasks.body.GenerateBuildDashboard.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4494,7 +4494,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>GradleBuild.tasks.body.source.gradle</string>
+					<string>tasks.body.GradleBuild.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4556,7 +4556,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>GroovyCompile.tasks.body.source.gradle</string>
+					<string>tasks.body.GroovyCompile.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4666,7 +4666,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Groovydoc.tasks.body.source.gradle</string>
+					<string>tasks.body.Groovydoc.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4806,7 +4806,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>HtmlDependencyReportTask.tasks.body.source.gradle</string>
+					<string>tasks.body.HtmlDependencyReportTask.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -4856,7 +4856,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Jar.tasks.body.source.gradle</string>
+					<string>tasks.body.Jar.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5074,7 +5074,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JavaCompile.tasks.body.source.gradle</string>
+					<string>tasks.body.JavaCompile.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5172,7 +5172,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Javadoc.tasks.body.source.gradle</string>
+					<string>tasks.body.Javadoc.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5282,7 +5282,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JavaExec.tasks.body.source.gradle</string>
+					<string>tasks.body.JavaExec.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5434,7 +5434,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JDepend.tasks.body.source.gradle</string>
+					<string>tasks.body.JDepend.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5490,7 +5490,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JettyRun.tasks.body.source.gradle</string>
+					<string>tasks.body.JettyRun.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5600,7 +5600,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JettyRunWar.tasks.body.source.gradle</string>
+					<string>tasks.body.JettyRunWar.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5698,7 +5698,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>JettyStop.tasks.body.source.gradle</string>
+					<string>tasks.body.JettyStop.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5748,7 +5748,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Pmd.tasks.body.source.gradle</string>
+					<string>tasks.body.Pmd.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5852,7 +5852,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>PublishToIvyRepository.tasks.body.source.gradle</string>
+					<string>tasks.body.PublishToIvyRepository.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5902,7 +5902,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>PublishToMavenRepository.tasks.body.source.gradle</string>
+					<string>tasks.body.PublishToMavenRepository.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -5952,7 +5952,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ScalaCompile.tasks.body.source.gradle</string>
+					<string>tasks.body.ScalaCompile.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6062,7 +6062,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>ScalaDoc.tasks.body.source.gradle</string>
+					<string>tasks.body.ScalaDoc.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6160,7 +6160,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>SonarAnalyze.tasks.body.source.gradle</string>
+					<string>tasks.body.SonarAnalyze.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6204,7 +6204,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Sync.tasks.body.source.gradle</string>
+					<string>tasks.body.Sync.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6362,7 +6362,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Tar.tasks.body.source.gradle</string>
+					<string>tasks.body.Tar.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6568,7 +6568,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Test.tasks.body.source.gradle</string>
+					<string>tasks.body.Test.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6858,7 +6858,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>TestReport.tasks.body.source.gradle</string>
+					<string>tasks.body.TestReport.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6914,7 +6914,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Upload.tasks.body.source.gradle</string>
+					<string>tasks.body.Upload.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -6976,7 +6976,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>War.tasks.body.source.gradle</string>
+					<string>tasks.body.War.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -7212,7 +7212,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Wrapper.tasks.body.source.gradle</string>
+					<string>tasks.body.Wrapper.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>
@@ -7304,7 +7304,7 @@
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>Zip.tasks.body.source.gradle</string>
+					<string>tasks.body.Zip.source.gradle</string>
 					<key>end</key>
 					<string>}</string>
 					<key>name</key>

@@ -1,0 +1,17 @@
+{
+    "scope": "task.body.DependencyReportTask.source.gradle",
+    "completions": [
+        {
+            "trigger": "configurations",
+            "contents": "configurations"
+        },
+        {
+            "trigger": "outputFile",
+            "contents": "outputFile"
+        },
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        }
+    ]
+}

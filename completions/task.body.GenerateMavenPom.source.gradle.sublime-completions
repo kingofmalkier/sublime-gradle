@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.GenerateMavenPom.source.gradle",
+    "completions": [
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        },
+        {
+            "trigger": "pom",
+            "contents": "pom"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "scope": "task.body.RepositoryHandler.source.gradle",
+    "completions": [
+        {
+            "trigger": "flatDir",
+            "contents": "flatDir"
+        },
+        {
+            "trigger": "ivy",
+            "contents": "ivy"
+        },
+        {
+            "trigger": "jcenter",
+            "contents": "jcenter"
+        },
+        {
+            "trigger": "maven",
+            "contents": "maven"
+        },
+        {
+            "trigger": "mavenCentral",
+            "contents": "mavenCentral"
+        },
+        {
+            "trigger": "mavenLocal",
+            "contents": "mavenLocal"
+        },
+        {
+            "trigger": "mavenRepo",
+            "contents": "mavenRepo"
+        },
+        {
+            "trigger": "mavenDeployer",
+            "contents": "mavenDeployer"
+        },
+        {
+            "trigger": "mavenInstaller",
+            "contents": "mavenInstaller"
+        }
+    ]
+}

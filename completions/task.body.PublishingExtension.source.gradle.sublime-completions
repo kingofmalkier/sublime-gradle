@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.PublishingExtension.source.gradle",
+    "completions": [
+        {
+            "trigger": "publications",
+            "contents": "publications"
+        },
+        {
+            "trigger": "repositories",
+            "contents": "repositories"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "scope": "task.body.Exec.source.gradle",
+    "completions": [
+        {
+            "trigger": "args",
+            "contents": "args"
+        },
+        {
+            "trigger": "commandLine",
+            "contents": "commandLine"
+        },
+        {
+            "trigger": "environment",
+            "contents": "environment"
+        },
+        {
+            "trigger": "errorOutput",
+            "contents": "errorOutput"
+        },
+        {
+            "trigger": "execResult",
+            "contents": "execResult"
+        },
+        {
+            "trigger": "executable",
+            "contents": "executable"
+        },
+        {
+            "trigger": "ignoreExitValue",
+            "contents": "ignoreExitValue"
+        },
+        {
+            "trigger": "standardInput",
+            "contents": "standardInput"
+        },
+        {
+            "trigger": "standardOutput",
+            "contents": "standardOutput"
+        },
+        {
+            "trigger": "workingDir",
+            "contents": "workingDir"
+        }
+    ]
+}

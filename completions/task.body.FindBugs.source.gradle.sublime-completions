@@ -1,0 +1,77 @@
+{
+    "scope": "task.body.FindBugs.source.gradle",
+    "completions": [
+        {
+            "trigger": "classes",
+            "contents": "classes"
+        },
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "effort",
+            "contents": "effort"
+        },
+        {
+            "trigger": "excludeFilter",
+            "contents": "excludeFilter"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "findbugsClasspath",
+            "contents": "findbugsClasspath"
+        },
+        {
+            "trigger": "ignoreFailures",
+            "contents": "ignoreFailures"
+        },
+        {
+            "trigger": "includeFilter",
+            "contents": "includeFilter"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "maxHeapSize",
+            "contents": "maxHeapSize"
+        },
+        {
+            "trigger": "omitVisitors",
+            "contents": "omitVisitors"
+        },
+        {
+            "trigger": "pluginClasspath",
+            "contents": "pluginClasspath"
+        },
+        {
+            "trigger": "reportLevel",
+            "contents": "reportLevel"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "visitors",
+            "contents": "visitors"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        }
+    ]
+}

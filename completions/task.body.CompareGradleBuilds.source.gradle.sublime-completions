@@ -1,0 +1,21 @@
+{
+    "scope": "task.body.CompareGradleBuilds.source.gradle",
+    "completions": [
+        {
+            "trigger": "ignoreFailures",
+            "contents": "ignoreFailures"
+        },
+        {
+            "trigger": "reportDir",
+            "contents": "reportDir"
+        },
+        {
+            "trigger": "sourceBuild",
+            "contents": "sourceBuild"
+        },
+        {
+            "trigger": "targetBuild",
+            "contents": "targetBuild"
+        }
+    ]
+}

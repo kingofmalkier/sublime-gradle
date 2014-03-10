@@ -1,0 +1,117 @@
+{
+    "scope": "task.body.Zip.source.gradle",
+    "completions": [
+        {
+            "trigger": "appendix",
+            "contents": "appendix"
+        },
+        {
+            "trigger": "archiveName",
+            "contents": "archiveName"
+        },
+        {
+            "trigger": "archivePath",
+            "contents": "archivePath"
+        },
+        {
+            "trigger": "baseName",
+            "contents": "baseName"
+        },
+        {
+            "trigger": "caseSensitive",
+            "contents": "caseSensitive"
+        },
+        {
+            "trigger": "classifier",
+            "contents": "classifier"
+        },
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "dirMode",
+            "contents": "dirMode"
+        },
+        {
+            "trigger": "duplicatesStrategy",
+            "contents": "duplicatesStrategy"
+        },
+        {
+            "trigger": "entryCompression",
+            "contents": "entryCompression"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "extension",
+            "contents": "extension"
+        },
+        {
+            "trigger": "fileMode",
+            "contents": "fileMode"
+        },
+        {
+            "trigger": "includeEmptyDirs",
+            "contents": "includeEmptyDirs"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "version",
+            "contents": "version"
+        },
+        {
+            "trigger": "eachFile",
+            "contents": "eachFile"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "expand",
+            "contents": "expand"
+        },
+        {
+            "trigger": "filesMatching",
+            "contents": "filesMatching"
+        },
+        {
+            "trigger": "filesNotMatching",
+            "contents": "filesNotMatching"
+        },
+        {
+            "trigger": "filter",
+            "contents": "filter"
+        },
+        {
+            "trigger": "from",
+            "contents": "from"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        },
+        {
+            "trigger": "into",
+            "contents": "into"
+        },
+        {
+            "trigger": "rename",
+            "contents": "rename"
+        },
+        {
+            "trigger": "with",
+            "contents": "with"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.JettyStop.source.gradle",
+    "completions": [
+        {
+            "trigger": "stopKey",
+            "contents": "stopKey"
+        },
+        {
+            "trigger": "stopPort",
+            "contents": "stopPort"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "scope": "task.body.MavenArtifactSet.source.gradle",
+    "completions": [
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        }
+    ]
+}

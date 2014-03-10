@@ -300,7 +300,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Gradle.gradle}
         end: '}'
-        contentName: 'Gradle.tasks.body.source.gradle'
+        contentName: 'task.body.Gradle.source.gradle'
         patterns:
           - name: support.function.tasks.gradle.gradle
             match: \bgradle\b
@@ -354,7 +354,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Settings.gradle}
         end: '}'
-        contentName: 'Settings.tasks.body.source.gradle'
+        contentName: 'task.body.Settings.source.gradle'
         patterns:
           - name: support.function.tasks.gradle.gradle
             match: \bgradle\b
@@ -386,7 +386,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Script.gradle}
         end: '}'
-        contentName: 'Script.tasks.body.source.gradle'
+        contentName: 'task.body.Script.source.gradle'
         patterns:
           - name: support.function.tasks.buildscript.gradle
             match: \bbuildscript\b
@@ -434,7 +434,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.SourceSet.gradle}
         end: '}'
-        contentName: 'SourceSet.tasks.body.source.gradle'
+        contentName: 'task.body.SourceSet.source.gradle'
         patterns:
           - name: support.function.tasks.allJava.gradle
             match: \ballJava\b
@@ -478,7 +478,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.SourceSetOutput.gradle}
         end: '}'
-        contentName: 'SourceSetOutput.tasks.body.source.gradle'
+        contentName: 'task.body.SourceSetOutput.source.gradle'
         patterns:
           - name: support.function.tasks.classesDir.gradle
             match: \bclassesDir\b
@@ -498,7 +498,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.IncrementalTaskInputs.gradle}
         end: '}'
-        contentName: 'IncrementalTaskInputs.tasks.body.source.gradle'
+        contentName: 'task.body.IncrementalTaskInputs.source.gradle'
         patterns:
           - name: support.function.tasks.incremental.gradle
             match: \bincremental\b
@@ -516,7 +516,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Configuration.gradle}
         end: '}'
-        contentName: 'Configuration.tasks.body.source.gradle'
+        contentName: 'task.body.Configuration.source.gradle'
         patterns:
           - name: support.function.tasks.allArtifacts.gradle
             match: \ballArtifacts\b
@@ -572,7 +572,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ResolutionStrategy.gradle}
         end: '}'
-        contentName: 'ResolutionStrategy.tasks.body.source.gradle'
+        contentName: 'task.body.ResolutionStrategy.source.gradle'
         patterns:
           - name: support.function.tasks.forcedModules.gradle
             match: \bforcedModules\b
@@ -596,7 +596,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ConventionProperty.gradle}
         end: '}'
-        contentName: 'ConventionProperty.tasks.body.source.gradle'
+        contentName: 'task.body.ConventionProperty.source.gradle'
         patterns:
           - include: '#parent-task-patterns'
           - include: '#project-patterns'
@@ -608,7 +608,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ExtensionAware.gradle}
         end: '}'
-        contentName: 'ExtensionAware.tasks.body.source.gradle'
+        contentName: 'task.body.ExtensionAware.source.gradle'
         patterns:
           - name: support.function.tasks.extensions.gradle
             match: \bextensions\b
@@ -622,7 +622,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ExtraPropertiesExtension.gradle}
         end: '}'
-        contentName: 'ExtraPropertiesExtension.tasks.body.source.gradle'
+        contentName: 'task.body.ExtraPropertiesExtension.source.gradle'
         patterns:
           - name: support.function.tasks.properties.gradle
             match: \bproperties\b
@@ -642,7 +642,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.PublishingExtension.gradle}
         end: '}'
-        contentName: 'PublishingExtension.tasks.body.source.gradle'
+        contentName: 'task.body.PublishingExtension.source.gradle'
         patterns:
           - name: support.function.tasks.publications.gradle
             match: \bpublications\b
@@ -658,7 +658,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Report.gradle}
         end: '}'
-        contentName: 'Report.tasks.body.source.gradle'
+        contentName: 'task.body.Report.source.gradle'
         patterns:
           - name: support.function.tasks.destination.gradle
             match: \bdestination\b
@@ -680,7 +680,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Reporting.gradle}
         end: '}'
-        contentName: 'Reporting.tasks.body.source.gradle'
+        contentName: 'task.body.Reporting.source.gradle'
         patterns:
           - name: support.function.tasks.reports.gradle
             match: \breports\b
@@ -694,7 +694,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ReportContainer.gradle}
         end: '}'
-        contentName: 'ReportContainer.tasks.body.source.gradle'
+        contentName: 'task.body.ReportContainer.source.gradle'
         patterns:
           - name: support.function.tasks.enabled.gradle
             match: \benabled\b
@@ -708,7 +708,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ReportingExtension.gradle}
         end: '}'
-        contentName: 'ReportingExtension.tasks.body.source.gradle'
+        contentName: 'task.body.ReportingExtension.source.gradle'
         patterns:
           - name: support.function.tasks.baseDir.gradle
             match: \bbaseDir\b
@@ -724,7 +724,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.IvyPublication.gradle}
         end: '}'
-        contentName: 'IvyPublication.tasks.body.source.gradle'
+        contentName: 'task.body.IvyPublication.source.gradle'
         patterns:
           - name: support.function.tasks.artifacts.gradle
             match: \bartifacts\b
@@ -752,7 +752,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.IvyArtifact.gradle}
         end: '}'
-        contentName: 'IvyArtifact.tasks.body.source.gradle'
+        contentName: 'task.body.IvyArtifact.source.gradle'
         patterns:
           - name: support.function.tasks.classifier.gradle
             match: \bclassifier\b
@@ -778,7 +778,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.IvyArtifactSet.gradle}
         end: '}'
-        contentName: 'IvyArtifactSet.tasks.body.source.gradle'
+        contentName: 'task.body.IvyArtifactSet.source.gradle'
         patterns:
           - name: support.function.tasks.artifact.gradle
             match: \bartifact\b
@@ -792,7 +792,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.IvyModuleDescriptor.gradle}
         end: '}'
-        contentName: 'IvyModuleDescriptor.tasks.body.source.gradle'
+        contentName: 'task.body.IvyModuleDescriptor.source.gradle'
         patterns:
           - name: support.function.tasks.withXml.gradle
             match: \bwithXml\b
@@ -806,7 +806,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.MavenPublication.gradle}
         end: '}'
-        contentName: 'MavenPublication.tasks.body.source.gradle'
+        contentName: 'task.body.MavenPublication.source.gradle'
         patterns:
           - name: support.function.tasks.artifactId.gradle
             match: \bartifactId\b
@@ -834,7 +834,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.MavenArtifact.gradle}
         end: '}'
-        contentName: 'MavenArtifact.tasks.body.source.gradle'
+        contentName: 'task.body.MavenArtifact.source.gradle'
         patterns:
           - name: support.function.tasks.classifier.gradle
             match: \bclassifier\b
@@ -854,7 +854,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.MavenArtifactSet.gradle}
         end: '}'
-        contentName: 'MavenArtifactSet.tasks.body.source.gradle'
+        contentName: 'task.body.MavenArtifactSet.source.gradle'
         patterns:
           - name: support.function.tasks.artifact.gradle
             match: \bartifact\b
@@ -868,7 +868,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.MavenPom.gradle}
         end: '}'
-        contentName: 'MavenPom.tasks.body.source.gradle'
+        contentName: 'task.body.MavenPom.source.gradle'
         patterns:
           - name: support.function.tasks.withXml.gradle
             match: \bwithXml\b
@@ -882,7 +882,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ConfigurationContainer.gradle}
         end: '}'
-        contentName: 'ConfigurationContainer.tasks.body.source.gradle'
+        contentName: 'task.body.ConfigurationContainer.source.gradle'
         patterns:
           - name: support.function.tasks.add.gradle
             match: \badd\b
@@ -902,7 +902,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.RepositoryHandler.gradle}
         end: '}'
-        contentName: 'RepositoryHandler.tasks.body.source.gradle'
+        contentName: 'task.body.RepositoryHandler.source.gradle'
         patterns:
           - name: support.function.tasks.flatDir.gradle
             match: \bflatDir\b
@@ -932,7 +932,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.DependencyHandler.gradle}
         end: '}'
-        contentName: 'DependencyHandler.tasks.body.source.gradle'
+        contentName: 'task.body.DependencyHandler.source.gradle'
         patterns:
           - name: support.function.tasks.components.gradle
             match: \bcomponents\b
@@ -958,7 +958,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ArtifactHandler.gradle}
         end: '}'
-        contentName: 'ArtifactHandler.tasks.body.source.gradle'
+        contentName: 'task.body.ArtifactHandler.source.gradle'
         patterns:
           - name: support.function.tasks.add.gradle
             match: \badd\b
@@ -972,7 +972,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.TaskReportTask.gradle}
         end: '}'
-        contentName: 'TaskReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.TaskReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
             match: \boutputFile\b
@@ -988,7 +988,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ProjectReportTask.gradle}
         end: '}'
-        contentName: 'ProjectReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.ProjectReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
             match: \boutputFile\b
@@ -1004,7 +1004,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.DependencyReportTask.gradle}
         end: '}'
-        contentName: 'DependencyReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.DependencyReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.configurations.gradle
             match: \bconfigurations\b
@@ -1022,7 +1022,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.DependencyInsightReportTask.gradle}
         end: '}'
-        contentName: 'DependencyInsightReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.DependencyInsightReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.configuration.gradle
             match: \bconfiguration\b
@@ -1038,7 +1038,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.PropertyReportTask.gradle}
         end: '}'
-        contentName: 'PropertyReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.PropertyReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.outputFile.gradle
             match: \boutputFile\b
@@ -1054,7 +1054,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.AntlrTask.gradle}
         end: '}'
-        contentName: 'AntlrTask.tasks.body.source.gradle'
+        contentName: 'task.body.AntlrTask.source.gradle'
         patterns:
           - name: support.function.tasks.antlrClasspath.gradle
             match: \bantlrClasspath\b
@@ -1088,7 +1088,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Checkstyle.gradle}
         end: '}'
-        contentName: 'Checkstyle.tasks.body.source.gradle'
+        contentName: 'task.body.Checkstyle.source.gradle'
         patterns:
           - name: support.function.tasks.checkstyleClasspath.gradle
             match: \bcheckstyleClasspath\b
@@ -1124,7 +1124,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.CodeNarc.gradle}
         end: '}'
-        contentName: 'CodeNarc.tasks.body.source.gradle'
+        contentName: 'task.body.CodeNarc.source.gradle'
         patterns:
           - name: support.function.tasks.codenarcClasspath.gradle
             match: \bcodenarcClasspath\b
@@ -1160,7 +1160,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.CompareGradleBuilds.gradle}
         end: '}'
-        contentName: 'CompareGradleBuilds.tasks.body.source.gradle'
+        contentName: 'task.body.CompareGradleBuilds.source.gradle'
         patterns:
           - name: support.function.tasks.ignoreFailures.gradle
             match: \bignoreFailures\b
@@ -1180,7 +1180,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Copy.gradle}
         end: '}'
-        contentName: 'Copy.tasks.body.source.gradle'
+        contentName: 'task.body.Copy.source.gradle'
         patterns:
           - name: support.function.tasks.caseSensitive.gradle
             match: \bcaseSensitive\b
@@ -1232,7 +1232,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.CreateStartScripts.gradle}
         end: '}'
-        contentName: 'CreateStartScripts.tasks.body.source.gradle'
+        contentName: 'task.body.CreateStartScripts.source.gradle'
         patterns:
           - name: support.function.tasks.applicationName.gradle
             match: \bapplicationName\b
@@ -1256,7 +1256,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Delete.gradle}
         end: '}'
-        contentName: 'Delete.tasks.body.source.gradle'
+        contentName: 'task.body.Delete.source.gradle'
         patterns:
           - name: support.function.tasks.delete.gradle
             match: \bdelete\b
@@ -1272,7 +1272,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Directory.gradle}
         end: '}'
-        contentName: 'Directory.tasks.body.source.gradle'
+        contentName: 'task.body.Directory.source.gradle'
         patterns:
           - include: '#parent-task-patterns'
           - include: '#project-patterns'
@@ -1284,7 +1284,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Exec.gradle}
         end: '}'
-        contentName: 'Exec.tasks.body.source.gradle'
+        contentName: 'task.body.Exec.source.gradle'
         patterns:
           - name: support.function.tasks.args.gradle
             match: \bargs\b
@@ -1316,7 +1316,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.FindBugs.gradle}
         end: '}'
-        contentName: 'FindBugs.tasks.body.source.gradle'
+        contentName: 'task.body.FindBugs.source.gradle'
         patterns:
           - name: support.function.tasks.classes.gradle
             match: \bclasses\b
@@ -1364,7 +1364,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.GenerateIvyDescriptor.gradle}
         end: '}'
-        contentName: 'GenerateIvyDescriptor.tasks.body.source.gradle'
+        contentName: 'task.body.GenerateIvyDescriptor.source.gradle'
         patterns:
           - name: support.function.tasks.descriptor.gradle
             match: \bdescriptor\b
@@ -1380,7 +1380,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.GenerateMavenPom.gradle}
         end: '}'
-        contentName: 'GenerateMavenPom.tasks.body.source.gradle'
+        contentName: 'task.body.GenerateMavenPom.source.gradle'
         patterns:
           - name: support.function.tasks.destination.gradle
             match: \bdestination\b
@@ -1396,7 +1396,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.GenerateBuildDashboard.gradle}
         end: '}'
-        contentName: 'GenerateBuildDashboard.tasks.body.source.gradle'
+        contentName: 'task.body.GenerateBuildDashboard.source.gradle'
         patterns:
           - name: support.function.tasks.reports.gradle
             match: \breports\b
@@ -1412,7 +1412,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.GradleBuild.gradle}
         end: '}'
-        contentName: 'GradleBuild.tasks.body.source.gradle'
+        contentName: 'task.body.GradleBuild.source.gradle'
         patterns:
           - name: support.function.tasks.buildFile.gradle
             match: \bbuildFile\b
@@ -1432,7 +1432,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.GroovyCompile.gradle}
         end: '}'
-        contentName: 'GroovyCompile.tasks.body.source.gradle'
+        contentName: 'task.body.GroovyCompile.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1468,7 +1468,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Groovydoc.gradle}
         end: '}'
-        contentName: 'Groovydoc.tasks.body.source.gradle'
+        contentName: 'task.body.Groovydoc.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1514,7 +1514,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.HtmlDependencyReportTask.gradle}
         end: '}'
-        contentName: 'HtmlDependencyReportTask.tasks.body.source.gradle'
+        contentName: 'task.body.HtmlDependencyReportTask.source.gradle'
         patterns:
           - name: support.function.tasks.projects.gradle
             match: \bprojects\b
@@ -1530,7 +1530,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Jar.gradle}
         end: '}'
-        contentName: 'Jar.tasks.body.source.gradle'
+        contentName: 'task.body.Jar.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
             match: \bappendix\b
@@ -1602,7 +1602,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JavaCompile.gradle}
         end: '}'
-        contentName: 'JavaCompile.tasks.body.source.gradle'
+        contentName: 'task.body.JavaCompile.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1634,7 +1634,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Javadoc.gradle}
         end: '}'
-        contentName: 'Javadoc.tasks.body.source.gradle'
+        contentName: 'task.body.Javadoc.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1670,7 +1670,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JavaExec.gradle}
         end: '}'
-        contentName: 'JavaExec.tasks.body.source.gradle'
+        contentName: 'task.body.JavaExec.source.gradle'
         patterns:
           - name: support.function.tasks.allJvmArgs.gradle
             match: \ballJvmArgs\b
@@ -1720,7 +1720,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JDepend.gradle}
         end: '}'
-        contentName: 'JDepend.tasks.body.source.gradle'
+        contentName: 'task.body.JDepend.source.gradle'
         patterns:
           - name: support.function.tasks.classesDir.gradle
             match: \bclassesDir\b
@@ -1738,7 +1738,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JettyRun.gradle}
         end: '}'
-        contentName: 'JettyRun.tasks.body.source.gradle'
+        contentName: 'task.body.JettyRun.source.gradle'
         patterns:
           - name: support.function.tasks.additionalRuntimeJars.gradle
             match: \badditionalRuntimeJars\b
@@ -1774,7 +1774,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JettyRunWar.gradle}
         end: '}'
-        contentName: 'JettyRunWar.tasks.body.source.gradle'
+        contentName: 'task.body.JettyRunWar.source.gradle'
         patterns:
           - name: support.function.tasks.additionalRuntimeJars.gradle
             match: \badditionalRuntimeJars\b
@@ -1806,7 +1806,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.JettyStop.gradle}
         end: '}'
-        contentName: 'JettyStop.tasks.body.source.gradle'
+        contentName: 'task.body.JettyStop.source.gradle'
         patterns:
           - name: support.function.tasks.stopKey.gradle
             match: \bstopKey\b
@@ -1822,7 +1822,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Pmd.gradle}
         end: '}'
-        contentName: 'Pmd.tasks.body.source.gradle'
+        contentName: 'task.body.Pmd.source.gradle'
         patterns:
           - name: support.function.tasks.excludes.gradle
             match: \bexcludes\b
@@ -1856,7 +1856,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.PublishToIvyRepository.gradle}
         end: '}'
-        contentName: 'PublishToIvyRepository.tasks.body.source.gradle'
+        contentName: 'task.body.PublishToIvyRepository.source.gradle'
         patterns:
           - name: support.function.tasks.publication.gradle
             match: \bpublication\b
@@ -1872,7 +1872,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.PublishToMavenRepository.gradle}
         end: '}'
-        contentName: 'PublishToMavenRepository.tasks.body.source.gradle'
+        contentName: 'task.body.PublishToMavenRepository.source.gradle'
         patterns:
           - name: support.function.tasks.publication.gradle
             match: \bpublication\b
@@ -1888,7 +1888,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ScalaCompile.gradle}
         end: '}'
-        contentName: 'ScalaCompile.tasks.body.source.gradle'
+        contentName: 'task.body.ScalaCompile.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1924,7 +1924,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.ScalaDoc.gradle}
         end: '}'
-        contentName: 'ScalaDoc.tasks.body.source.gradle'
+        contentName: 'task.body.ScalaDoc.source.gradle'
         patterns:
           - name: support.function.tasks.classpath.gradle
             match: \bclasspath\b
@@ -1956,7 +1956,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.SonarAnalyze.gradle}
         end: '}'
-        contentName: 'SonarAnalyze.tasks.body.source.gradle'
+        contentName: 'task.body.SonarAnalyze.source.gradle'
         patterns:
           - name: support.function.tasks.rootModel.gradle
             match: \brootModel\b
@@ -1970,7 +1970,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Sync.gradle}
         end: '}'
-        contentName: 'Sync.tasks.body.source.gradle'
+        contentName: 'task.body.Sync.source.gradle'
         patterns:
           - name: support.function.tasks.caseSensitive.gradle
             match: \bcaseSensitive\b
@@ -2022,7 +2022,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Tar.gradle}
         end: '}'
-        contentName: 'Tar.tasks.body.source.gradle'
+        contentName: 'task.body.Tar.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
             match: \bappendix\b
@@ -2090,7 +2090,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Test.gradle}
         end: '}'
-        contentName: 'Test.tasks.body.source.gradle'
+        contentName: 'task.body.Test.source.gradle'
         patterns:
           - name: support.function.tasks.allJvmArgs.gradle
             match: \ballJvmArgs\b
@@ -2186,7 +2186,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.TestReport.gradle}
         end: '}'
-        contentName: 'TestReport.tasks.body.source.gradle'
+        contentName: 'task.body.TestReport.source.gradle'
         patterns:
           - name: support.function.tasks.destinationDir.gradle
             match: \bdestinationDir\b
@@ -2204,7 +2204,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Upload.gradle}
         end: '}'
-        contentName: 'Upload.tasks.body.source.gradle'
+        contentName: 'task.body.Upload.source.gradle'
         patterns:
           - name: support.function.tasks.artifacts.gradle
             match: \bartifacts\b
@@ -2224,7 +2224,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.War.gradle}
         end: '}'
-        contentName: 'War.tasks.body.source.gradle'
+        contentName: 'task.body.War.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
             match: \bappendix\b
@@ -2302,7 +2302,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Wrapper.gradle}
         end: '}'
-        contentName: 'Wrapper.tasks.body.source.gradle'
+        contentName: 'task.body.Wrapper.source.gradle'
         patterns:
           - name: support.function.tasks.archiveBase.gradle
             match: \barchiveBase\b
@@ -2332,7 +2332,7 @@ repository:
           '1': {name: support.function.task.gradle}
           '2': {name: variable.parameter.Zip.gradle}
         end: '}'
-        contentName: 'Zip.tasks.body.source.gradle'
+        contentName: 'task.body.Zip.source.gradle'
         patterns:
           - name: support.function.tasks.appendix.gradle
             match: \bappendix\b

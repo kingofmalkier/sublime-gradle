@@ -1,0 +1,9 @@
+{
+    "scope": "task.body.MavenPom.source.gradle",
+    "completions": [
+        {
+            "trigger": "withXml",
+            "contents": "withXml"
+        }
+    ]
+}

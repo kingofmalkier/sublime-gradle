@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.Delete.source.gradle",
+    "completions": [
+        {
+            "trigger": "delete",
+            "contents": "delete"
+        },
+        {
+            "trigger": "targetFiles",
+            "contents": "targetFiles"
+        }
+    ]
+}

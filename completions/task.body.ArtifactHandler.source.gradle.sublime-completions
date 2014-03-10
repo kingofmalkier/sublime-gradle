@@ -1,0 +1,9 @@
+{
+    "scope": "task.body.ArtifactHandler.source.gradle",
+    "completions": [
+        {
+            "trigger": "add",
+            "contents": "add"
+        }
+    ]
+}

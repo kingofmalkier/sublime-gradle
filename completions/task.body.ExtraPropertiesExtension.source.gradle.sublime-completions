@@ -1,0 +1,21 @@
+{
+    "scope": "task.body.ExtraPropertiesExtension.source.gradle",
+    "completions": [
+        {
+            "trigger": "properties",
+            "contents": "properties"
+        },
+        {
+            "trigger": "get",
+            "contents": "get"
+        },
+        {
+            "trigger": "has",
+            "contents": "has"
+        },
+        {
+            "trigger": "set",
+            "contents": "set"
+        }
+    ]
+}

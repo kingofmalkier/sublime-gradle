@@ -1,0 +1,13 @@
+{
+    "scope": "task.body.TaskReportTask.source.gradle",
+    "completions": [
+        {
+            "trigger": "outputFile",
+            "contents": "outputFile"
+        },
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        }
+    ]
+}
