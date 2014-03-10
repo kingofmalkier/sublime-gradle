@@ -1,0 +1,48 @@
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+buildDir = 'nonstandard/for/no/good/reason'
+
+/**
+ * Copying Files
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:copying_files
+ */
+task copyTask (group: 'Install NGA - deploy' /*blue: yellow*/, type: Copy /*blue: orange*/, dependsOn: 'whocares', arbitrary: 'thing' /*purple: yellow*/) {
+   from 'resources' //Copy method, should complete and be blue
+   buildDir.delete() //buildDir is a project property it should complete and be blue italics with the dot in red
+   appendix //is a Jar method/property, it should not be blue and should not autocomplete
+   allprojects //more blue italics`
+   buildDirection //should NOT have just the 'buildDir' piece in blue
+   rebuildDir //should NOT have just the 'buildDir' piece in blue
+   assert true //Should be red assert and purple true because those are groovy
+   outputs.upToDateWhen //outputs should be blue, I suspect upToDateWhen will always stay white
+   //Try to complete in-put-s without the hyphens and it should work
+   
+} << {
+    from //I think ideally blue, but I can live with white
+    println "Executing"
+    caseSensitivel
+    appendix
+    buildDir //blue and italics
+}
+
+task jarTask(type: Jar) {
+    appendix //complete and blue
+    commandLine //Should be white
+} << {
+    appendix
+}
+
+task execTask (type: Exec) {
+    commandLine 'sudo', 'makeMeASandwich'
+}
+
+task customTask(dependsOn: 'execTask') {
+    allprojects //blue italics
+    from //white
+} << {
+    allprojects //blue italics
+}
