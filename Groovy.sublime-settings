@@ -1,4 +1,4 @@
-// Open .gradle files on Groovy syntax 
+// Open .gradle files as Gradle syntax
 {
 	"extensions":
 	[

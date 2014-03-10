@@ -21,7 +21,7 @@ Use version:
 
 (if you already have it installed, select "Package Control: Upgrade Package" to upgrade)
 
-To install manually and/or get the bleeding edge using a shell/Terminal (on OS X, Linux or Cygwin), via git:
+**To install manually and/or get the bleeding edge** using a shell/Terminal (on OS X, Linux or Cygwin), via git:
 
     cd ~/"Library/Application Support/Sublime Text 3/Packages/" # location on OS X; will be different on Linux & Windows
     git clone https://github.com/kingofmalkier/sublime-gradle
