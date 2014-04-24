@@ -11,6 +11,7 @@ buildDir = 'nonstandard/for/no/good/reason'
  * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:copying_files
  */
 task copyTask (group: 'Install NGA - deploy' /*blue: yellow*/, type: Copy /*blue: orange*/, dependsOn: 'whocares', arbitrary: 'thing' /*purple: yellow*/) {
+   outputs.upToDateWhen { false }//outputs should be blue, I suspect upToDateWhen will always stay white
    from 'resources' //Copy method, should complete and be blue
    buildDir.delete() //buildDir is a project property it should complete and be blue italics with the dot in red
    appendix //is a Jar method/property, it should not be blue and should not autocomplete
@@ -18,7 +19,6 @@ task copyTask (group: 'Install NGA - deploy' /*blue: yellow*/, type: Copy /*blue
    buildDirection //should NOT have just the 'buildDir' piece in blue
    rebuildDir //should NOT have just the 'buildDir' piece in blue
    assert true //Should be red assert and purple true because those are groovy
-   outputs.upToDateWhen //outputs should be blue, I suspect upToDateWhen will always stay white
    //Try to complete in-put-s without the hyphens and it should work
    
 } << {
@@ -27,6 +27,11 @@ task copyTask (group: 'Install NGA - deploy' /*blue: yellow*/, type: Copy /*blue
     caseSensitivel
     appendix
     buildDir //blue and italics
+}
+
+task copyTask(type:Copy) {
+  outputs.upToDateWhen { false }
+  from 'lkjaf'
 }
 
 task jarTask(type: Jar) {
